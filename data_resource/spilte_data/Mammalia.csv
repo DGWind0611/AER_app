@@ -1,0 +1,307 @@
+simple_name,common_name_c,alternative_name_c,class
+Theria,,,Mammalia
+Eutheria,,,Mammalia
+Artiodactyla,偶蹄目,,Mammalia
+Carnivora,食肉目,,Mammalia
+Cetacea,鯨目,,Mammalia
+Chiroptera,翼手目,,Mammalia
+Lagomorpha,兔形目,,Mammalia
+Pholidota,鱗甲目,,Mammalia
+Primates,靈長目,,Mammalia
+Rodentia,嚙齒目,,Mammalia
+Soricomorpha,鼩形目,,Mammalia
+Felidae,貓科,,Mammalia
+Miniopteridae,摺翅蝠科,長翼蝠科,Mammalia
+Mustelidae,貂科,,Mammalia
+Phocoenidae,鼠海豚科,,Mammalia
+Physeteridae,抹香鯨科,,Mammalia
+Pteropodidae,狐蝠科,,Mammalia
+Rhinolophidae,蹄鼻蝠科,,Mammalia
+Sciuridae,松鼠科,,Mammalia
+Soricidae,尖鼠科,,Mammalia
+Suidae,豬科,,Mammalia
+Talpidae,鼴鼠科,,Mammalia
+Ursidae,熊科,,Mammalia
+Vespertilionidae,蝙蝠科,,Mammalia
+Viverridae,靈貓科,,Mammalia
+Hyperoodontidae,喙鯨科,,Mammalia
+Balaenopteridae,鬚鯨科,,Mammalia
+Bovidae,牛科,,Mammalia
+Canidae,犬科,,Mammalia
+Cercopithecidae,獼猴科,,Mammalia
+Cervidae,鹿科,,Mammalia
+Cricetidae,倉鼠科,,Mammalia
+Delphinidae,海豚科,,Mammalia
+Eschrichtiidae,灰鯨科,,Mammalia
+Herpestidae,獴科,,Mammalia
+Hipposideridae,葉鼻蝠科,,Mammalia
+Hominidae,人科,,Mammalia
+Kogiidae,小抹香鯨科,,Mammalia
+Leporidae,兔科,,Mammalia
+Manidae,穿山甲科,,Mammalia
+Molossidae,游離尾蝠科,,Mammalia
+Muridae,鼠科,,Mammalia
+Miniopterus,長翼蝠屬,,Mammalia
+Anourosorex,短尾鼩屬,,Mammalia
+Apodemus,姬鼠屬,,Mammalia
+Arielulus,金背伏翼屬,,Mammalia
+Balaenoptera,鬚鯨屬,,Mammalia
+Bandicota,板齒鼠屬,,Mammalia
+Barbastella,寬耳蝠屬,,Mammalia
+Belomys,毛耳飛鼠屬,,Mammalia
+Callosciurus,麗松鼠屬,,Mammalia
+Canis,犬屬,,Mammalia
+Capricornis,鬣羚屬,,Mammalia
+Cervus,鹿屬,,Mammalia
+Chimarrogale,水麝鼩屬,,Mammalia
+Chodsigoa,長尾鼩屬,,Mammalia
+Coelops,無尾葉鼻蝠屬,,Mammalia
+Crocidura,麝鼩屬,,Mammalia
+Cynopterus,犬果蝠屬,,Mammalia
+Neofelis,雲豹屬,,Mammalia
+Neophocaena,江豚屬,,Mammalia
+Niviventer,白腹鼠屬,,Mammalia
+Nyctalus,夜蝠屬,,Mammalia
+Orcinus,虎鯨屬,,Mammalia
+Paguma,花面狸屬,,Mammalia
+Peponocephala,瓜頭鯨屬,,Mammalia
+Petaurista,鼯鼠屬,,Mammalia
+Physeter,抹香鯨屬,,Mammalia
+Pipistrellus,家蝠屬,,Mammalia
+Plecotus,長耳蝠屬,,Mammalia
+Prionailurus,豹貓屬,,Mammalia
+Pseudorca,偽虎鯨屬,,Mammalia
+Pteropus,狐蝠屬,,Mammalia
+Rattus,家鼠屬,,Mammalia
+Rhinolophus,蹄鼻蝠屬,,Mammalia
+Rousettus,果蝠屬,,Mammalia
+Rusa,,,Mammalia
+Scotophilus,黃蝠屬,,Mammalia
+Sousa,駝海豚屬,,Mammalia
+Stenella,原海豚屬,,Mammalia
+Steno,糙齒海豚屬,,Mammalia
+Submyotodon,低齒丘鼠耳蝠屬,,Mammalia
+Suncus,臭鼩屬,,Mammalia
+Sus,野豬屬,,Mammalia
+Tadarida,犬吻蝠屬,,Mammalia
+Tamiops,花松鼠屬,,Mammalia
+Tursiops,寬吻海豚屬,,Mammalia
+Ursus,棕熊屬,,Mammalia
+Vespertilio,蝙蝠屬,,Mammalia
+Viverricula,小靈貓屬,,Mammalia
+Ziphius,喙鯨屬,,Mammalia
+Delphinus,海豚屬,,Mammalia
+Dremomys,長吻松鼠屬,,Mammalia
+Eothenomys,絨鼠屬,,Mammalia
+Episoriculus,大長尾鼩屬,,Mammalia
+Eptesicus,棕蝠屬,,Mammalia
+Eschrichtius,灰鯨屬,,Mammalia
+Felis,貓屬,,Mammalia
+Feresa,矮鯨屬,,Mammalia
+Globicephala,領航鯨屬,,Mammalia
+Grampus,灰海豚屬,,Mammalia
+Harpiocephalus,毛翼管鼻蝠屬,,Mammalia
+Harpiola,毛翼蝠屬,,Mammalia
+Herpestes,獴屬,,Mammalia
+Hipposideros,葉蝠屬,,Mammalia
+Homo,人屬,,Mammalia
+Hypsugo,高級伏翼屬,,Mammalia
+Indopacetus,印太喙鯨屬,,Mammalia
+Kerivoula,彩蝠屬,,Mammalia
+Kogia,小抹香鯨屬,,Mammalia
+Lagenodelphis,沙撈越海豚屬,,Mammalia
+Lepus,兔屬,,Mammalia
+Lutra,水獺屬,,Mammalia
+Macaca,獼猴屬,,Mammalia
+Manis,穿山甲屬,,Mammalia
+Martes,貂屬,,Mammalia
+Megaptera,座頭鯨屬,,Mammalia
+Melogale,鼬獾屬,,Mammalia
+Mesoplodon,中喙鯨屬,,Mammalia
+Micromys,巢鼠屬,,Mammalia
+Mogera,鼴鼠屬,,Mammalia
+Muntiacus,麂屬,,Mammalia
+Murina,管鼻蝠屬,,Mammalia
+Mus,小鼠屬,,Mammalia
+Mustela,鼬屬,,Mammalia
+Myotis,鼠耳蝠屬,,Mammalia
+Bubalus,水牛屬,,Mammalia
+Capra,,,Mammalia
+Kogia breviceps,小抹香鯨,,Mammalia
+Melogale moschata subaurantiaca,鼬貛,"鼬獾,臭貍",Mammalia
+Mesoplodon densirostris,柏氏中喙鯨,布蘭氏喙鯨,Mammalia
+Myotis fimbriatus taiwanensis,臺灣毛腿鼠耳蝠,"臺灣鼠耳蝠,毛腿鼠耳蝠,台灣鼠耳蝠,台灣毛腿鼠耳蝠",Mammalia
+Tursiops aduncus,印太瓶鼻海豚,,Mammalia
+Tursiops truncatus,瓶鼻海豚,,Mammalia
+Vespertilio sinensis,霜毛蝠,,Mammalia
+Episoriculus fumidus,臺灣長尾鼩,"臺灣煙尖鼠,台灣煙尖鼠,台灣長尾鼩",Mammalia
+Orcinus orca,虎鯨,,Mammalia
+Physeter macrocephalus,抹香鯨,,Mammalia
+Prionailurus bengalensis,石虎,"華南豹貓,豹貓,山貓,金錢貓",Mammalia
+Rhinolophus formosae,臺灣大蹄鼻蝠,"臺灣菊頭蝠,台灣菊頭蝠,台灣大蹄鼻蝠",Mammalia
+Plecotus taivanus,臺灣長耳蝠,台灣長耳蝠,Mammalia
+Pseudorca crassidens,偽虎鯨,,Mammalia
+Rattus exulans,緬甸小鼠,波里尼西亞鼠,Mammalia
+Rattus losea,小黃腹鼠,,Mammalia
+Rattus norvegicus,溝鼠,,Mammalia
+Rattus rattus,玄鼠,,Mammalia
+Rattus tanezumi,家鼠,亞洲家鼠,Mammalia
+Rhinolophus monoceros,臺灣小蹄鼻蝠,"單角菊頭蝠,台灣小蹄鼻蝠",Mammalia
+Rousettus leschenaultii,棕果蝠,,Mammalia
+Scotophilus kuhlii,高頭蝠,小黃蝠,Mammalia
+Sousa chinensis,中華白海豚,,Mammalia
+Stenella attenuata,熱帶斑海豚,,Mammalia
+Stenella coeruleoalba,條紋海豚,,Mammalia
+Stenella longirostris,長吻飛旋海豚,,Mammalia
+Steno bredanensis,糙齒海豚,皺齒海豚,Mammalia
+Submyotodon latirostris,寬吻鼠耳蝠,,Mammalia
+Suncus murinus,家鼩,"臭鼩,錢鼠",Mammalia
+Tadarida insignis,東亞游離尾蝠,"游離尾蝠,皺鼻蝠",Mammalia
+Ziphius cavirostris,柯氏喙鯨,,Mammalia
+Balaenoptera musculus,藍鯨,,Mammalia
+Balaenoptera physalus,長須鯨,,Mammalia
+Delphinus capensis,長吻真海豚,,Mammalia
+Delphinus delphis,真海豚,,Mammalia
+Eothenomys melanogaster,黑腹絨鼠,天鵝絨鼠,Mammalia
+Eschrichtius robustus,灰鯨,,Mammalia
+Felis catus,貓,,Mammalia
+Feresa attenuata,小虎鯨,,Mammalia
+Globicephala macrorhynchus,短肢領航鯨,,Mammalia
+Grampus griseus,瑞氏海豚,,Mammalia
+Harpiocephalus harpia,毛翼管鼻蝠,"毛翼大管鼻蝠,大管鼻蝠",Mammalia
+Harpiola isodon,金芒管鼻蝠,,Mammalia
+Homo sapiens,智人,,Mammalia
+Hypsugo pulveratus,灰伏翼,,Mammalia
+Indopacetus pacificus,朗氏喙鯨,,Mammalia
+Kerivoula furva,玄彩蝠,"臺灣彩蝠,彩蝠,台灣彩蝠",Mammalia
+Kogia sima,侏儒抹香鯨,,Mammalia
+Lagenodelphis hosei,弗氏海豚,,Mammalia
+Macaca cyclopis,臺灣獼猴,台灣獼猴,Mammalia
+Megaptera novaeangliae,大翅鯨,,Mammalia
+Mesoplodon ginkgodens,銀杏齒中喙鯨,,Mammalia
+Micromys minutus,巢鼠,,Mammalia
+Alexandromys kikuchii,高山田鼠,"臺灣高山田鼠,菊池氏煙鼠,台灣高山田鼠",Mammalia
+Miniopterus fuliginosus,東亞摺翅蝠,摺翅蝠,Mammalia
+Anourosorex yamashinai,短尾鼩,"臺灣短尾鼩,台灣短尾鼩,山階氏鼩鼱",Mammalia
+Apodemus agrarius,赤背條鼠,,Mammalia
+Apodemus semotus,臺灣森鼠,台灣森鼠,Mammalia
+Balaenoptera acutorostrata,小鬚鯨,,Mammalia
+Balaenoptera borealis,鰮鯨,,Mammalia
+Balaenoptera edeni,鯷鯨,,Mammalia
+Balaenoptera omurai,大村鯨,,Mammalia
+Balaenoptera taiwanica,臺灣鯨,台灣鯨,Mammalia
+Bandicota indica,鬼鼠,,Mammalia
+Barbastella darjelingensis,東方寬耳蝠,"印度寬耳蝠,寬耳蝠,臺灣寬耳蝠,台灣寬耳蝠",Mammalia
+Bubalus bubalis,水牛,,Mammalia
+Capricornis swinhoei,臺灣野山羊,"臺灣長鬃山羊,台灣長鬃山羊,台灣野山羊",Mammalia
+Chimarrogale himalayica,水鼩,,Mammalia
+Chodsigoa sodalis,細尾長尾鼩,,Mammalia
+Crocidura tanakae,灰麝鼩,"臺灣灰麝鼩,台灣灰麝鼩,田中氏麝鼩",Mammalia
+Cynopterus sphinx,印度犬果蝠,,Mammalia
+Mogera kanoana,鹿野氏鼴鼠,"臺灣高山鼴鼠,台灣高山鼴鼠",Mammalia
+Murina bicolor,黃胸管鼻蝠,,Mammalia
+Murina gracilis,姬管鼻蝠,,Mammalia
+Murina puta,臺灣管鼻蝠,"管鼻蝠,台灣管鼻蝠",Mammalia
+Murina recondita,隱姬管鼻蝠,,Mammalia
+Mus musculus,家鼷鼠,,Mammalia
+Myotis frater,長尾鼠耳蝠,,Mammalia
+Myotis laniger,華南水鼠耳蝠,"白腹鼠耳蝠,高山鼠耳蝠",Mammalia
+Myotis pilosus,大足鼠耳蝠,,Mammalia
+Myotis rufoniger,赤黑鼠耳蝠,"渡瀨氏鼠耳蝠,黑支蝙蝠",Mammalia
+Myotis secundus,長趾鼠耳蝠,長趾寬吻鼠耳蝠,Mammalia
+Myotis soror,紅棕鼠耳蝠,,Mammalia
+Neophocaena phocaenoides,江豚,露脊鼠海豚,Mammalia
+Niviventer coninga,臺灣刺鼠,"刺鼠,台灣刺鼠",Mammalia
+Niviventer culturatus,臺灣高山白腹鼠,"高山白腹鼠,台灣高山白腹鼠",Mammalia
+Peponocephala electra,瓜頭鯨,,Mammalia
+Pipistrellus abramus,東亞家蝠,,Mammalia
+Pipistrellus montanus,山家蝠,,Mammalia
+Pipistrellus taiwanensis,臺灣家蝠,台灣家蝠,Mammalia
+Balaenoptera edeni brydei,布氏鯨,,Mammalia
+Belomys pearsonii kaleensis,臺灣小鼯鼠,"小鼯鼠,台灣小鼯鼠",Mammalia
+Canis lupus familiaris,犬,狗,Mammalia
+Capra aegagrus hircus,家羊,,Mammalia
+Cervus nippon taiouanus,臺灣梅花鹿,"梅花鹿,台灣梅花鹿",Mammalia
+Coelops frithii formosanus,臺灣無尾葉鼻蝠,"無尾葉鼻蝠,台灣無尾葉鼻蝠",Mammalia
+Crocidura rapax kurodai,臺灣長尾麝鼩,台灣長尾麝鼩,Mammalia
+Crocidura rapax lutaoensis,綠島長尾麝鼩,,Mammalia
+Crocidura rapax tadae,蘭嶼長尾麝鼩,,Mammalia
+Crocidura shantungensis hosletti,荷氏小麝鼩,小麝鼩,Mammalia
+Eptesicus pachyomus horikawai,堀川氏棕蝠,"崛川氏棕蝠,棕蝠",Mammalia
+Herpestes urva formosanus,食蟹獴,"棕簑貓,膨尾狸",Mammalia
+Hipposideros armiger terasensis,臺灣葉鼻蝠,"葉鼻蝠,台灣葉鼻蝠",Mammalia
+Lepus sinensis formosus,臺灣野兔,"山兔,台灣野兔",Mammalia
+Lutra lutra chinensis,水獺,歐亞水獺,Mammalia
+Manis pentadactyla pentadactyla,穿山甲,"中國鯪鯉,悶仔,土龜",Mammalia
+Martes flavigula chrysospila,黃喉貂,"姜仔虎,黃頸鼬",Mammalia
+Mogera insularis insularis,臺灣鼴鼠,台灣鼴鼠,Mammalia
+Muntiacus reevesi micrurus,山羌,"臺灣山羌,麂,羌仔,台灣山羌",Mammalia
+Mustela nivalis formosana,臺灣小黃鼠狼,"臺灣高山小黃鼠狼,台灣小黃鼠狼,台灣高山小黃鼠狼",Mammalia
+Mustela sibirica taivana,黃鼠狼,"華南鼬鼠,黃鼬,竹竿貍",Mammalia
+Myotis formosus flavus,金黃鼠耳蝠,緋鼠耳蝠,Mammalia
+Neofelis nebulosa brachyura,臺灣雲豹,"雲豹,台灣雲豹",Mammalia
+Nyctalus plancyi velutinus,絨山蝠,中華山蝠,Mammalia
+Paguma larvata taivana,白鼻心,"果子貍,果子狸",Mammalia
+Petaurista lena,白面鼯鼠,飛鼠,Mammalia
+Petaurista grandis,大赤鼯鼠,飛鼠,Mammalia
+Pteropus dasymallus formosus,臺灣狐蝠,"臺灣大蝙蝠,飛蝠,狐蝠,台灣狐蝠,台灣大蝙蝠",Mammalia
+Rusa unicolor swinhoii,臺灣水鹿,"水鹿,台灣水鹿",Mammalia
+Sus scrofa taivanus,臺灣野豬,"山豬,台灣野豬",Mammalia
+Ursus thibetanus formosanus,臺灣黑熊,"黑熊,台灣黑熊",Mammalia
+Viverricula indica taivana,麝香貓,小靈貓,Mammalia
+Phocidae,海豹科,,Mammalia
+Panthera,,,Mammalia
+Phoca,,,Mammalia
+Lepus sinensis,華南兔,,Mammalia
+Lutra lutra,歐亞水獺,水獺,Mammalia
+Manis pentadactyla,穿山甲,,Mammalia
+Martes flavigula,黃喉貂,,Mammalia
+Melogale moschata,鼬貛,,Mammalia
+Mogera insularis,臺灣鼴鼠,,Mammalia
+Muntiacus reevesi,臺灣山羌,,Mammalia
+Mustela nivalis,小黃鼠狼,,Mammalia
+Mustela sibirica,黃鼠狼,,Mammalia
+Myotis fimbriatus,毛腿鼠耳蝠,,Mammalia
+Myotis formosus,金黃鼠耳蝠,,Mammalia
+Neofelis nebulosa,雲豹,,Mammalia
+Ursus thibetanus,臺灣黑熊,,Mammalia
+Viverricula indica,麝香貓,,Mammalia
+Dremomys pernyi,荷氏松鼠,長吻松鼠,Mammalia
+Eptesicus pachyomus,堀川氏棕蝠,,Mammalia
+Panthera pardus,,,Mammalia
+Herpestes urva,食蟹獴,,Mammalia
+Hipposideros armiger,臺灣葉鼻蝠,,Mammalia
+Callosciurus erythraeus,赤腹松鼠,,Mammalia
+Canis lupus,狼,灰狼,Mammalia
+Cervus nippon,臺灣梅花鹿,,Mammalia
+Coelops frithii,臺灣無尾葉鼻蝠,,Mammalia
+Crocidura rapax,長尾麝鼩,,Mammalia
+Crocidura shantungensis,小麝鼩,荷氏小麝鼩,Mammalia
+Nyctalus plancyi,絨山蝠,,Mammalia
+Paguma larvata,白鼻心,,Mammalia
+Phoca largha,斑海豹,,Mammalia
+Pteropus dasymallus,臺灣狐蝠,,Mammalia
+Rusa unicolor,臺灣水鹿,,Mammalia
+Sus scrofa,野豬,,Mammalia
+Tamiops maritimus,條紋松鼠,"臺灣帶紋松鼠,台灣帶紋松鼠",Mammalia
+Capra aegagrus,野山羊,,Mammalia
+Belomys pearsonii,小鼯鼠,,Mammalia
+Sousa chinensis taiwanensis,臺灣白海豚,台灣白海豚,Mammalia
+Pantherinae,,,Mammalia
+Mus formosanus,月鼠,田鼷鼠,Mammalia
+Kerivoulinae,,,Mammalia
+Murininae,管鼻蝠亞科,,Mammalia
+Myotinae,鼠耳蝠亞科,,Mammalia
+Vespertilioninae,蝙蝠亞科,,Mammalia
+Thainycteris torquatus,黃頸蝠,"黃喉家蝠,黃喉黑伏翼",Mammalia
+Sciuromorpha,,,Mammalia
+Sciurinae,,,Mammalia
+Pteromyini,,,Mammalia
+Callosciurinae,,,Mammalia
+Myomorpha,,,Mammalia
+Muroidea,,,Mammalia
+Murinae,,,Mammalia
+Arvicolinae,,,Mammalia
+Alexandromys,,,Mammalia
+Thainycteris,,,Mammalia
+Neophocaena asiaeorientalis,窄脊露脊鼠海豚,"海豬,圓頭仔,江豬",Mammalia

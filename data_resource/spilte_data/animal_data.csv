@@ -1,0 +1,2249 @@
+simple_name,common_name_c,alternative_name_c,class
+Crocodylomorpha,,,Reptilia
+Testudinata,,,Reptilia
+Theria,,,Mammalia
+Eutheria,,,Mammalia
+Accipitriformes,鷹形目,,Aves
+Anseriformes,雁形目,,Aves
+Anura,無尾目,,Amphibia
+Apodiformes,雨燕目,,Aves
+Artiodactyla,偶蹄目,,Mammalia
+Bucerotiformes,犀鳥目,,Aves
+Caprimulgiformes,夜鷹目,,Aves
+Carnivora,食肉目,,Mammalia
+Caudata,有尾目,,Amphibia
+Cetacea,鯨目,,Mammalia
+Charadriiformes,鴴形目,,Aves
+Chiroptera,翼手目,,Mammalia
+Ciconiiformes,鸛形目,,Aves
+Columbiformes,鴿形目,,Aves
+Coraciiformes,佛法僧目,,Aves
+Crocodylia,鱷目,,Reptilia
+Cuculiformes,鵑形目,,Aves
+Falconiformes,隼形目,,Aves
+Galliformes,雞形目,,Aves
+Gaviiformes,潛鳥目,,Aves
+Gruiformes,鶴形目,,Aves
+Lagomorpha,兔形目,,Mammalia
+Passeriformes,雀形目,,Aves
+Pelecaniformes,鵜形目,,Aves
+Phaethontiformes,鸏形目,,Aves
+Phoenicopteriformes,紅鸛目,,Aves
+Pholidota,鱗甲目,,Mammalia
+Piciformes,鴷形目,,Aves
+Podicipediformes,鷉形目,,Aves
+Primates,靈長目,,Mammalia
+Procellariiformes,鸌形目,,Aves
+Psittaciformes,鸚形目,,Aves
+Rodentia,嚙齒目,,Mammalia
+Soricomorpha,鼩形目,,Mammalia
+Strigiformes,鴞形目,,Aves
+Struthioniformes,鴕形目,,Aves
+Suliformes,鰹鳥目,,Aves
+Testudines,龜鱉目,,Reptilia
+Squamata,有鱗目,,Reptilia
+Felidae,貓科,,Mammalia
+Rhacophoridae,樹蛙科,,Amphibia
+Bufonidae,蟾蜍科,,Amphibia
+Microhylidae,狹口蛙科,,Amphibia
+Ranidae,赤蛙科,,Amphibia
+Anhingidae,蛇鵜科,,Aves
+Bucerotidae,犀鳥科,,Aves
+Eleutherodactylidae,離趾蟾科,卵齒蟾科,Amphibia
+Irenidae,和平鳥科,,Aves
+Miniopteridae,摺翅蝠科,長翼蝠科,Mammalia
+Psittaculidae,老套鸚鵡科,,Aves
+Struthionidae,鴕鳥科,,Aves
+Caprimulgidae,夜鷹科,,Aves
+Mustelidae,貂科,,Mammalia
+Nectariniidae,吸蜜鳥科,,Aves
+Oriolidae,黃鸝科,,Aves
+Pandionidae,鶚科,,Aves
+Pareatidae,鈍頭蛇科,,Reptilia
+Paridae,山雀科,,Aves
+Passeridae,麻雀科,,Aves
+Pelecanidae,鵜鶘科,,Aves
+Pellorneidae,雀眉科,,Aves
+Phaethontidae,熱帶鳥科,,Aves
+Phalacrocoracidae,鸕鷀科,,Aves
+Phasianidae,雉科,,Aves
+Phocoenidae,鼠海豚科,,Mammalia
+Phoenicopteridae,紅鸛科,,Aves
+Phylloscopidae,柳鶯科,,Aves
+Physeteridae,抹香鯨科,,Mammalia
+Picidae,啄木鳥科,,Aves
+Pittidae,八色鳥科,八色鶇科,Aves
+Ploceidae,織布文鳥科,,Aves
+Pnoepygidae,鷦眉科,,Aves
+Podicipedidae,鸊鷉科,,Aves
+Polychrotidae,變色蜥科,,Reptilia
+Procellariidae,鸌科,,Aves
+Prunellidae,岩鷚科,,Aves
+Psittacidae,鸚鵡科,,Aves
+Pteropodidae,狐蝠科,,Mammalia
+Pycnonotidae,鵯科,,Aves
+Pythonidae,蟒科,,Reptilia
+Rallidae,秧雞科,,Aves
+Recurvirostridae,長腳鷸科,,Aves
+Regulidae,戴菊科,,Aves
+Remizidae,攀雀科,,Aves
+Rhinolophidae,蹄鼻蝠科,,Mammalia
+Rostratulidae,彩鷸科,,Aves
+Scincidae,石龍子科,,Reptilia
+Sciuridae,松鼠科,,Mammalia
+Scolopacidae,鷸科,,Aves
+Scotocercidae,樹鶯科,,Aves
+Sittidae,鳾科,,Aves
+Soricidae,尖鼠科,,Mammalia
+Stenostiridae,細嘴鶲科,,Aves
+Stercorariidae,賊鷗科,,Aves
+Strigidae,鴟鴞科,,Aves
+Sturnidae,八哥科,椋鳥科,Aves
+Suidae,豬科,,Mammalia
+Sulidae,鰹鳥科,,Aves
+Sylviidae,鶯科,,Aves
+Talpidae,鼴鼠科,,Mammalia
+Testudinidae,陸龜科,,Reptilia
+Thraupidae,唐納雀科,,Aves
+Threskiornithidae,䴉科,,Aves
+Timaliidae,畫眉科,,Aves
+Trionychidae,鱉科,,Reptilia
+Troglodytidae,鷦鷯科,,Aves
+Turdidae,鶇科,,Aves
+Turnicidae,三趾鶉科,,Aves
+Typhlopidae,盲蛇科,,Reptilia
+Tytonidae,草鴞科,,Aves
+Upupidae,戴勝科,,Aves
+Ursidae,熊科,,Mammalia
+Varanidae,巨蜥科,,Reptilia
+Vespertilionidae,蝙蝠科,,Mammalia
+Viduidae,維達鳥科,,Aves
+Viperidae,蝮蛇科,,Reptilia
+Vireonidae,綠鵙科,,Aves
+Viverridae,靈貓科,,Mammalia
+Xenodermatidae,閃皮蛇科,,Reptilia
+Hyperoodontidae,喙鯨科,,Mammalia
+Zosteropidae,繡眼科,,Aves
+Accipitridae,鷹科,,Aves
+Acrocephalidae,葦鶯科,,Aves
+Acrochordidae,瘰鱗蛇科,,Reptilia
+Aegithalidae,長尾山雀科,,Aves
+Agamidae,飛蜥科,,Reptilia
+Alaudidae,百靈科,,Aves
+Alcedinidae,翠鳥科,,Aves
+Alcidae,海雀科,,Aves
+Anatidae,雁鴨科,,Aves
+Anguidae,蛇蜥科,,Reptilia
+Apodidae,雨燕科,,Aves
+Ardeidae,鷺科,,Aves
+Artamidae,燕鵙科,,Aves
+Balaenopteridae,鬚鯨科,,Mammalia
+Boidae,蚺科,,Reptilia
+Bombycillidae,連雀科,,Aves
+Bovidae,牛科,,Mammalia
+Cacatuidae,鳳頭鸚鵡科,,Aves
+Calcariidae,鐵爪鵐科,,Aves
+Campephagidae,山椒鳥科,,Aves
+Canidae,犬科,,Mammalia
+Cercopithecidae,獼猴科,,Mammalia
+Cervidae,鹿科,,Mammalia
+Chamaeleonidae,變色龍科,,Reptilia
+Charadriidae,鴴科,,Aves
+Cheloniidae,蠵龜科,,Reptilia
+Ciconiidae,鸛科,,Aves
+Cinclidae,河烏科,,Aves
+Cisticolidae,扇尾鶯科,,Aves
+Colubridae,黃頷蛇科,,Reptilia
+Columbidae,鳩鴿科,,Aves
+Coraciidae,佛法僧科,,Aves
+Corvidae,鴉科,,Aves
+Cricetidae,倉鼠科,,Mammalia
+Crocodylidae,鱷科,,Reptilia
+Cuculidae,杜鵑科,,Aves
+Delphinidae,海豚科,,Mammalia
+Dermochelyidae,革龜科,,Reptilia
+Dicaeidae,啄花科,,Aves
+Dicroglossidae,叉舌蛙科,,Amphibia
+Dicruridae,卷尾科,,Aves
+Diomedeidae,信天翁科,,Aves
+Elapidae,蝙蝠蛇科,,Reptilia
+Emberizidae,鵐科,,Aves
+Emydidae,澤龜科,,Reptilia
+Eschrichtiidae,灰鯨科,,Mammalia
+Estrildidae,梅花雀科,,Aves
+Falconidae,隼科,,Aves
+Fregatidae,軍艦鳥科,,Aves
+Fringillidae,雀科,,Aves
+Gaviidae,潛鳥科,,Aves
+Gekkonidae,壁虎科,,Reptilia
+Geoemydidae,地龜科,,Reptilia
+Glareolidae,燕鴴科,,Aves
+Gruidae,鶴科,,Aves
+Haematopodidae,蠣鷸科,,Aves
+Herpestidae,獴科,,Mammalia
+Hipposideridae,葉鼻蝠科,,Mammalia
+Hirundinidae,燕科,,Aves
+Homalopsidae,水蛇科,,Reptilia
+Hominidae,人科,,Mammalia
+Hydrobatidae,海燕科,,Aves
+Hylidae,樹蟾科,,Amphibia
+Hynobiidae,山椒魚科,,Amphibia
+Iguanidae,鬣蜥科,,Reptilia
+Jacanidae,水雉科,,Aves
+Kogiidae,小抹香鯨科,,Mammalia
+Lacertidae,正蜥科,,Reptilia
+Laniidae,伯勞科,,Aves
+Laridae,鷗科,,Aves
+Leiothrichidae,噪眉科,噪鶥科,Aves
+Leporidae,兔科,,Mammalia
+Locustellidae,蝗鶯科,,Aves
+Manidae,穿山甲科,,Mammalia
+Megalaimidae,鬚鴷科,,Aves
+Meropidae,蜂虎科,,Aves
+Molossidae,游離尾蝠科,,Mammalia
+Monarchidae,王鶲科,,Aves
+Motacillidae,鶺鴒科,,Aves
+Muridae,鼠科,,Mammalia
+Muscicapidae,鶲科,,Aves
+Buergeria,溪樹蛙屬,,Amphibia
+Zhangixalus,張樹蛙屬,,Amphibia
+Nidirana,琴蛙屬,,Amphibia
+Hylarana,水蛙屬,,Amphibia
+Sylvirana,,,Amphibia
+Linaria,赤頂雀屬,,Aves
+Miniopterus,長翼蝠屬,,Mammalia
+Brachypteryx,短翅鶇屬,,Aves
+Abroscopus,擬鶲鶯屬,,Aves
+Acanthis,朱頂雀屬,,Aves
+Accipiter,鷹屬,,Aves
+Achalinus,,,Reptilia
+Acridotheres,八哥屬,,Aves
+Acrocephalus,葦鶯屬,,Aves
+Acrochordus,瘰鱗蛇屬,,Reptilia
+Actinodura,斑翅鶥屬,,Aves
+Actitis,磯鷸屬,,Aves
+Aegithalos,長尾山雀屬,,Aves
+Aegypius,禿鷲屬,,Aves
+Aerodramus,金絲燕屬,,Aves
+Aethopyga,太陽鳥屬,,Aves
+Agapornis,牡丹鸚鵡屬,,Aves
+Agropsar,北椋鳥屬,,Aves
+Aix,鴛鴦屬,,Aves
+Alauda,雲雀屬,,Aves
+Alaudala,小百靈屬,,Aves
+Alcedo,翠鳥屬,,Aves
+Alcippe,雀鶥屬,,Aves
+Amaurornis,苦惡鳥屬,,Aves
+Amphiesma,腹鏈蛇屬,,Reptilia
+Anas,鴨屬,,Aves
+Anolis,安樂蜥屬,,Reptilia
+Anourosorex,短尾鼩屬,,Mammalia
+Anous,玄燕鷗屬,,Aves
+Anser,雁屬,,Aves
+Anthropoides,簑羽鶴屬,,Aves
+Anthus,鷚屬,,Aves
+Antigone,赤頸鶴屬,,Aves
+Aplonis,輝椋鳥屬,,Aves
+Apodemus,姬鼠屬,,Mammalia
+Apus,雨燕屬,,Aves
+Aquila,鵰屬,,Aves
+Ara,金剛鸚鵡屬,,Aves
+Arborophila,山鷓鴣屬,,Aves
+Ardea,蒼鷺屬,,Aves
+Ardenna,水薙鳥屬,,Aves
+Ardeola,池鷺屬,,Aves
+Arenaria,翻石鷸屬,,Aves
+Argyrophis,,,Reptilia
+Arielulus,金背伏翼屬,,Mammalia
+Artamus,燕鵙屬,,Aves
+Arundinax,蘆鶯屬,,Aves
+Asio,耳鴞屬,,Aves
+Ateuchosaurus,光蜥屬,,Reptilia
+Athene,小鴞屬,,Aves
+Aviceda,鵑隼屬,,Aves
+Aythya,潛鴨屬,,Aves
+Balaenoptera,鬚鯨屬,,Mammalia
+Bambusicola,竹雞屬,,Aves
+Bandicota,板齒鼠屬,,Mammalia
+Barbastella,寬耳蝠屬,,Mammalia
+Belomys,毛耳飛鼠屬,,Mammalia
+Boa,蚺屬,,Reptilia
+Boiga,林蛇屬,,Reptilia
+Bombycilla,連雀屬,,Aves
+Botaurus,大麻鷺屬,,Aves
+Branta,黑雁屬,,Aves
+Bubo,雕鴞屬,,Aves
+Bubulcus,牛背鷺屬,,Aves
+Bucephala,鵲鴨屬,,Aves
+Bufo,蟾蜍屬,,Amphibia
+Bulweria,燕鹱屬,,Aves
+Bungarus,環蛇屬,,Reptilia
+Butastur,鵟鷹屬,,Aves
+Buteo,鵟屬,,Aves
+Butorides,綠鷺屬,,Aves
+Cacatua,鳳頭鸚鵡屬,,Aves
+Cacomantis,八聲杜鵑屬,,Aves
+Caiman,凱門鱷屬,,Reptilia
+Cairina,棲鴨屬,,Aves
+Calamaria,兩頭蛇屬,,Reptilia
+Calandrella,短趾百靈屬,,Aves
+Calcarius,鐵爪鵐屬,,Aves
+Calidris,濱鷸屬,,Aves
+Calliope,野鴝屬,,Aves
+Callosciurus,麗松鼠屬,,Mammalia
+Calonectris,麗鹱屬,,Aves
+Canis,犬屬,,Mammalia
+Capricornis,鬣羚屬,,Mammalia
+Caprimulgus,夜鷹屬,,Aves
+Caretta,蠵龜屬,,Reptilia
+Carpodacus,朱雀屬,,Aves
+Cecropis,金腰燕屬,,Aves
+Centropus,鴉鵑屬,,Aves
+Cervus,鹿屬,,Mammalia
+Ceryle,斑翡翠屬,,Aves
+Ceyx,三趾翠鳥屬,,Aves
+Chalcophaps,翠翼鳩屬,,Aves
+Chamaeleo,變色龍屬,,Reptilia
+Charadrius,鴴屬,,Aves
+Chelonia,海龜屬,,Reptilia
+Chimarrogale,水麝鼩屬,,Mammalia
+Chlidonias,浮鷗屬,,Aves
+Chloris,綠金翅雀屬,,Aves
+Chodsigoa,長尾鼩屬,,Mammalia
+Chroicocephalus,棕頭鷗屬,,Aves
+Ciconia,鸛屬,,Aves
+Cinclus,河烏屬,,Aves
+Cinnyris,花蜜鳥屬,,Aves
+Circus,鷂屬,,Aves
+Cisticola,扇尾鶯屬,,Aves
+Clamator,鳳鵑屬,,Aves
+Clanga,花鵰屬,,Aves
+Clangula,長尾鴨屬,,Aves
+Clemmys,水龜屬,,Reptilia
+Coccothraustes,錫嘴雀屬,,Aves
+Coelops,無尾葉鼻蝠屬,,Mammalia
+Collocalia,侏金絲燕屬,,Aves
+Columba,鴿屬,,Aves
+Copsychus,鵲鴝屬,,Aves
+Coracina,鵑鵙屬,,Aves
+Corvus,鴉屬,,Aves
+Coturnix,鶉屬,,Aves
+Crocidura,麝鼩屬,,Mammalia
+Cuculus,杜鵑屬,,Aves
+Culicicapa,方尾鶲屬,,Aves
+Cuora,,,Reptilia
+Cyanoderma,藍膚鶥屬,,Aves
+Cyanopica,灰喜鵲屬,,Aves
+Cyanoptila,白腹藍鶲屬,,Aves
+Cyclophiops,翠青蛇屬,,Reptilia
+Cygnus,天鵝屬,,Aves
+Cynopterus,犬果蝠屬,,Mammalia
+Cyornis,藍仙鶲屬,,Aves
+Daboia,,,Reptilia
+Myrrophis,,,Reptilia
+Naja,眼鏡蛇屬,,Reptilia
+Neofelis,雲豹屬,,Mammalia
+Neophocaena,江豚屬,,Mammalia
+Netta,狹嘴潛鴨屬,,Aves
+Nettapus,棉鴨屬,,Aves
+Niltava,仙鶲屬,,Aves
+Ninox,鷹鴞屬,,Aves
+Nipponia,朱鹮屬,,Aves
+Nisaetus,角鷹屬,,Aves
+Niviventer,白腹鼠屬,,Mammalia
+Nucifraga,星鴉屬,,Aves
+Numenius,杓鷸屬,,Aves
+Nyctalus,夜蝠屬,,Mammalia
+Nycticorax,夜鷺屬,,Aves
+Nymphicus,雞尾鸚鵡屬,,Aves
+Oceanodroma,叉尾海燕屬,,Aves
+Odorrana,臭蛙屬,,Amphibia
+Oenanthe,即鳥屬,,Aves
+Oligodon,小頭蛇屬,,Reptilia
+Onychoprion,棕背燕鷗屬,,Aves
+Orcinus,虎鯨屬,,Mammalia
+Oreocryptophis,,,Reptilia
+Oriolus,黃鸝屬,,Aves
+Orthriophis,黑眉錦蛇屬,,Reptilia
+Otocichla,耳鶇屬,,Aves
+Otus,角鴞屬,,Aves
+Ovophis,烙鐵頭蛇屬,,Reptilia
+Paguma,花面狸屬,,Mammalia
+Pandion,鶚屬,,Aves
+Pareas,鈍頭蛇屬,,Reptilia
+Paroaria,臘嘴鵐屬,,Aves
+Parus,山雀屬,,Aves
+Passer,麻雀屬,,Aves
+Passerculus,草鵐屬,,Aves
+Pastor,粉紅椋鳥屬,,Aves
+Pavo,孔雀屬,,Aves
+Pelecanus,鵜鶘屬,,Aves
+Pelodiscus,鱉屬,,Reptilia
+Pelophylax,側褶蛙屬,,Amphibia
+Peponocephala,瓜頭鯨屬,,Mammalia
+Pericrocotus,山椒鳥屬,,Aves
+Periparus,煤山雀屬,,Aves
+Pernis,蜂鷹屬,,Aves
+Petaurista,鼯鼠屬,,Mammalia
+Phaethon,熱帶鳥屬,,Aves
+Phalacrocorax,鸕鷀屬,,Aves
+Phalaropus,瓣足鷸屬,,Aves
+Phasianus,雉屬,,Aves
+Phoebastria,信天翁屬,,Aves
+Phoenicopterus,紅鸛屬,,Aves
+Phoenicurus,紅尾鴝屬,,Aves
+Phylloscopus,柳鶯屬,,Aves
+Physeter,抹香鯨屬,,Mammalia
+Physignathus,長鬣蜥屬,,Reptilia
+Pica,鵲屬,,Aves
+Picus,綠啄木屬,,Aves
+Pipistrellus,家蝠屬,,Mammalia
+Pitta,八色鳥屬,,Aves
+Plagiopholis,頸斑蛇屬,,Reptilia
+Platalea,琵鷺屬,,Aves
+Plecotus,長耳蝠屬,,Mammalia
+Plectrophenax,雪鵐屬,,Aves
+Plegadis,彩鹮屬,,Aves
+Plestiodon,石龍子屬,,Reptilia
+Ploceus,織布鳥屬,,Aves
+Pluvialis,斑鴴屬,,Aves
+Pnoepyga,鷦眉屬,,Aves
+Podiceps,鸊鷉屬,,Aves
+Pogona,鬃獅蜥屬,,Reptilia
+Polypedates,泛樹蛙屬,,Amphibia
+Pomatorhinus,彎嘴鶥屬,,Aves
+Porphyrio,紫水雞屬,,Aves
+Porzana,田雞屬,,Aves
+Praescutata,,,Reptilia
+Prinia,鷦鶯屬,,Aves
+Prionailurus,豹貓屬,,Mammalia
+Protobothrops,原矛頭蝮屬,,Reptilia
+Prunella,岩鷚屬,,Aves
+Psammodynastes,紫沙蛇屬,,Reptilia
+Pseudoamolops,赤蛙屬,,Amphibia
+Pseudobulweria,擬燕鹱屬,,Aves
+Pseudorca,偽虎鯨屬,,Mammalia
+Pseudoxenodon,,,Reptilia
+Psilopogon,擬啄木屬,,Aves
+Psittacula,鸚鵡屬,,Aves
+Psittacus,非洲鸚鵡屬,,Aves
+Pterodroma,圓尾鹱屬,,Aves
+Pteropus,狐蝠屬,,Mammalia
+Ptilinopus,果鳩屬,,Aves
+Ptyas,鼠蛇屬,,Reptilia
+Pycnonotus,鵯屬,,Aves
+Pyrrhula,灰雀屬,,Aves
+Python,蟒屬,,Reptilia
+Rallina,斑秧雞屬,,Aves
+Rallus,秧雞屬,,Aves
+Rana,蛙屬,,Amphibia
+Rattus,家鼠屬,,Mammalia
+Recurvirostra,反嘴長腳鷸屬,,Aves
+Regulus,戴菊屬,,Aves
+Remiz,攀雀屬,,Aves
+Rhabdophis,頸槽蛇屬,,Reptilia
+Rhinoclemmys,木龜屬,,Reptilia
+Rhinolophus,蹄鼻蝠屬,,Mammalia
+Riparia,沙燕屬,,Aves
+Rissa,三趾鷗屬,,Aves
+Rostratula,彩鷸屬,,Aves
+Rousettus,果蝠屬,,Mammalia
+Rusa,,,Mammalia
+Saundersilarus,黑嘴鷗屬,,Aves
+Saxicola,石䳭屬,,Aves
+Schoeniparus,烏線雀鶥屬,,Aves
+Scincella,滑蜥屬,,Reptilia
+Scolopax,丘鷸屬,,Aves
+Scotophilus,黃蝠屬,,Mammalia
+Serinus,絲雀屬,,Aves
+Sibirionetta,鮮卑鴨屬,,Aves
+Sibynophis,劍蛇屬,,Reptilia
+Sinomicrurus,帶紋赤蛇屬,,Reptilia
+Sinonatrix,華遊蛇屬,,Reptilia
+Sinosuthora,漢鴉雀屬,,Aves
+Sitta,鳾屬,,Aves
+Sittiparus,赤腹山雀屬,,Aves
+Sousa,駝海豚屬,,Mammalia
+Spatula,琵鴨屬,,Aves
+Sphenomorphus,蜓蜥屬,,Reptilia
+Spilornis,蛇鵰屬,,Aves
+Spinus,黃雀屬,,Aves
+Spizixos,鸚嘴鵯屬,,Aves
+Spodiopsar,絲光椋鳥屬,,Aves
+Stenella,原海豚屬,,Mammalia
+Steno,糙齒海豚屬,,Mammalia
+Stercorarius,賊鷗屬,,Aves
+Sterna,燕鷗屬,,Aves
+Sternula,小燕鷗屬,,Aves
+Streptopelia,斑鳩屬,,Aves
+Strix,林鴞屬,,Aves
+Sturnia,北椋鳥屬,,Aves
+Sturnus,椋鳥屬,,Aves
+Submyotodon,低齒丘鼠耳蝠屬,,Mammalia
+Sula,鰹鳥屬,,Aves
+Suncus,臭鼩屬,,Mammalia
+Surniculus,烏鵑屬,,Aves
+Sus,野豬屬,,Mammalia
+Suthora,鴉雀屬,,Aves
+Synoicus,鵪鶉屬,,Aves
+Synthliboramphus,扁嘴海雀屬,,Aves
+Syrmaticus,長尾雉屬,,Aves
+Tachybaptus,小鸊鷉屬,,Aves
+Tadarida,犬吻蝠屬,,Mammalia
+Tadorna,麻鴨屬,,Aves
+Takydromus,草蜥屬,,Reptilia
+Tamiops,花松鼠屬,,Mammalia
+Tarsiger,林鴝屬,,Aves
+Terpsiphone,壽帶屬,,Aves
+Thalasseus,鳳頭燕鷗屬,,Aves
+Threskiornis,白䴉屬,,Aves
+Todiramphus,領翡翠屬,,Aves
+Trachemys,,,Reptilia
+Treron,綠鳩屬,,Aves
+Trichoglossus,森氏吸蜜鸚鵡屬,,Aves
+Trimeresurus,竹葉青屬,,Reptilia
+Tringa,鷸屬,,Aves
+Trochalopteron,圓翅噪眉屬,圓翅噪鶥屬,Aves
+Troglodytes,鷦鷯屬,,Aves
+Turdus,鶇屬,,Aves
+Turnix,三趾鶉屬,,Aves
+Tursiops,寬吻海豚屬,,Mammalia
+Tyto,草鴞屬,,Aves
+Upupa,戴勝屬,,Aves
+Uria,海鴉屬,,Aves
+Urocissa,藍鵲屬,,Aves
+Urosphena,短尾鶯屬,,Aves
+Ursus,棕熊屬,,Mammalia
+Vanellus,麥雞屬,,Aves
+Varanus,巨蜥屬,,Reptilia
+Vespertilio,蝙蝠屬,,Mammalia
+Vidua,維達鳥屬,,Aves
+Viverricula,小靈貓屬,,Mammalia
+Xema,叉尾鷗屬,,Aves
+Xenochrophis,漁遊蛇屬,,Reptilia
+Xenus,翹嘴鷸屬,,Aves
+Yuhina,鳳鶥屬,,Aves
+Yungipicus,姬啄木屬,,Aves
+Zapornia,小田雞屬,,Aves
+Ziphius,喙鯨屬,,Mammalia
+Zoothera,虎鶇屬,,Aves
+Zosterops,繡眼屬,,Aves
+Deinagkistrodon,尖吻蝮屬,,Reptilia
+Delichon,毛腳燕屬,,Aves
+Delphinus,海豚屬,,Mammalia
+Dendrocitta,樹鵲屬,,Aves
+Dendrocopos,啄木鳥屬,,Aves
+Dendrocygna,樹鴨屬,,Aves
+Dendronanthus,山鶺鴒屬,,Aves
+Dermochelys,革龜屬,,Reptilia
+Dicaeum,啄花屬,,Aves
+Dicrurus,卷尾屬,,Aves
+Diploderma,龍蜥屬,,Reptilia
+Dopasia,,,Reptilia
+Dremomys,長吻松鼠屬,,Mammalia
+Duttaphrynus,頭棱蟾屬,,Amphibia
+Egretta,白鷺屬,,Aves
+Elanus,黑翅鳶屬,,Aves
+Elaphe,錦蛇屬,,Reptilia
+Emberiza,鵐屬,,Aves
+Emoia,島蜥屬,,Reptilia
+Emydocephalus,,,Reptilia
+Enhydris,水蛇屬,,Reptilia
+Enicurus,燕尾屬　,,Aves
+Eophona,黃嘴雀屬,,Aves
+Eos,吸蜜鸚鵡屬,,Aves
+Eothenomys,絨鼠屬,,Mammalia
+Epicrates,水蚺屬,,Reptilia
+Episoriculus,大長尾鼩屬,,Mammalia
+Eptesicus,棕蝠屬,,Mammalia
+Eretmochelys,玳瑁屬,,Reptilia
+Erpornis,綠鳳鶥屬,,Aves
+Eschrichtius,灰鯨屬,,Mammalia
+Estrilda,梅花雀屬,,Aves
+Eublepharis,擬蜥屬,,Reptilia
+Eudynamys,噪鵑屬,,Aves
+Eumyias,銅藍鶲屬,,Aves
+Euodice,銀嘴文鳥屬,,Aves
+Euprepiophis,,,Reptilia
+Eurystomus,三寶鳥屬,,Aves
+Eutropis,真稜蜥屬,,Reptilia
+Falco,隼屬,,Aves
+Fejervarya,陸蛙屬,,Amphibia
+Felis,貓屬,,Mammalia
+Feresa,矮鯨屬,,Mammalia
+Ficedula,姬鶲屬,,Aves
+Fregata,軍艦鳥屬,,Aves
+Fringilla,燕雀屬,,Aves
+Fulica,骨頂屬,,Aves
+Fulmarus,暴風鸌屬,,Aves
+Fulvetta,褐鶥屬,,Aves
+Gallicrex,董雞屬,,Aves
+Gallinago,田鷸屬,,Aves
+Gallinula,黑水雞屬,,Aves
+Garrulax,噪眉屬,噪鶥屬,Aves
+Garrulus,松鴉屬,,Aves
+Gavia,潛鳥屬,,Aves
+Gehyra,截趾虎屬,,Reptilia
+Gekko,壁虎屬,,Reptilia
+Gelochelidon,噪鷗屬,,Aves
+Geochelone,象龜屬,,Reptilia
+Geokichla,地鶇屬,,Aves
+Geopelia,鳩屬,,Aves
+Glareola,燕鴴屬,,Aves
+Glaucidium,鵂鶹屬,,Aves
+Globicephala,領航鯨屬,,Mammalia
+Gonyosoma,,,Reptilia
+Gorsachius,麻鷺屬,,Aves
+Gracula,鷯哥屬,,Aves
+Gracupica,斑椋鳥屬,,Aves
+Grampus,灰海豚屬,,Mammalia
+Grus,鶴屬,,Aves
+Haematopus,蠣鷸屬,,Aves
+Halcyon,翡翠屬,,Aves
+Haliaeetus,海鵰屬,,Aves
+Haliastur,栗鳶屬,,Aves
+Harpiocephalus,毛翼管鼻蝠屬,,Mammalia
+Harpiola,毛翼蝠屬,,Mammalia
+Hebius,東亞腹鍊蛇屬,,Reptilia
+Hemidactylus,蜥虎屬,,Reptilia
+Hemiphyllodactylus,半葉趾虎屬,,Reptilia
+Hemixos,短足鵯屬,,Aves
+Herpestes,獴屬,,Mammalia
+Heterophasia,奇鶥屬,,Aves
+Hieraaetus,隼鵰屬,,Aves
+Hierococcyx,鷹鵑屬,,Aves
+Himantopus,長腳鷸屬,,Aves
+Hipposideros,葉蝠屬,,Mammalia
+Hirundapus,針尾雨燕屬,,Aves
+Hirundo,燕屬,,Aves
+Homo,人屬,,Mammalia
+Hoplobatrachus,虎紋蛙屬,,Amphibia
+Horornis,山樹鶯屬,,Aves
+Hydrocoloeus,小鷗屬,,Aves
+Hydrophasianus,水雉屬,,Aves
+Hydrophis,,,Reptilia
+Hydroprogne,巨鷗屬,,Aves
+Hyla,雨蛙屬,,Amphibia
+Hynobius,小鯢屬,,Amphibia
+Hypothymis,黑枕王鶲屬,,Aves
+Hypsipetes,短腳鵯屬,,Aves
+Hypsugo,高級伏翼屬,,Mammalia
+Ianthocincla,藍噪眉屬,藍噪鶥屬,Aves
+Ichthyaetus,漁鷗屬,,Aves
+Ictinaetus,林鵰屬,,Aves
+Iduna,籬鶯屬,,Aves
+Iguana,鬣蜥屬,,Reptilia
+Indopacetus,印太喙鯨屬,,Mammalia
+Indotestudo,鸚嘴龜屬,,Reptilia
+Ixobrychus,葦鷺屬,,Aves
+Jynx,蟻鴷屬,,Aves
+Kaloula,狹口蛙屬,,Amphibia
+Kerilia,,,Reptilia
+Kerivoula,彩蝠屬,,Mammalia
+Ketupa,魚鴞屬,,Aves
+Kogia,小抹香鯨屬,,Mammalia
+Kurixalus,原指樹蛙屬,,Amphibia
+Lagenodelphis,沙撈越海豚屬,,Mammalia
+Lalage,鳴鵑鵙屬,,Aves
+Lampropeltis,王蛇屬,,Reptilia
+Lamprotornis,麗椋鳥屬,,Aves
+Lanius,伯勞屬,,Aves
+Larus,鷗屬,,Aves
+Larvivora,鴝鳥屬,,Aves
+Laticauda,,,Reptilia
+Leiothrix,相思鳥屬,,Aves
+Lepidochelys,麗龜屬,,Reptilia
+Lepidodactylus,鱗趾虎屬,,Reptilia
+Lepus,兔屬,,Mammalia
+Leucogeranus,白鶴屬,,Aves
+Leucophaeus,笑鷗屬,,Aves
+Lewinia,灰胸秧雞屬,,Aves
+Limnodromus,半蹼鷸屬,,Aves
+Limnonectes,大頭蛙屬,,Amphibia
+Limosa,塍鷸屬,,Aves
+Liocichla,藪鶥屬,,Aves
+Locustella,蝗鶯屬,,Aves
+Lonchura,文鳥屬,,Aves
+Lophura,鷴屬,,Aves
+Loxia,交嘴雀屬,,Aves
+Luscinia,歌鴝屬,,Aves
+Lutra,水獺屬,,Mammalia
+Lycodon,白環蛇屬,,Reptilia
+Lymnocryptes,姬鷸屬,,Aves
+Macaca,獼猴屬,,Mammalia
+Machlolophus,黃山雀屬,,Aves
+Macropygia,鵑鳩屬,,Aves
+Malaclemys,鑽紋龜屬,,Reptilia
+Manis,穿山甲屬,,Mammalia
+Mareca,亞鴨屬,,Aves
+Martes,貂屬,,Mammalia
+Mauremys,石龜屬,,Reptilia
+Megaptera,座頭鯨屬,,Mammalia
+Melanocorypha,百靈屬,,Aves
+Melogale,鼬獾屬,,Mammalia
+Mergellus,小秋沙屬,,Aves
+Mergus,秋沙屬,,Aves
+Merops,蜂虎屬,,Aves
+Mesoplodon,中喙鯨屬,,Mammalia
+Microhyla,姬蛙屬,,Amphibia
+Micromys,巢鼠屬,,Mammalia
+Micryletta,小姬蛙屬,,Amphibia
+Milvus,鳶屬,,Aves
+Mogera,鼴鼠屬,,Mammalia
+Monticola,磯鶇屬,,Aves
+Motacilla,鶺鴒屬,,Aves
+Muntiacus,麂屬,,Mammalia
+Murina,管鼻蝠屬,,Mammalia
+Mus,小鼠屬,,Mammalia
+Muscicapa,鶲屬,,Aves
+Mustela,鼬屬,,Mammalia
+Myiomela,藍地鴝屬,,Aves
+Myophonus,嘯鶇屬,,Aves
+Myotis,鼠耳蝠屬,,Mammalia
+Amandava,,,Aves
+Anhinga,,,Aves
+Aratinga,,,Aves
+Bubalus,水牛屬,,Mammalia
+Bycanistes,噪犀鳥屬,,Aves
+Capra,,,Mammalia
+Chloropsis,,,Aves
+Chrysolophus,,,Aves
+Eleutherodactylus,離趾蟾屬,卵齒蟾屬,Amphibia
+Gallus,原雞屬,,Aves
+Indotyphlops,印度盲蛇屬,,Reptilia
+Melopsittacus,虎皮鸚鵡屬,,Aves
+Struthio,鴕鳥屬,,Aves
+Indotestudo elongata,黃頭陸龜,,Reptilia
+Indotyphlops braminus,鉤盲蛇,,Reptilia
+Ixobrychus eurhythmus,秋小鷺,紫背葦鷺,Aves
+Kogia breviceps,小抹香鯨,,Mammalia
+Kurixalus idiootocus,面天樹蛙,,Amphibia
+Lampropeltis getula,加州王蛇,,Reptilia
+Lanius cristatus lucionensis,紅尾伯勞,"紅尾伯勞(普通亞種),紅尾伯勞普通亞種,灰頭紅尾伯勞",Aves
+Lanius sphenocercus,楔尾伯勞,,Aves
+Larvivora akahige akahige,日本歌鴝,鴝鳥,Aves
+Larvivora komadori komadori,琉球歌鴝,琉球鴝鳥,Aves
+Larvivora sibilans,紅尾歌鴝,,Aves
+Laticauda colubrina,黃唇青斑海蛇,藍灰扁尾海蛇,Reptilia
+Laticauda laticaudata,黑唇青斑海蛇,扁尾海蛇,Reptilia
+Lepidodactylus lugubris,鱗趾虎,鱗趾蝎虎,Reptilia
+Lewinia striata taiwana,灰胸秧雞,"灰胸秧雞(臺灣特有亞種),灰胸紋秧雞,灰胸秧雞臺灣特有亞種,灰胸秧雞臺灣亞種",Aves
+Limnodromus semipalmatus,半蹼鷸,,Aves
+Limosa limosa melanuroides,黑尾鷸,"黑尾塍鷸,黑尾鷸普通亞種",Aves
+Aquarana catesbeiana,美洲牛蛙,"美國牛蛙,牛蛙",Amphibia
+Lonchura atricapilla formosana,黑頭文鳥,"黑頭文鳥(台灣原生亞種),栗腹文鳥,黑頭文鳥台灣原生亞種,黑頭文鳥臺灣亞種",Aves
+Lonchura atricapilla sinensis,黑頭文鳥(馬來亞種),"栗腹文鳥(馬來亞種),黑頭文鳥馬來亞種,栗腹文鳥馬來亞種,黑頭文鳥,栗腹文鳥",Aves
+Lonchura punctulata topela,斑文鳥,,Aves
+Lonchura striata swinhoei,白腰文鳥,尖尾文鳥,Aves
+Lophura nycthemera,白鷴,銀雞,Aves
+Mareca strepera,赤膀鴨,,Aves
+Mauremys japonica,日本石龜,,Reptilia
+Mauremys mutica,柴棺龜,黃龜,Reptilia
+Melogale moschata subaurantiaca,鼬貛,"鼬獾,臭貍",Mammalia
+Mergellus albellus,白秋沙,"小秋沙,白秋沙鴨,斑頭秋沙鴨",Aves
+Mergus serrator,紅胸秋沙,海秋沙,Aves
+Merops viridis,藍喉蜂虎,,Aves
+Mesoplodon densirostris,柏氏中喙鯨,布蘭氏喙鯨,Mammalia
+Microhyla fissipes,小雨蛙,"飾紋姬蛙,小姬蛙",Amphibia
+Micryletta steinegeri,史丹吉氏小雨蛙,"臺灣娟蛙,史氏姬蛙,台灣娟蛙",Amphibia
+Milvus migrans lineatus,黑鳶,"黑鳶(大陸亞種),黑耳鳶,老鷹,黑鳶大陸亞種",Aves
+Monticola solitarius pandoo,藍磯鶇,"藍磯鶇(藍腹亞種),藍腹藍磯鶇,藍磯鶇藍腹亞種",Aves
+Monticola solitarius philippensis,藍磯鶇,"藍磯鶇(棕腹亞種),棕腹藍磯鶇,藍磯鶇棕腹亞種",Aves
+Motacilla alba baicalensis,白鶺鴒,"白鶺鴒(白面灰背亞種),白面灰背白鶺鴒,白面白鶺鴒,白鶺鴒白面灰背亞種",Aves
+Motacilla alba dukhuensis,白鶺鴒(西部亞種),"白面白鶺鴒,白鶺鴒西部亞種",Aves
+Motacilla flava thunbergi,西方黃鶺鴒,"西方黃鶺鴒(灰頭亞種),黃鶺鴒,灰頭黃鶺鴒,西方黃鶺鴒灰頭亞種",Aves
+Muscicapa griseisticta,灰斑鶲,斑鶲,Aves
+Myotis fimbriatus taiwanensis,臺灣毛腿鼠耳蝠,"臺灣鼠耳蝠,毛腿鼠耳蝠,台灣鼠耳蝠,台灣毛腿鼠耳蝠",Mammalia
+Naja atra,眼鏡蛇,飯匙倩,Reptilia
+Tringa brevipes,黃足鷸,,Aves
+Tringa stagnatilis,小青足鷸,澤鷸,Aves
+Tringa totanus ussuriensis,赤足鷸,"赤足鷸(西伯利亞亞種),紅腳鷸,赤足鷸西伯利亞亞種",Aves
+Turnix suscitator rostratus,棕三趾鶉,,Aves
+Turnix tanki blanfordii,黃腳三趾鶉,,Aves
+Tursiops aduncus,印太瓶鼻海豚,,Mammalia
+Tursiops truncatus,瓶鼻海豚,,Mammalia
+Urosphena squameiceps,短尾鶯,鱗頭樹鶯,Aves
+Vanellus cinereus,跳鴴,灰頭麥雞,Aves
+Vanellus vanellus,小辮鴴,鳳頭麥雞,Aves
+Varanus salvator,澤巨蜥,,Reptilia
+Vespertilio sinensis,霜毛蝠,,Mammalia
+Xema sabini,叉尾鷗,,Aves
+Dendrocopos canicapillus,小啄木,,Aves
+Zhangixalus arvalis,諸羅樹蛙,"雨蛙,雨怪",Amphibia
+Zhangixalus aurantiventris,橙腹樹蛙,,Amphibia
+Zhangixalus moltrechti,莫氏樹蛙,,Amphibia
+Zhangixalus prasinatus,翡翠樹蛙,,Amphibia
+Zhangixalus taipeianus,臺北樹蛙,台北樹蛙,Amphibia
+Diploderma swinhonis,斯文豪氏攀蜥,,Reptilia
+Dopasia harti,哈特氏蛇蜥,"哈特氏脆蛇蜥,臺灣蛇蜥,台灣蛇蜥",Reptilia
+Duttaphrynus melanostictus,黑眶蟾蜍,癩蝦蟆,Amphibia
+Egretta eulophotes,唐白鷺,黃嘴白鷺,Aves
+Elaphe carinata,王錦蛇,"臭青公,稜鱗錦蛇,臭黃蟒,臭青母",Reptilia
+Emberiza cioides castaneiceps,草鵐,三道眉草鵐,Aves
+Emoia atrocostata,沿岸島蜥,"岩岸島蜥,都蜥蜴",Reptilia
+Eophona personata personata,桑鳲,"桑鳲(中國亞種),黃嘴雀,黑頭蠟嘴雀,桑鳲中國亞種",Aves
+Epicrates cenchria,巴西彩虹蚺,,Reptilia
+Episoriculus fumidus,臺灣長尾鼩,"臺灣煙尖鼠,台灣煙尖鼠,台灣長尾鼩",Mammalia
+Eretmochelys imbricata,玳瑁,"鷹嘴海龜,毒瑁",Reptilia
+Eublepharis macularius,豹紋守宮,,Reptilia
+Euprepiophis mandarinus,玉斑錦蛇,"高砂蛇,玉帶蛇",Reptilia
+Eutropis longicaudata,長尾真稜蜥,長尾南蜥,Reptilia
+Eutropis multifasciata,多線真稜蜥,"多線南蜥,多紋南蜥",Reptilia
+Fejervarya cancrivora,海蛙,"海陸蛙,食蟹蛙,紅樹林蛙",Amphibia
+Fejervarya limnocharis,澤蛙,田蛙,Amphibia
+Ficedula hyperythra innexa,黃胸青鶲,"黃胸姬鶲,棕胸藍姬鶲",Aves
+Ficedula mugimaki,白眉黃鶲,斑眉姬鶲,Aves
+Ficedula narcissina,黃眉黃鶲,"黃眉姬鶲,黃眉黃鶲(黑背亞種)",Aves
+Ficedula owstoni,琉球姬鶲,"黃眉黃鶲(暗綠背亞種),黃眉黃鶲,黃眉姬鶲,琉球鶲",Aves
+Garrulus glandarius taivanus,松鴉,橿鳥,Aves
+Gehyra mutilata,截趾虎,"裂足虎,裂足蝎虎",Reptilia
+Geochelone elegans,印度星龜,,Reptilia
+Glareola maldivarum,燕鴴,,Aves
+Gorsachius goisagi,麻鷺,栗頭麻鷺,Aves
+Grus grus,灰鶴,,Aves
+Grus japonensis,丹頂鶴,仙鶴,Aves
+Haematopus ostralegus osculans,蠣鴴,蠣鷸,Aves
+Halcyon pileata,黑頭翡翠,,Aves
+Halcyon smyrnensis fokiensis,蒼翡翠,白胸翡翠,Aves
+Helopsaltes amnicola,庫頁島蝗鶯,,Aves
+Locustella fasciolata,蒼眉蝗鶯,,Aves
+Helopsaltes pleskei,史氏蝗鶯,,Aves
+Hemidactylus bowringii,無疣蝎虎,"鹽蛇,縱斑蜥虎,原尾蜥虎,無疣蜥虎",Reptilia
+Hemidactylus frenatus,疣尾蝎虎,"橫斑蜥虎,疣尾蜥虎,蜥虎,蝎虎",Reptilia
+Hemidactylus stejnegeri,史丹吉氏蝎虎,"紅葉守宮,史氏蝎虎,史丹吉氏蜥虎",Reptilia
+Hemiphyllodactylus typus,半葉趾虎,"半葉趾蝎虎,爪哇半葉趾虎",Reptilia
+Heterophasia auricularis,白耳畫眉,白耳奇鶥,Aves
+Himantopus himantopus,高蹺鴴,"長腳鷸,黑翅長腳鷸",Aves
+Hoplobatrachus rugulosus,虎皮蛙,虎紋蛙,Amphibia
+Hydrobates matsudairae,日本叉尾海燕,煙黑叉尾海燕,Aves
+Hydrobates monorhis,黑叉尾海燕,,Aves
+Hydrobates tristrami,褐翅叉尾海燕,,Aves
+Hydrophis curtus,棘刺海蛇,"棘海蛇,刺海蛇,平頦海蛇",Reptilia
+Hydrophis cyanocinctus,青環海蛇,,Reptilia
+Hydrophis ornatus,麗斑海蛇,"淡灰海蛇,黑星海蛇,黑點海蛇",Reptilia
+Hydrophis stokesii,大頭海蛇,"棘鱗海蛇,史托克斯海蛇",Reptilia
+Hylarana latouchii,拉都希氏赤蛙,闊褶蛙,Amphibia
+Hylarana taipehensis,臺北赤蛙,"台北赤蛙,神蛙,雷公蛙",Amphibia
+Hypothymis azurea oberholseri,黑枕藍鶲,"黑枕藍鶲(台灣亞種),黑枕王鶲,黑枕藍鶲台灣亞種",Aves
+Hypsiscopus murphyi,鉛色水蛇,"水蛇,水泡蛇",Reptilia
+Ichthyaetus ichthyaetus,漁鷗,,Aves
+Boa constrictor,巨蚺,,Reptilia
+Bombycilla garrulus centralasiae,黃連雀,太平鳥,Aves
+Botaurus stellaris stellaris,大麻鷺,,Aves
+Bubulcus ibis coromandus,黃頭鷺,牛背鷺,Aves
+Buergeria choui,周氏樹蛙,日本樹蛙,Amphibia
+Buergeria robusta,褐樹蛙,壯溪樹蛙,Amphibia
+Butastur indicus,灰面鵟鷹,灰面鷲,Aves
+Butorides striata carcinophila,綠簑鷺,"綠簑鷺(台灣留鳥亞種),綠鷺,綠簑鷺台灣留鳥亞種",Aves
+Caiman crocodilus,眼鏡凱門鱷,,Reptilia
+Calandrella dukhunensis,賽氏短趾百靈,大短趾百靈,Aves
+Calcarius lapponicus coloratus,鐵爪鵐,,Aves
+Calidris alpina sakhalina,黑腹濱鷸,"黑腹濱鷸(北部亞種),濱鷸,黑腹濱鷸北部亞種",Aves
+Calidris canutus rogersi,紅腹濱鷸,"紅腹濱鷸(東部亞種),紅腹濱鷸(普通亞種),紅腹濱鷸東部亞種",Aves
+Calidris melanotos,美洲尖尾濱鷸,"美洲尖尾鷸,斑胸濱鷸",Aves
+Calidris pugnax,流蘇鷸,,Aves
+Calidris pygmaea,琵嘴鷸,"勺嘴鷸,匙嘴鷸",Aves
+Calidris subruficollis,黃胸鷸,,Aves
+Calonectris leucomelas,大水薙鳥,"白額鸌,白額麗鸌",Aves
+Caretta caretta,赤蠵龜,"紅海龜,蠵龜",Reptilia
+Carpodacus formosanus,臺灣朱雀,"酒紅朱雀,朱雀,台灣朱雀",Aves
+Centropus bengalensis lignator,番鵑,小鴉鵑,Aves
+Charadrius dealbatus,白臉鴴,"東方環頸鴴(華東亞種),東方環頸鴴",Aves
+Chelonia mydas,綠蠵龜,"綠海龜,海龜,石龜,黑龜,菜龜",Reptilia
+Kurixalus eiffingeri,艾氏樹蛙,,Amphibia
+Chlidonias leucopterus,白翅黑燕鷗,白翅黑浮鷗,Aves
+Chroicocephalus novaehollandiae forsteri,澳洲紅嘴鷗,,Aves
+Chroicocephalus ridibundus,紅嘴鷗,,Aves
+Ciconia nigra,黑鸛,,Aves
+Circus spilonotus,東方澤鵟,"東方澤鷂,澤鵟",Aves
+Cisticola exilis volitans,黃頭扇尾鶯,白頭錦鴝,Aves
+Clamator coromandus,冠郭公,"栗翅鳳鵑,紅翅鳳頭鵑",Aves
+Coccothraustes coccothraustes japonicus,臘嘴雀,錫嘴雀,Aves
+Cuculus optatus,北方中杜鵑,"中杜鵑,筒鳥",Aves
+Cuculus poliocephalus,小杜鵑,,Aves
+Cuculus saturatus,喜馬拉雅中杜鵑,"中杜鵑,筒鳥",Aves
+Curruca curruca,白喉林鶯,,Aves
+Curruca nana,漠地林鶯,,Aves
+Cyanoderma ruficeps praecognitum,山紅頭,紅頭穗鶥,Aves
+Ptyas major,青蛇,,Reptilia
+Cygnus cygnus,黃嘴天鵝,大天鵝,Aves
+Cyornis whitei,山藍仙鶲,,Aves
+Dendrocopos leucotos insularis,大赤啄木,,Aves
+Nidirana adenopleura,腹斑蛙,彈琴蛙,Amphibia
+Nidirana okinavana,豎琴蛙,,Amphibia
+Nipponia nippon,朱鷺,朱鹮,Aves
+Numenius arquata orientalis,大杓鷸,白腰杓鷸,Aves
+Numenius madagascariensis,黦鷸,紅腰杓鷸,Aves
+Numenius phaeopus variegatus,中杓鷸,中杓鷸華東亞種,Aves
+Limnonectes fujianensis,福建大頭蛙,古氏赤蛙,Amphibia
+Nycticorax caledonicus manillensis,棕夜鷺,,Aves
+Odorrana swinhoana,斯文豪氏赤蛙,"尖鼻赤蛙,棕背蛙",Amphibia
+Oenanthe isabellina,沙䳭,沙即鳥,Aves
+Oligodon formosanus,赤背松柏根,"花秤桿蛇,臺灣小頭蛇,台灣小頭蛇",Reptilia
+Onychoprion fuscatus nubilosus,烏領燕鷗,大鳳頭燕鷗,Aves
+Orcinus orca,虎鯨,,Mammalia
+Orthriophis taeniurus friesi,臺灣黑眉錦蛇,台灣黑眉錦蛇,Reptilia
+Parus minor commixtus,白頰山雀,日本山雀,Aves
+Parus monticolus insperatus,青背山雀,綠背山雀,Aves
+Passer montanus saturatus,麻雀,"樹麻雀,厝尾鳥",Aves
+Pelodiscus sinensis,中華鱉,"圓魚,甲魚",Reptilia
+Pelophylax fukienensis,金線蛙,"福建金線蛙,福建側褶蛙",Amphibia
+Pernis ptilorhynchus orientalis,東方蜂鷹,"蜂鷹,雕頭鷹",Aves
+Phaethon rubricauda melanorhynchos,紅尾熱帶鳥,紅尾鸏,Aves
+Phalacrocorax capillatus,丹氏鸕鷀,暗綠背鸕鷀,Aves
+Phalacrocorax carbo sinensis,鸕鷀,"普通鸕鷀,大鸕鷀",Aves
+Phalaropus fulicarius,灰瓣足鷸,灰瓣蹼鷸,Aves
+Phalaropus lobatus,紅領瓣足鷸,"紅領瓣蹼鷸,紅頸瓣蹼鷸",Aves
+Phoebastria nigripes,黑腳信天翁,,Aves
+Phylloscopus borealoides,庫頁島柳鶯,,Aves
+Phylloscopus ijimae,飯島柳鶯,艾吉柳鶯,Aves
+Phylloscopus inornatus,黃眉柳鶯,,Aves
+Phylloscopus plumbeitarsus,雙斑綠柳鶯,,Aves
+Phylloscopus soror,淡尾鶲鶯,,Aves
+Phylloscopus valentini,比氏鶲鶯,,Aves
+Physeter macrocephalus,抹香鯨,,Mammalia
+Plectrophenax nivalis vlasowae,雪鵐,,Aves
+Plegadis falcinellus,彩䴉,彩鹮,Aves
+Plestiodon chinensis,中國石龍子,"中國石龍子指名亞種,中國石龍子臺灣亞種,白斑石龍子,中國石龍子台灣亞種",Reptilia
+Plestiodon leucostictus,白斑石龍子,中國石龍子白斑亞種,Reptilia
+Pluvialis squatarola,灰斑鴴,,Aves
+Podiceps cristatus cristatus,冠鸊鷉,鳳頭鸊鷉,Aves
+Pogona vitticeps,中部鬆獅蜥,,Reptilia
+Poliolimnas cinereus,白眉秧雞,白眉田雞,Aves
+Praescutata viperina,海蝰蛇,"毒海蛇,黑尾海蛇",Reptilia
+Prinia flaviventris sonitans,灰頭鷦鶯,黃腹鷦鶯,Aves
+Prionailurus bengalensis,石虎,"華南豹貓,豹貓,山貓,金錢貓",Mammalia
+Psammodynastes pulverulentus papenfussi,茶斑蛇,"褐山蛇,茶斑大頭蛇,紫沙蛇",Reptilia
+Pseudagkistrodon rudis,擬龜殼花,"偽蝮蛇,頸稜蛇",Reptilia
+Pterodroma hypoleuca,白腹穴鳥,白額圓尾鸌,Aves
+Pterorhinus chinensis,黑喉噪眉,黑喉噪鶥,Aves
+Pterorhinus perspicillatus,黑臉噪眉,黑臉噪鶥,Aves
+Pterorhinus ruficeps,臺灣白喉噪眉,"台灣白喉噪眉,白喉噪眉,白喉笑鶇,繡眼雀鶥,白眶雀鶥",Aves
+Ptyas mucosa,南蛇,"水南蛇,華錦蛇,華鼠蛇",Reptilia
+Rallus aquaticus,西方秧雞,,Aves
+Rallus indicus,東亞秧雞,"普通秧雞,秧雞",Aves
+Rana sauteri,梭德氏赤蛙,,Amphibia
+Rhabdophis tigrinus formosanus,虎斑頸槽蛇臺灣亞種,"臺灣赤煉蛇,紅脖游蛇,虎斑游蛇,台灣赤煉蛇,虎斑頸槽蛇台灣亞種",Reptilia
+Polypedates braueri,布氏樹蛙,"白頷樹蛙,斑腿樹蛙",Amphibia
+Rhinoclemmys pulcherrima,木紋龜,,Reptilia
+Rhinolophus formosae,臺灣大蹄鼻蝠,"臺灣菊頭蝠,台灣菊頭蝠,台灣大蹄鼻蝠",Mammalia
+Riparia riparia ijimae,灰沙燕,崖沙燕,Aves
+Rostratula benghalensis,彩鷸,,Aves
+Saxicola stejnegeri,黑喉鴝,黑喉石䳭,Aves
+Scolopax rusticola,山鷸,丘鷸,Aves
+Sinomicrurus sauteri,梭德氏帶紋赤蛇,"梭德氏華珊瑚蛇,臺灣麗紋蛇,帶紋赤蛇,台灣麗紋蛇,羽鳥氏帶紋赤蛇,羽鳥氏華珊瑚蛇",Reptilia
+Sinomicrurus swinhoei,環紋赤蛇,麗紋蛇,Reptilia
+Trimerodytes annularis,赤腹遊蛇,"赤腹游蛇,半紋蛇,紅豬母,水赤鏈游蛇,赤鏈華游蛇",Reptilia
+Sitta europaea sinensis,茶腹鳾,普通鳾,Aves
+Sittiparus castaneoventris,赤腹山雀,,Aves
+Spatula clypeata,琵嘴鴨,,Aves
+Spatula querquedula,白眉鴨,,Aves
+Sphenomorphus indicus,印度蜓蜥,"銅蜓蜥,蝘蜓",Reptilia
+Spilornis cheela hoya,大冠鷲,蛇鵰,Aves
+Spinus spinus,黃雀,,Aves
+Spizixos semitorques cinereicapillus,白環鸚嘴鵯,"白環鸚嘴鵯(台灣亞種),領雀嘴鵯,綠鸚嘴鵯,白環鸚嘴鵯台灣亞種",Aves
+Staphida torqueola,栗耳鳳眉,栗耳鳳鶥,Aves
+Stercorarius parasiticus,短尾賊鷗,賊鷗,Aves
+Stercorarius pomarinus,中賊鷗,,Aves
+Strix leptogrammica caligata,褐林鴞,,Aves
+Strix nivicolum yamadae,東方灰林鴞,,Aves
+Sula leucogaster plotus,白腹鰹鳥,褐鰹鳥,Aves
+Sula sula rubripes,紅腳鰹鳥,,Aves
+Sylvirana guentheri,貢德氏赤蛙,"沼蛙,石蛙",Amphibia
+Synoicus chinensis,小鵪鶉,"藍胸鶉,藍胸鵪鶉",Aves
+Synthliboramphus wumizusume,冠海雀,冠扁嘴海雀,Aves
+Tadorna tadorna,花鳧,翹鼻麻鴨,Aves
+Trachemys scripta elegans,紅耳龜,"紅耳泥龜,巴西龜,巴西彩龜,翠龜,麻將龜,秀麗錦龜,七彩龜,彩龜",Reptilia
+Pitta moluccensis,藍翅八色鳥,藍翅八色鶇,Aves
+Pitta nympha,八色鳥,"仙八色鶇,八色鶇",Aves
+Plagiopholis styani,福建頸斑蛇,頸斑蛇,Reptilia
+Platalea minor,黑面琵鷺,黑臉琵鷺,Aves
+Plecotus taivanus,臺灣長耳蝠,台灣長耳蝠,Mammalia
+Plestiodon elegans,麗紋石龍子,五線石龍子,Reptilia
+Ploceus cucullatus,黑頭織雀,黑頭棲群織布鳥,Aves
+Ploceus subaureus,非洲金織雀,非洲織雀,Aves
+Pluvialis fulva,太平洋金斑鴴,金斑鴴,Aves
+Pnoepyga formosana,臺灣鷦眉,"鱗胸鷦鷯,鱗胸鷦鶥,小鷦鶥,台灣鷦眉",Aves
+Polypedates megacephalus,斑腿樹蛙,,Amphibia
+Pomatorhinus musicus,小彎嘴,"小彎嘴鶥,棕頸鉤嘴鶥,小彎嘴畫眉",Aves
+Porzana porzana,斑胸秧雞,斑胸田雞,Aves
+Protobothrops mucrosquamatus,龜殼花,"烙鐵頭,原矛頭蝮",Reptilia
+Prunella montanella,棕眉山岩鷚,,Aves
+Pseudorca crassidens,偽虎鯨,,Mammalia
+Pseudoxenodon stejnegeri,史丹吉氏斜鱗蛇,,Reptilia
+Psilopogon nuchalis,五色鳥,"臺灣擬啄木,台灣擬啄木",Aves
+Psilopogon pyrolophus,火簇擬啄木鳥,,Aves
+Psittacula krameri,紅領綠鸚鵡,"玫瑰環鸚鵡,環頸鸚鵡,月輪",Aves
+Psittacus erithacus,非洲灰鸚鵡,,Aves
+Pterodroma neglecta,克島圓尾穴鳥,,Aves
+Ptyas korros,細紋南蛇,"過樹龍,黃梢蛇,灰鼠蛇",Reptilia
+Pycnonotus goiavier,白眉黃臀鵯,,Aves
+Pycnonotus jocosus,紅耳鵯,,Aves
+Pycnonotus taivanus,烏頭翁,"台灣鵯,臺灣鵯",Aves
+Python bivittatus,緬甸蟒,,Reptilia
+Python regius,球蟒,,Reptilia
+Python reticulatus,網紋蟒,,Reptilia
+Rallina fasciata,紅腳秧雞,紅腳斑秧雞,Aves
+Rana longicrus,長腳赤蛙,,Amphibia
+Rattus exulans,緬甸小鼠,波里尼西亞鼠,Mammalia
+Rattus losea,小黃腹鼠,,Mammalia
+Rattus norvegicus,溝鼠,,Mammalia
+Rattus rattus,玄鼠,,Mammalia
+Rattus tanezumi,家鼠,亞洲家鼠,Mammalia
+Recurvirostra avosetta,反嘴鴴,反嘴長腳鷸,Aves
+Regulus goodfellowi,火冠戴菊鳥,"臺灣戴菊,火冠戴菊,台灣戴菊",Aves
+Remiz consobrinus,攀雀,中華攀雀,Aves
+Rhabdophis swinhonis,斯文豪氏頸槽蛇,"斯文豪氏游蛇,臺灣游蛇,臺灣頸槽蛇,斯文豪氏遊蛇,台灣游蛇,台灣頸槽蛇",Reptilia
+Rhinolophus monoceros,臺灣小蹄鼻蝠,"單角菊頭蝠,台灣小蹄鼻蝠",Mammalia
+Rissa tridactyla,三趾鷗,,Aves
+Rousettus leschenaultii,棕果蝠,,Mammalia
+Saundersilarus saundersi,黑嘴鷗,,Aves
+Saxicola caprata,白斑黑石䳭,,Aves
+Scincella formosensis,臺灣滑蜥,台灣滑蜥,Reptilia
+Scotophilus kuhlii,高頭蝠,小黃蝠,Mammalia
+Serinus canaria,金絲雀,,Aves
+Sibirionetta formosa,巴鴨,"花臉鴨,黃尖鴨,黑眶鴨",Aves
+Sibynophis chinensis,黑頭蛇,黑頭劍蛇,Reptilia
+Sousa chinensis,中華白海豚,,Mammalia
+Sphenomorphus incognitus,股鱗蜓蜥,"華南蝘蜓,鮑氏蜓蜥",Reptilia
+Sphenomorphus taiwanensis,臺灣蜓蜥,台灣蜓蜥,Reptilia
+Spodiopsar sericeus,絲光椋鳥,,Aves
+Stenella attenuata,熱帶斑海豚,,Mammalia
+Stenella coeruleoalba,條紋海豚,,Mammalia
+Stenella longirostris,長吻飛旋海豚,,Mammalia
+Steno bredanensis,糙齒海豚,皺齒海豚,Mammalia
+Stercorarius maccormicki,灰賊鷗,"麥氏賊鷗,南極賊鷗,大賊鷗",Aves
+Streptopelia decaocto,灰斑鳩,,Aves
+Struthio camelus,鴕鳥,,Aves
+Sturnia sinensis,灰背椋鳥,噪林鳥,Aves
+Bufo bankorensis,盤古蟾蜍,"臺灣蟾蜍,台灣蟾蜍,癩蝦蟆",Amphibia
+Hyla chinensis,中國樹蟾,"中國雨蛙,雨怪",Amphibia
+Microhyla butleri,巴氏小雨蛙,粗皮姬蛙,Amphibia
+Microhyla heymonsi,黑蒙西氏小雨蛙,小弧斑姬蛙,Amphibia
+Kurixalus berylliniris,碧眼樹蛙,,Amphibia
+Kurixalus wangi,王氏樹蛙,,Amphibia
+Kaloula pulchra,亞洲錦蛙,花狹口蛙,Amphibia
+Submyotodon latirostris,寬吻鼠耳蝠,,Mammalia
+Suncus murinus,家鼩,"臭鼩,錢鼠",Mammalia
+Syrmaticus mikado,黑長尾雉,帝雉,Aves
+Tadarida insignis,東亞游離尾蝠,"游離尾蝠,皺鼻蝠",Mammalia
+Tadorna ferruginea,瀆鳧,黃麻鴨,Aves
+Takydromus formosanus,臺灣草蜥,,Reptilia
+Takydromus hsuehshanensis,雪山草蜥,,Reptilia
+Takydromus kuehnei,古氏草蜥,"臺灣地蜥,台灣地蜥",Reptilia
+Takydromus luyeanus,鹿野草蜥,"蛇舅母,舅母蛇(台)",Reptilia
+Takydromus sauteri,梭德氏草蜥,"梭德氏舅母蛇,南臺草蜥,南台草蜥",Reptilia
+Takydromus septentrionalis,北草蜥,蛇舅母,Reptilia
+Takydromus stejnegeri,蓬萊草蜥,史丹吉氏草蜥,Reptilia
+Takydromus viridipunctatus,翠斑草蜥,"蛇舅母,舅母蛇(台),臺灣草蜥,台灣草蜥",Reptilia
+Tarsiger johnstoniae,栗背林鴝,"阿里山鴝,臺灣林鴝,台灣林鴝",Aves
+Terpsiphone incei,阿穆爾綬帶,"亞洲綬帶,亞洲壽帶",Aves
+Thalasseus bernsteini,黑嘴端鳳頭燕鷗,,Aves
+Threskiornis melanocephalus,黑頭白䴉,黑頭白鹮,Aves
+Treron curvirostra,厚嘴綠鳩,,Aves
+Trichoglossus haematodus,彩虹吸蜜鸚鵡,"史望森氏吸蜜鸚鵡,澳彩",Aves
+Trimeresurus gracilis,菊池氏龜殼花,"臺灣烙鐵頭,台灣烙鐵頭",Reptilia
+Trimeresurus stejnegeri,赤尾青竹絲,赤尾鮐,Reptilia
+Tringa erythropus,鶴鷸,,Aves
+Tringa flavipes,小黃腳鷸,,Aves
+Tringa glareola,鷹斑鷸,林鷸,Aves
+Tringa guttifer,諾氏鷸,小青腳鷸,Aves
+Tringa incana,美洲黃足鷸,,Aves
+Tringa nebularia,青足鷸,青腳鷸,Aves
+Tringa ochropus,白腰草鷸,,Aves
+Turdus atrogularis,黑頸鶇,,Aves
+Turdus cardis,烏灰鶇,,Aves
+Turdus eunomus,斑點鶇,,Aves
+Turdus feae,褐頭鶇,,Aves
+Turdus hortulorum,灰背鶇,灰背赤腹鶇,Aves
+Turdus naumanni,紅尾鶇,,Aves
+Turdus obscurus,白眉鶇,灰頭鶇,Aves
+Turdus pallidus,白腹鶇,,Aves
+Turdus ruficollis,赤頸鶇,,Aves
+Urocissa caerulea,臺灣藍鵲,"紅嘴山鵲,長尾山娘,台灣藍鵲",Aves
+Urocissa erythrorhyncha,紅嘴藍鵲,中國藍鵲,Aves
+Vidua macroura,針尾維達鳥,天仁雀,Aves
+Xenochrophis flavipunctatus,草花蛇,,Reptilia
+Xenus cinereus,反嘴鷸,翹嘴鷸,Aves
+Yuhina brunneiceps,冠羽畫眉,冠羽鳳鶥,Aves
+Ptyas dhumnades,過山刀,烏梢蛇,Reptilia
+Zapornia paykullii,斑脇秧雞,斑脇田雞,Aves
+Ziphius cavirostris,柯氏喙鯨,,Mammalia
+Zosterops erythropleurus,紅脇繡眼,紅脇繡眼鳥,Aves
+Accipiter gentilis fujiyamae,蒼鷹,"蒼鷹(日本亞種),蒼鷹日本亞種",Aves
+Accipiter nisus nisosimilis,北雀鷹,雀鷹,Aves
+Accipiter trivirgatus formosae,鳳頭蒼鷹,"鳳頭蒼鷹(臺灣特有亞種),鳳頭蒼鷹臺灣特有亞種,鳳頭蒼鷹臺灣亞種",Aves
+Accipiter virgatus fuscipectus,松雀鷹,"松雀鷹(臺灣特有亞種),臺灣松雀鷹,台灣松雀鷹,松雀鷹臺灣特有亞種",Aves
+Acridotheres javanicus,白尾八哥,"爪哇八哥,林八哥,泰國八哥",Aves
+Actitis hypoleucos,磯鷸,,Aves
+Aegypius monachus,禿鷲,,Aves
+Aix galericulata,鴛鴦,,Aves
+Aix sponsa,林鴛鴦,"美洲鴛鴦,美洲木鴨",Aves
+Alauda arvensis intermedia,歐亞雲雀,雲雀,Aves
+Alauda gulgula coelivox,小雲雀,"小雲雀(澎湖亞種),臺灣伯靈,台灣伯靈,小雲雀澎湖亞種",Aves
+Alauda gulgula wattersi,小雲雀,"小雲雀(本島亞種),臺灣伯靈,台灣伯靈,小雲雀本島亞種",Aves
+Alcippe morrisonia,繡眼畫眉,,Aves
+Amphiesma stolatum,花浪蛇,"草腹鏈蛇,草游蛇,黃帶水蛇,草花蛇",Reptilia
+Anas acuta,尖尾鴨,針尾鴨,Aves
+Anolis sagrei,沙氏變色蜥,,Reptilia
+Anous stolidus pileatus,玄燕鷗,白頂玄燕鷗,Aves
+Anser anser domesticus,家鵝,,Aves
+Anser cygnoides,鴻雁,,Aves
+Anser erythropus,小白額雁,,Aves
+Anser fabalis middendorffii,寒林豆雁,豆雁,Aves
+Anthropoides virgo,簑羽鶴,,Aves
+Antigone vipio,白枕鶴,紅面鶴,Aves
+Arborophila crudigularis,臺灣山鷓鴣,"深山竹雞,台灣山鷓鴣",Aves
+Ardenna tenuirostris,短尾水薙鳥,,Aves
+Athene noctua plumipes,縱紋腹小鴞,,Aves
+Aythya ferina,紅頭潛鴨,磯雁,Aves
+Aythya fuligula,鳳頭潛鴨,,Aves
+Balaenoptera musculus,藍鯨,,Mammalia
+Balaenoptera physalus,長須鯨,,Mammalia
+Bambusicola sonorivox,臺灣竹雞,"竹雞,台灣竹雞",Aves
+Arenaria interpres,翻石鷸,,Aves
+Deinagkistrodon acutus,百步蛇,尖吻腹蛇,Reptilia
+Delphinus capensis,長吻真海豚,,Mammalia
+Delphinus delphis,真海豚,,Mammalia
+Dendrocygna javanica,樹鴨,栗樹鴨,Aves
+Dendronanthus indicus,山鶺鴒,,Aves
+Dermochelys coriacea,革龜,稜皮龜,Reptilia
+Diploderma brevipes,短肢攀蜥,,Reptilia
+Diploderma luei,呂氏攀蜥,,Reptilia
+Diploderma makii,牧氏攀蜥,,Reptilia
+Egretta picata,白頸黑鷺,斑鷺,Aves
+Elaphe guttata,玉米錦蛇,,Reptilia
+Eleutherodactylus planirostris,溫室蟾,"平吻卵齒蟾,古巴平吻蟾,溫室卵齒蟾",Amphibia
+Emberiza bruniceps,褐頭鵐,,Aves
+Emberiza chrysophrys,黃眉鵐,,Aves
+Emberiza lathami,冠鵐,鳳頭鵐,Aves
+Emberiza melanocephala,黑頭鵐,,Aves
+Emberiza pusilla,小鵐,,Aves
+Emberiza rustica,田鵐,,Aves
+Emberiza rutila,鏽鵐,"銹鵐,栗鵐",Aves
+Emberiza stewarti,白頂鵐,,Aves
+Emberiza sulphurata,野鵐,"繡眼鵐,硫磺鵐",Aves
+Emberiza tristrami,白眉鵐,,Aves
+Emberiza variabilis,灰鵐,,Aves
+Emydocephalus ijimae,飯島氏海蛇,飯島氏龜頭海蛇,Reptilia
+Eos bornea,紅色吸蜜鸚鵡,紅伶,Aves
+Eothenomys melanogaster,黑腹絨鼠,天鵝絨鼠,Mammalia
+Eschrichtius robustus,灰鯨,,Mammalia
+Estrilda astrild,橫斑梅花雀,,Aves
+Euodice malabarica,白喉文鳥,印度銀嘴文鳥,Aves
+Eutropis cumingi,庫氏真稜蜥,"庫明氏真稜蜥,庫氏南蜥",Reptilia
+Falco amurensis,紅腳隼,阿穆爾隼,Aves
+Falco naumanni,黃爪隼,,Aves
+Felis catus,貓,,Mammalia
+Feresa attenuata,小虎鯨,,Mammalia
+Ficedula albicilla,紅喉鶲,紅喉姬鶲,Aves
+Ficedula elisae,綠背姬鶲,,Aves
+Ficedula erithacus,鏽胸藍姬鶲,銹胸藍姬鶲,Aves
+Ficedula parva,紅胸鶲,紅胸姬鶲,Aves
+Ficedula strophiata,橙胸姬鶲,,Aves
+Ficedula zanthopygia,白眉鶲,白眉姬鶲,Aves
+Fringilla montifringilla,花雀,,Aves
+Fulmarus glacialis,暴風鸌,,Aves
+Fulvetta formosana,褐頭花翼,"紋喉雀鶥,灰頭花翼,褐頭雀鶥",Aves
+Gallicrex cinerea,董雞,"水雞,鶴秧雞",Aves
+Gallinago hardwickii,大地鷸,大田鷸,Aves
+Gallinago megala,中地鷸,"中田鷸,大沙錐",Aves
+Gallinago solitaria,孤田鷸,孤沙錐,Aves
+Gallinago stenura,針尾鷸,針尾田鷸,Aves
+Garrulax taewanus,臺灣畫眉,"台灣畫眉,畫眉",Aves
+Gavia adamsii,白嘴潛鳥,,Aves
+Gavia pacifica,太平洋潛鳥,,Aves
+Gavia stellata,紅喉潛鳥,,Aves
+Gekko gecko,大守宮,大壁虎,Reptilia
+Gekko guishanicus,龜山壁虎,,Reptilia
+Gekko hokouensis,鉛山壁虎,"多疣壁虎,守宮,荔波壁虎",Reptilia
+Gekko kikuchii,菊池氏壁虎,"菊池氏守宮,蘭嶼守宮,蘭嶼壁虎",Reptilia
+Gekko monarchus,脊斑壁虎,,Reptilia
+Geokichla citrina,橙頭地鶇,,Aves
+Geopelia striata,斑馬鳩,,Aves
+Globicephala macrorhynchus,短肢領航鯨,,Mammalia
+Gonyosoma frenatus,灰腹綠錦蛇,"灰腹綠樹錦蛇,灰腹綠瘦錦蛇",Reptilia
+Gorsachius melanolophus,黑冠麻鷺,黑冠麻鷺指名亞種,Aves
+Gracula religiosa,九官鳥,鷯哥,Aves
+Grampus griseus,瑞氏海豚,,Mammalia
+Grus monacha,白頭鶴,鍋鶴,Aves
+Haliaeetus albicilla,白尾海鵰,,Aves
+Haliaeetus leucogaster,白腹海鵰,,Aves
+Harpiocephalus harpia,毛翼管鼻蝠,"毛翼大管鼻蝠,大管鼻蝠",Mammalia
+Harpiola isodon,金芒管鼻蝠,,Mammalia
+Hebius miyajimae,金絲蛇,"臺北游蛇,臺北腹鏈蛇,台北游蛇,台北腹鏈蛇",Reptilia
+Hebius sauteri,梭德氏遊蛇,梭德氏游蛇,Reptilia
+Hemidactylus brookii,密疣蝎虎,,Reptilia
+Hieraaetus pennatus,靴隼鵰,靴鵰,Aves
+Hierococcyx hyperythrus,北方鷹鵑,,Aves
+Hierococcyx nisicolor,棕腹鷹鵑,,Aves
+Hierococcyx sparverioides,鷹鵑,,Aves
+Hirundapus celebensis,紫針尾雨燕,,Aves
+Homo sapiens,智人,,Mammalia
+Hydrocoloeus minutus,小鷗,,Aves
+Hydrophasianus chirurgus,水雉,"鳳尾水雉,雉尾水雉",Aves
+Hydrophis melanocephalus,黑頭海蛇,,Reptilia
+Hydrophis peronii,角海蛇,"棘刺海蛇,細鱗海蛇,棘眥海蛇",Reptilia
+Hydroprogne caspia,裏海燕鷗,紅嘴巨鷗,Aves
+Hynobius arisanensis,阿里山山椒魚,阿里山小鯢,Amphibia
+Hynobius formosanus,臺灣山椒魚,"台灣山椒魚,臺灣小鯢,台灣小鯢",Amphibia
+Hynobius fucus,觀霧山椒魚,黑山椒魚,Amphibia
+Hynobius glacialis,南湖山椒魚,冰河山椒魚,Amphibia
+Hynobius sonani,楚南氏山椒魚,楚南氏小鯢,Amphibia
+Hypsugo pulveratus,灰伏翼,,Mammalia
+Pterorhinus poecilorhynchus,棕噪眉,"竹鳥,棕噪鶥",Aves
+Ichthyaetus relictus,遺鷗,,Aves
+Iduna caligata,靴籬鶯,,Aves
+Iguana iguana,綠鬣蜥,美洲綠鬣蜥,Reptilia
+Indopacetus pacificus,朗氏喙鯨,,Mammalia
+Ixobrychus cinnamomeus,栗小鷺,栗葦鷺,Aves
+Ixobrychus sinensis,黃小鷺,黃葦鷺,Aves
+Kerilia jerdonii,截吻海蛇,"截吻海蛇暹羅亞種,菱斑海蛇,哲東氏海蛇",Reptilia
+Kerivoula furva,玄彩蝠,"臺灣彩蝠,彩蝠,台灣彩蝠",Mammalia
+Ketupa flavipes,黃魚鴞,,Aves
+Kogia sima,侏儒抹香鯨,,Mammalia
+Lagenodelphis hosei,弗氏海豚,,Mammalia
+Lalage nigra,黑原鵑鵙,,Aves
+Lamprotornis superbus,栗頭麗椋鳥,亮椋鳥,Aves
+Lanius collurio,紅背伯勞,,Aves
+Lanius tigrinus,虎紋伯勞,,Aves
+Larus crassirostris,黑尾鷗,,Aves
+Larus schistisagus,灰背鷗,大黑脊鷗,Aves
+Laticauda semifasciata,闊帶青斑海蛇,半環扁尾海蛇,Reptilia
+Leiothrix argentauris,銀耳相思鳥,"相思鳥,黃嘴玉",Aves
+Leiothrix lutea,紅嘴相思鳥,"相思鳥,紅嘴玉,五彩相思鳥",Aves
+Lepidochelys olivacea,欖蠵龜,麗龜,Reptilia
+Lepidodactylus yami,雅美鱗趾虎,"臺灣鱗趾虎,雅美鱗趾蝎虎,台灣鱗趾虎",Reptilia
+Leucogeranus leucogeranus,白鶴,西伯利亞白鶴,Aves
+Leucophaeus pipixcan,弗氏鷗,,Aves
+Limnodromus scolopaceus,長嘴半蹼鷸,,Aves
+Linaria cannabina,赤胸朱頂雀,,Aves
+Liocichla steerii,黃胸藪眉,"黃痣藪鶥,藪鳥",Aves
+Locustella alishanensis,臺灣叢樹鶯,"臺灣短翅鶯,褐色叢樹鶯,台灣短翅鶯,台灣叢樹鶯",Aves
+Locustella mandelli,赤褐蝗鶯,,Aves
+Lonchura maja,白頭文鳥,,Aves
+Lonchura oryzivora,爪哇雀,,Aves
+Lophura swinhoii,藍腹鷴,藍鷴,Aves
+Lycodon rufozonatus,紅斑蛇,"赤煉蛇,火赤煉",Reptilia
+Lycodon ruhstrati,白梅花蛇,"黑塊白環蛇,黑背白環蛇,白鏈蛇",Reptilia
+Lymnocryptes minimus,小鷸,"姬鷸,小田鷸",Aves
+Macaca cyclopis,臺灣獼猴,台灣獼猴,Mammalia
+Machlolophus holsti,黃山雀,,Aves
+Malaclemys terrapin,鑽紋龜,,Reptilia
+Mareca americana,葡萄胸鴨,,Aves
+Mareca falcata,羅文鴨,羅紋鴨,Aves
+Mareca penelope,赤頸鴨,,Aves
+Mauremys reevesii,金龜,"革龜,臭青龜,烏龜",Reptilia
+Mauremys sinensis,斑龜,"花龜,綠龜",Reptilia
+Megaptera novaeangliae,大翅鯨,,Mammalia
+Melanocorypha mongolica,蒙古百靈,,Aves
+Melopsittacus undulatus,虎皮鸚鵡,,Aves
+Mergus squamatus,唐秋沙,中華秋沙鴨,Aves
+Merops ornatus,彩虹蜂虎,,Aves
+Merops philippinus,栗喉蜂虎,,Aves
+Mesoplodon ginkgodens,銀杏齒中喙鯨,,Mammalia
+Micromys minutus,巢鼠,,Mammalia
+Alexandromys kikuchii,高山田鼠,"臺灣高山田鼠,菊池氏煙鼠,台灣高山田鼠",Mammalia
+Miniopterus fuliginosus,東亞摺翅蝠,摺翅蝠,Mammalia
+Acanthis flammea,普通朱頂雀,,Aves
+Accipiter soloensis,赤腹鷹,,Aves
+Achalinus formosanus,臺灣標蛇,"臺灣脊蛇,台灣脊蛇,台灣標蛇",Reptilia
+Achalinus niger,標蛇,阿里山脊蛇,Reptilia
+Acridotheres fuscus,林八哥,叢林八哥,Aves
+Acridotheres ginginianus,岸八哥,,Aves
+Acrocephalus agricola,稻田葦鶯,,Aves
+Acrocephalus bistrigiceps,雙眉葦鶯,黑眉葦鶯,Aves
+Acrocephalus dumetorum,布氏葦鶯,,Aves
+Acrocephalus orientalis,東方大葦鶯,大葦鶯,Aves
+Acrocephalus sorghophilus,細紋葦鶯,,Aves
+Acrocephalus tangorum,遠東葦鶯,,Aves
+Acrochordus granulatus,瘰鱗蛇,,Reptilia
+Actinodura morrisoniana,紋翼畫眉,"臺灣斑翅鶥,栗頭斑翅鶥,台灣斑翅鶥",Aves
+Agapornis roseicollis,桃臉情侶鸚鵡,,Aves
+Agropsar philippensis,小椋鳥,紫背椋鳥,Aves
+Agropsar sturninus,北椋鳥,,Aves
+Alaudala cheleensis,亞洲短趾百靈,短趾百靈,Aves
+Amandava amandava,紅梅花雀,,Aves
+Anas luzonica,呂宋鴨,"棕頸鴨,菲律賓鴨",Aves
+Anas zonorhyncha,花嘴鴨,斑嘴鴨,Aves
+Anourosorex yamashinai,短尾鼩,"臺灣短尾鼩,台灣短尾鼩,山階氏鼩鼱",Mammalia
+Anous minutus,黑玄燕鷗,,Aves
+Anthus cervinus,赤喉鷚,,Aves
+Anthus godlewskii,布萊氏鷚,,Aves
+Anthus roseatus,粉紅胸鷚,,Aves
+Anthus rufulus,稻田鷚,東方田鷚,Aves
+Antigone canadensis,沙丘鶴,,Aves
+Aplonis panayensis,亞洲輝椋鳥,"輝椋鳥,菲律賓椋鳥",Aves
+Apodemus agrarius,赤背條鼠,,Mammalia
+Apodemus semotus,臺灣森鼠,台灣森鼠,Mammalia
+Aquila heliaca,白肩鵰,,Aves
+Ara ararauna,琉璃金剛鸚鵡,藍黃金剛鸚鵡,Aves
+Aratinga solstitialis,太陽鸚鵡,,Aves
+Ardea intermedia,中白鷺,春鋤,Aves
+Ardenna carneipes,肉足水薙鳥,,Aves
+Ardenna grisea,灰水薙鳥,,Aves
+Ardenna pacifica,長尾水薙鳥,楔尾鸌,Aves
+Ardeola bacchus,池鷺,沼鷺,Aves
+Ardeola grayii,印度池鷺,,Aves
+Argyrophis koshunensis,恆春盲蛇,大盲蛇,Reptilia
+Ateuchosaurus chinensis,中國光蜥,光蜥,Reptilia
+Aythya affinis,小斑背潛鴨,,Aves
+Aythya baeri,青頭潛鴨,,Aves
+Aythya collaris,環頸潛鴨,,Aves
+Aythya nyroca,白眼潛鴨,,Aves
+Aythya valisineria,帆背潛鴨,美洲磯雁,Aves
+Chloris sinica,金翅雀,"金翅雀(中國亞種),金翅雀中國亞種",Aves
+Oenanthe deserti,漠䳭,漠即鳥,Aves
+Oenanthe oenanthe,穗䳭,穗即鳥,Aves
+Prunella collaris,岩鷚,,Aves
+Balaenoptera acutorostrata,小鬚鯨,,Mammalia
+Balaenoptera borealis,鰮鯨,,Mammalia
+Balaenoptera edeni,鯷鯨,,Mammalia
+Balaenoptera omurai,大村鯨,,Mammalia
+Balaenoptera taiwanica,臺灣鯨,台灣鯨,Mammalia
+Bandicota indica,鬼鼠,,Mammalia
+Barbastella darjelingensis,東方寬耳蝠,"印度寬耳蝠,寬耳蝠,臺灣寬耳蝠,台灣寬耳蝠",Mammalia
+Boiga irregularis,棕樹蛇,,Reptilia
+Boiga kraepelini,大頭蛇,紋花林蛇,Reptilia
+Bombycilla japonica,朱連雀,小太平鳥,Aves
+Brachypteryx goodfellowi,小翼鶇,,Aves
+Branta hutchinsii,小加拿大雁,,Aves
+Bubalus bubalis,水牛,,Mammalia
+Bulweria bulwerii,穴鳥,褐燕鸌,Aves
+Bungarus multicinctus,雨傘節,銀環蛇,Reptilia
+Buteo hemilasius,大鵟,,Aves
+Bycanistes bucinator,噪犀鳥,,Aves
+Cacatua alba,白鳳頭鸚鵡,"大巴,大白鳳頭鸚鵡",Aves
+Cacatua galerita,葵花鳳頭鸚鵡,大葵,Aves
+Cacatua goffiniana,戈芬氏鳳頭鸚鵡,小巴,Aves
+Cacatua moluccensis,鮭色鳳頭鸚鵡,,Aves
+Cairina moschata,疣鼻棲鴨,"紅番鴨,麝香鴨,紅面鴨",Aves
+Calamaria pavimentata,鐵線蛇,尖尾兩頭蛇,Reptilia
+Calidris acuminata,尖尾濱鷸,尖尾鷸,Aves
+Calidris ferruginea,彎嘴濱鷸,滸鷸,Aves
+Calidris himantopus,高蹺濱鷸,高蹺鷸,Aves
+Calidris mauri,西濱鷸,,Aves
+Calidris minuta,小濱鷸,,Aves
+Calidris ruficollis,紅胸濱鷸,"紅頸濱鷸,穉鷸",Aves
+Calidris subminuta,長趾濱鷸,雲雀鷸,Aves
+Calidris temminckii,丹氏濱鷸,"丹氏穉鷸,烏腳濱鷸",Aves
+Calidris tenuirostris,大濱鷸,"姥鷸,細嘴濱鷸",Aves
+Capricornis swinhoei,臺灣野山羊,"臺灣長鬃山羊,台灣長鬃山羊,台灣野山羊",Mammalia
+Chamaeleo calyptratus,高冠變色龍,,Reptilia
+Charadrius placidus,劍鴴,長嘴鴴,Aves
+Charadrius veredus,東方紅胸鴴,紅胸鴴,Aves
+Chimarrogale himalayica,水鼩,,Mammalia
+Chloropsis hardwickii,橙腹葉鵯,,Aves
+Chodsigoa sodalis,細尾長尾鼩,,Mammalia
+Chroicocephalus brunnicephalus,棕頭鷗,,Aves
+Chroicocephalus genei,細嘴鷗,,Aves
+Chrysolophus pictus,紅腹錦雞,,Aves
+Ciconia boyciana,東方白鸛,,Aves
+Circus aeruginosus,西方澤鵟,,Aves
+Circus melanoleucos,花澤鵟,鵲鷂,Aves
+Clanga clanga,花鵰,,Aves
+Clangula hyemalis,長尾鴨,,Aves
+Clemmys guttata,星點龜,,Reptilia
+Columba livia,野鴿,岩鴿,Aves
+Columba pulchricollis,灰林鴿,山粉鳥,Aves
+Columba vitiensis,白喉林鴿,,Aves
+Copsychus malabaricus,白腰鵲鴝,長尾四喜,Aves
+Corvus dauuricus,東方寒鴉,達烏里寒鴉,Aves
+Corvus pectoralis,玉頸鴉,白頸鴉,Aves
+Coturnix japonica,鵪鶉,日本鵪鶉,Aves
+Crocidura tanakae,灰麝鼩,"臺灣灰麝鼩,台灣灰麝鼩,田中氏麝鼩",Mammalia
+Cuora flavomarginata,食蛇龜,黃緣閉殼龜,Reptilia
+Cyanopica cyanus,灰喜鵲,,Aves
+Cyanoptila cumatilis,琉璃藍鶲,,Aves
+Cygnus atratus,黑天鵝,,Aves
+Cygnus olor,疣鼻天鵝,瘤鵠,Aves
+Cynopterus sphinx,印度犬果蝠,,Mammalia
+Cyornis brunneatus,白喉林鶲,,Aves
+Cyornis hainanus,海南藍仙鶲,,Aves
+Daboia siamensis,鎖蛇,"鎖鍊蛇,七步蛇,鎖鏈蛇",Reptilia
+Mogera kanoana,鹿野氏鼴鼠,"臺灣高山鼴鼠,台灣高山鼴鼠",Mammalia
+Monticola gularis,白喉磯鶇,,Aves
+Motacilla grandis,日本鶺鴒,,Aves
+Murina bicolor,黃胸管鼻蝠,,Mammalia
+Murina gracilis,姬管鼻蝠,,Mammalia
+Murina puta,臺灣管鼻蝠,"管鼻蝠,台灣管鼻蝠",Mammalia
+Murina recondita,隱姬管鼻蝠,,Mammalia
+Mus musculus,家鼷鼠,,Mammalia
+Muscicapa ferruginea,紅尾鶲,棕尾鶲,Aves
+Muscicapa muttui,褐胸鶲,,Aves
+Muscicapa striata,斑鶲,,Aves
+Myophonus caeruleus,白斑紫嘯鶇,,Aves
+Myophonus insularis,臺灣紫嘯鶇,"紫嘯鶇,台灣紫嘯鶇",Aves
+Myotis frater,長尾鼠耳蝠,,Mammalia
+Myotis laniger,華南水鼠耳蝠,"白腹鼠耳蝠,高山鼠耳蝠",Mammalia
+Myotis pilosus,大足鼠耳蝠,,Mammalia
+Myotis rufoniger,赤黑鼠耳蝠,"渡瀨氏鼠耳蝠,黑支蝙蝠",Mammalia
+Myotis secundus,長趾鼠耳蝠,長趾寬吻鼠耳蝠,Mammalia
+Myotis soror,紅棕鼠耳蝠,,Mammalia
+Myrrophis chinensis,唐水蛇,"泥蛇,中國水蛇",Reptilia
+Neophocaena phocaenoides,江豚,露脊鼠海豚,Mammalia
+Netta rufina,赤嘴潛鴨,,Aves
+Niltava davidi,棕腹大仙鶲,,Aves
+Niviventer coninga,臺灣刺鼠,"刺鼠,台灣刺鼠",Mammalia
+Niviventer culturatus,臺灣高山白腹鼠,"高山白腹鼠,台灣高山白腹鼠",Mammalia
+Numenius minutus,小杓鷸,,Aves
+Nymphicus hollandicus,玄鳳鸚鵡,,Aves
+Oenanthe pleschanka,白頂䳭,白頂即鳥,Aves
+Oligodon chinensis,中國小頭蛇,,Reptilia
+Oligodon ornatus,赤腹松柏根,"黃腹紅寶蛇,飾紋小頭蛇",Reptilia
+Onychoprion aleuticus,白腰燕鷗,,Aves
+Pareas atayal,泰雅鈍頭蛇,,Reptilia
+Pareas formosensis,臺灣鈍頭蛇,"脊高蛇,阿里山鈍頭蛇,台灣鈍頭蛇",Reptilia
+Pareas komaii,駒井氏鈍頭蛇,,Reptilia
+Paroaria coronata,紅冠臘嘴鵐,紅冠雀,Aves
+Passerculus sandwichensis,稀樹草鵐,,Aves
+Pastor roseus,粉紅椋鳥,,Aves
+Pavo cristatus,藍孔雀,印度藍孔雀,Aves
+Anguis platura,長吻海蛇,黑背海蛇,Reptilia
+Pelecanus crispus,卷羽鵜鶘,"灰鵜鶘,天馬丁鵜鶘",Aves
+Peponocephala electra,瓜頭鯨,,Mammalia
+Pericrocotus cantonensis,小灰山椒鳥,,Aves
+Pericrocotus divaricatus,灰山椒鳥,灰山椒,Aves
+Pericrocotus roseus,粉紅山椒鳥,,Aves
+Pericrocotus speciosus,赤紅山椒鳥,"紅十字鳥,朱紅山椒鳥",Aves
+Pericrocotus tegimae,琉球山椒鳥,,Aves
+Periparus venustulus,黃腹山雀,,Aves
+Phoebastria albatrus,短尾信天翁,,Aves
+Phoebastria immutabilis,黑背信天翁,,Aves
+Phoenicurus frontalis,藍額紅尾鴝,,Aves
+Phoenicurus leucocephalus,白頂溪鴝,,Aves
+Phylloscopus claudiae,克氏冠紋柳鶯,冠紋柳鶯,Aves
+Phylloscopus coronatus,冠羽柳鶯,冕柳鶯,Aves
+Phylloscopus examinandus,勘察加柳鶯,,Aves
+Phylloscopus humei,淡眉柳鶯,,Aves
+Phylloscopus proregulus,黃腰柳鶯,,Aves
+Phylloscopus ricketti,黑眉柳鶯,,Aves
+Phylloscopus schwarzi,巨嘴柳鶯,,Aves
+Phylloscopus sibilatrix,林柳鶯,,Aves
+Phylloscopus subaffinis,棕腹柳鶯,,Aves
+Phylloscopus tenellipes,淡腳柳鶯,灰腳柳鶯,Aves
+Phylloscopus trochiloides,暗綠柳鶯,,Aves
+Phylloscopus trochilus,歐亞柳鶯,,Aves
+Phylloscopus xanthodryas,日本柳鶯,"極北柳鶯,極北柳鶯(日本亞種)",Aves
+Phylloscopus yunnanensis,雲南柳鶯,,Aves
+Physignathus cocincinus,綠水龍,"亞洲水龍,長鬣蜥,綠長鬣蜥",Reptilia
+Pica serica,喜鵲,"烏鵲,鵲",Aves
+Pipistrellus abramus,東亞家蝠,,Mammalia
+Pipistrellus montanus,山家蝠,,Mammalia
+Pipistrellus taiwanensis,臺灣家蝠,台灣家蝠,Mammalia
+Glaucidium brodiei pardalotum,鵂鶹,領鵂鶹,Aves
+Thalasseus bergii cristatus,鳳頭燕鷗,大鳳頭燕鷗,Aves
+Upupa epops saturata,戴勝,,Aves
+Zoothera aurea toratugumi,白氏地鶇,"白氏地鶇(日本亞種),虎鶇,虎班地鶇,白氏地鶇日本亞種",Aves
+Jynx torquilla chinensis,地啄木,"蟻鴷,歪脖",Aves
+Otus sunia japonicus,東方角鴞,"東方角鴞(日本亞種),日本角鴞,紅角鴞,東方角鴞日本亞種",Aves
+Helopsaltes ochotensis subcerthiola,北蝗鶯,"北蝗鶯(堪察加亞種),北蝗鶯堪察加亞種",Aves
+Abroscopus albogularis fulvifacies,棕面鶯,"棕面鶲鶯,棕臉鶲鶯",Aves
+Accipiter badius poliopsis,褐耳鷹,,Aves
+Accipiter gentilis schvedowi,蒼鷹,"蒼鷹(東北亞種),蒼鷹東北亞種",Aves
+Accipiter trivirgatus indicus,鳳頭蒼鷹,"鳳頭蒼鷹(大陸亞種),鳳頭蒼鷹大陸亞種",Aves
+Accipiter virgatus affinis,松雀鷹,"松雀鷹(大陸亞種),松雀鷹大陸亞種",Aves
+Acridotheres cristatellus formosanus,八哥（臺灣）,"八哥,台灣八哥,八哥(台灣亞種),冠八哥,土八哥,八哥台灣亞種",Aves
+Acrocephalus concinens concinens,鈍翅葦鶯,,Aves
+Aerodramus brevirostris innominatus,短嘴金絲燕,,Aves
+Aerodramus germani germani,傑曼氏金絲燕,,Aves
+Aethopyga christinae latouchii,叉尾太陽鳥,,Aves
+Aethopyga gouldiae dabryii,藍喉太陽鳥,,Aves
+Alcedo atthis bengalensis,翠鳥,"魚狗,翡翠",Aves
+Amaurornis phoenicurus chinensis,白腹秧雞,白胸苦惡鳥,Aves
+Anas crecca carolinensis,小水鴨,"小水鴨美洲亞種,小水鴨(美洲亞種),綠翅藍鴨,美洲綠翅鴨",Aves
+Anser albifrons frontalis,白額雁,真雁,Aves
+Anser anser rubrirostris,灰雁,,Aves
+Anthus hodgsoni yunnanensis,樹鷚,"樹鷚(東北亞種),樹鷚東北亞種",Aves
+Anthus richardi dauricus,大花鷚(東北亞種),"田鷚,大花鷚,大花鷚東北亞種",Aves
+Anthus richardi ussuriensis,大花鷚,"大花鷚(烏蘇里亞種),田鷚,大花鷚烏蘇里亞種",Aves
+Anthus rubescens japonicus,黃腹鷚,褐色鷚,Aves
+Anthus spinoletta blakistoni,水鷚,"褐色鷚,小水鷚",Aves
+Apus nipalensis kuntzi,小雨燕,家雨燕,Aves
+Apus pacificus kurodae,叉尾雨燕,"叉尾雨燕(留鳥亞種),白腰雨燕,叉尾雨燕留鳥亞種",Aves
+Aquila fasciata fasciata,白腹鵰,白腹隼雕,Aves
+Ardea alba modesta,大白鷺,,Aves
+Ardea cinerea jouyi,蒼鷺,灰鷺,Aves
+Ardea purpurea manilensis,紫鷺,草鷺,Aves
+Ardeola speciosa continentalis,爪哇池鷺,,Aves
+Artamus leucorynchus leucorynchus,白胸燕鵙,白胸木燕,Aves
+Arundinax aedon rufescens,厚嘴葦鶯,厚嘴葦鶯 ,Aves
+Aviceda leuphotes syama,黑冠鵑隼,,Aves
+Balaenoptera edeni brydei,布氏鯨,,Mammalia
+Belomys pearsonii kaleensis,臺灣小鼯鼠,"小鼯鼠,台灣小鼯鼠",Mammalia
+Brachypteryx leucophris carolinae,白喉短翅鶇,,Aves
+Bubo bubo swinhoei,鵰鴞,,Aves
+Buteo lagopus kamtschatkensis,毛足鵟,"毛足鵟(堪察加亞種),毛足鵟堪察加亞種",Aves
+Buteo lagopus menzbieri,毛足鵟,"毛足鵟(西伯利亞亞種),毛腳鵟,毛足鵟西伯利亞亞種",Aves
+Butorides striata actophila,綠簑鷺,"綠簑鷺(福建亞種),綠鷺,綠簑鷺福建亞種",Aves
+Butorides striata amurensis,綠簑鷺,"綠簑鷺(過境亞種),綠鷺,綠簑鷺過境亞種",Aves
+Cacomantis merulinus querulus,八聲杜鵑,,Aves
+Calidris alpina actites,黑腹濱鷸,"黑腹濱鷸(庫頁島亞種),濱鷸,黑腹濱鷸庫頁島亞種",Aves
+Calidris alpina arcticola,黑腹濱鷸,"黑腹濱鷸(美洲亞種),濱鷸,黑腹濱鷸美洲亞種",Aves
+Calidris canutus piersmai,紅腹濱鷸,"紅腹濱鷸(中部亞種),紅腹濱鷸中部亞種",Aves
+Calidris falcinellus sibirica,寬嘴鷸,,Aves
+Calliope calliope camtschatkensis,野鴝(勘察加亞種),"紅喉歌鴝,野鴝,野鴝勘察加亞種",Aves
+Canis lupus familiaris,犬,狗,Mammalia
+Capra aegagrus hircus,家羊,,Mammalia
+Caprimulgus affinis amoyensis,南亞夜鷹,"南亞夜鷹(大陸亞種),南亞夜鷹大陸亞種",Aves
+Caprimulgus affinis stictomus,南亞夜鷹,"南亞夜鷹(台灣亞種),臺灣夜鷹,疏林夜鷹,台灣夜鷹,南亞夜鷹台灣亞種",Aves
+Carpodacus erythrinus grebnitskii,普通朱雀,,Aves
+Cecropis daurica japonica,金腰燕,,Aves
+Cervus nippon taiouanus,臺灣梅花鹿,"梅花鹿,台灣梅花鹿",Mammalia
+Ceryle rudis insignis,斑翡翠,,Aves
+Ceyx rufidorsa motleyi,赤背三趾翠鳥,三趾翠鳥,Aves
+Charadrius alexandrinus nihonensis,東方環頸鴴,"東方環頸鴴(日本亞種),東方環頸鴴日本亞種",Aves
+Charadrius dubius curonicus,小環頸鴴,金眶鴴,Aves
+Charadrius hiaticula tundrae,環頸鴴,北環頸鴴,Aves
+Charadrius mongolus stegmanni,蒙古鴴,"蒙古鴴(堪察加亞種),蒙古鴴(台灣亞種),蒙古鴴堪察加亞種,蒙古鴴台灣亞種",Aves
+Cinnyris jugularis rhizophorae,黃腹花蜜鳥,,Aves
+Cisticola juncidis tinnabulans,棕扇尾鶯,錦鴝,Aves
+Clamator jacobinus pica,斑翅鳳頭鵑,,Aves
+Coelops frithii formosanus,臺灣無尾葉鼻蝠,"無尾葉鼻蝠,台灣無尾葉鼻蝠",Mammalia
+Coracina macei rexpineti,花翅山椒鳥,"花翅山椒,大鵑鵙",Aves
+Corvus corone orientalis,小嘴烏鴉,小嘴鴉,Aves
+Corvus frugilegus pastinator,禿鼻鴉,禿鼻烏鴉,Aves
+Corvus macrorhynchos colonorum,巨嘴鴉,"烏鴉,大嘴烏鴉",Aves
+Corvus splendens insolens,家烏鴉,家鴉,Aves
+Crocidura rapax kurodai,臺灣長尾麝鼩,台灣長尾麝鼩,Mammalia
+Crocidura rapax lutaoensis,綠島長尾麝鼩,,Mammalia
+Crocidura rapax tadae,蘭嶼長尾麝鼩,,Mammalia
+Crocidura shantungensis hosletti,荷氏小麝鼩,小麝鼩,Mammalia
+Culicicapa ceylonensis calochrysea,方尾鶲,,Aves
+Cygnus columbianus bewickii,小天鵝,鵠,Aves
+Delichon dasypus nigrimentale,東方毛腳燕,"東方毛腳燕(台灣亞種),毛腳燕,煙腹毛腳燕,岩燕,東方毛腳燕台灣亞種",Aves
+Delichon urbicum lagopodum,白腹毛腳燕,白腹毛腳燕(東北亞種),Aves
+Dendrocitta formosae sinica,樹鵲,"樹鵲(大陸亞種),灰樹鵲,樹鵲大陸亞種",Aves
+Dicaeum ignipectus formosum,紅胸啄花,"紅胸啄花鳥,臺灣啄花鳥,台灣啄花鳥",Aves
+Dicaeum minullum uchidai,綠啄花,"綠啄花鳥,純色啄花鳥",Aves
+Dicrurus aeneus braunianus,小卷尾,古銅色卷尾,Aves
+Dicrurus hottentottus brevirostris,髮冠卷尾,,Aves
+Dicrurus leucophaeus leucogenis,灰卷尾,,Aves
+Dicrurus macrocercus cathoecus,大卷尾,"大卷尾(福建亞種),烏秋,黑卷尾,大卷尾福建亞種",Aves
+Dicrurus macrocercus harterti,大卷尾,"大卷尾(台灣亞種),烏秋,黑卷尾,大卷尾台灣亞種",Aves
+Diploderma polygonatum xanthostomum,黃口攀蜥,,Reptilia
+Egretta novaehollandiae novaehollandiae,白臉鷺,,Aves
+Elanus caeruleus vociferus,黑翅鳶,,Aves
+Emberiza aureola ornata,金鵐,黃胸鵐,Aves
+Emberiza fucata fucata,赤胸鵐,"赤胸鵐(指名亞種),栗耳鵐,赤胸鵐指名亞種",Aves
+Emberiza fucata kuatunensis,赤胸鵐,"赤胸鵐(掛墩亞種),栗耳鵐,赤胸鵐掛墩亞種",Aves
+Emberiza pallasi polaris,葦鵐,,Aves
+Emberiza schoeniclus pallidior,蘆鵐,"蘆鵐(疆西亞種),蘆鵐疆西亞種",Aves
+Emberiza spodocephala sordida,灰頭黑臉鵐,"黑臉鵐(華南亞種),黑臉鵐,黑臉鵐(東方亞種),黑臉鵐華南亞種,黑臉鵐東方亞種",Aves
+Emberiza yessoensis continentalis,紅頸葦鵐,,Aves
+Enicurus scouleri fortis,小剪尾,小燕尾,Aves
+Eophona personata magnirostris,桑鳲,"桑鳲(日本亞種),黑頭蠟嘴雀,黃嘴雀,桑鳲日本亞種",Aves
+Eptesicus pachyomus horikawai,堀川氏棕蝠,"崛川氏棕蝠,棕蝠",Mammalia
+Erpornis zantholeuca griseiloris,綠畫眉,"綠鳳鶥,白腹鳳鶥",Aves
+Eudynamys scolopaceus chinensis,噪鵑,鬼郭公,Aves
+Eurystomus orientalis cyanocollis,佛法僧,三寶鳥,Aves
+Eutropis multicarinata borealis,多稜真棱蜥,"多稜真稜蜥,多稜真稜蜥北方亞種,多稜南蜥",Reptilia
+Falco columbarius insignis,灰背隼,"灰背隼(普通亞種),灰背隼普通亞種",Aves
+Falco columbarius pacificus,灰背隼,"灰背隼(太平洋亞種),灰背隼太平洋亞種",Aves
+Falco peregrinus calidus,遊隼,"隼,花梨隼,遊隼(花梨隼)",Aves
+Falco peregrinus ernesti,遊隼,"遊隼(菲律賓亞種),遊隼菲律賓亞種",Aves
+Falco peregrinus japonensis,遊隼,"遊隼(日本亞種),遊隼日本亞種",Aves
+Falco peregrinus peregrinator,遊隼,"遊隼(赤胸隼),赤胸隼",Aves
+Falco subbuteo streichi,燕隼,"燕隼(南方亞種),燕隼南方亞種",Aves
+Falco tinnunculus interstinctus,紅隼,"紅隼(普通亞種),紅隼普通亞種",Aves
+Gallus gallus domesticus,紅原雞,,Aves
+Gavia arctica viridigularis,黑喉潛鳥,,Aves
+Gelochelidon nilotica affinis,鷗嘴燕鷗,鷗嘴噪鷗,Aves
+Geokichla sibirica davisoni,白眉地鶇,"白眉地鶇(日本亞種),白眉地鶇日本亞種",Aves
+Geokichla sibirica sibirica,白眉地鶇,"白眉地鶇(大陸亞種),白眉地鶇大陸亞種",Aves
+Halcyon coromanda bangsi,赤翡翠,"赤翡翠(琉球亞種),赤翡翠琉球亞種",Aves
+Halcyon coromanda major,赤翡翠,"赤翡翠(日本亞種),赤翡翠日本亞種",Aves
+Hemixos castanonotus canipennis,栗背短腳鵯,栗鵯,Aves
+Herpestes urva formosanus,食蟹獴,"棕簑貓,膨尾狸",Mammalia
+Hipposideros armiger terasensis,臺灣葉鼻蝠,"葉鼻蝠,台灣葉鼻蝠",Mammalia
+Hirundapus cochinchinensis formosanus,灰喉針尾雨燕,針尾雨燕,Aves
+Hirundo rustica gutturalis,家燕,"家燕(白腹亞種),家燕(普通亞種),家燕白腹亞種,家燕普通亞種",Aves
+Hirundo rustica mandschurica,家燕,"家燕(紅腹亞種),家燕紅腹亞種",Aves
+Hirundo rustica tytleri,家燕,"家燕(蒙古亞種),家燕蒙古亞種",Aves
+Hirundo tahitica javanica,洋燕,"洋燕(蘭嶼亞種),洋斑燕,洋燕蘭嶼亞種",Aves
+Hirundo tahitica namiyei,洋燕,"洋燕(臺灣亞種),洋斑燕,洋燕(台灣亞種),洋燕臺灣亞種",Aves
+Horornis canturians borealis,遠東樹鶯,"遠東樹鶯(東北亞種),短翅樹鶯,遠東樹鶯東北亞種",Aves
+Horornis diphone cantans,日本樹鶯,"日本樹鶯(日本亞種),短翅樹鶯,日本樹鶯日本亞種",Aves
+Horornis diphone viridis,日本樹鶯,"日本樹鶯(庫頁島亞種),短翅樹鶯,日本樹鶯庫頁島亞種",Aves
+Horornis fortipes davidianus,小鶯,"小鶯(華南亞種),強腳樹鶯,小鶯華南亞種",Aves
+Hypothymis azurea styani,黑枕藍鶲,"黑枕藍鶲(大陸亞種),黑枕王鶲,黑枕藍鶲大陸亞種",Aves
+Hypsipetes leucocephalus nigerrimus,紅嘴黑鵯,"紅嘴黑鵯(台灣亞種),黑短腳鵯,紅嘴黑鵯台灣亞種",Aves
+Ixobrychus flavicollis flavicollis,黃頸黑鷺,,Aves
+Lalage melaschistos intermedia,黑翅山椒鳥,,Aves
+Lanius bucephalus bucephalus,紅頭伯勞,,Aves
+Lanius collurioides collurioides,栗背伯勞,,Aves
+Lanius cristatus confusus,紅尾伯勞,"紅尾伯勞(東北亞種),紅尾伯勞東北亞種",Aves
+Lanius cristatus superciliosus,紅尾伯勞,"紅尾伯勞(日本亞種),紅尾伯勞日本亞種",Aves
+Lanius isabellinus isabellinus,荒漠伯勞,,Aves
+Lanius tephronotus tephronotus,灰背伯勞,,Aves
+Larus argentatus mongolicus,銀鷗,蒙古銀鷗,Aves
+Larus argentatus vegae,銀鷗,"織女銀鷗,黑脊鷗",Aves
+Larus canus heinei,歐亞海鷗,"海鷗(西伯利亞亞種),海鷗,灰鷗,海鷗西伯利亞亞種",Aves
+Larus canus kamtschatschensis,歐亞海鷗,"海鷗(堪察加亞種),灰鷗,海鷗,海鷗堪察加亞種",Aves
+Larus fuscus heuglini,小黑背鷗,灰林銀鷗,Aves
+Larvivora cyane bochaiensis,藍歌鴝(東南亞種),"藍歌鴝,藍歌鴝東南亞種",Aves
+Lepus sinensis formosus,臺灣野兔,"山兔,台灣野兔",Mammalia
+Leucophaeus atricilla megalopterus,笑鷗,,Aves
+Lewinia striata jouyi,灰胸秧雞,"灰胸秧雞(華南亞種),灰胸秧雞華南亞種",Aves
+Limosa lapponica baueri,斑尾鷸,"斑尾鷸(東部亞種),斑尾塍鷸,斑尾鷸東部亞種",Aves
+Limosa lapponica menzbieri,斑尾鷸,"斑尾鷸(中部亞種),斑尾塍鷸,斑尾鷸中部亞種",Aves
+Locustella lanceolata hendersonii,矛斑蝗鶯(日本亞種),"茅斑蝗鶯,茅斑蝗鶯(日本亞種),矛斑蝗鶯,矛斑蝗鶯日本亞種",Aves
+Lonchura atricapilla deignani,黑頭文鳥,"黑頭文鳥(中南亞種),栗腹文鳥,黑頭文鳥中南亞種",Aves
+Lonchura atricapilla jagori,黑頭文鳥,"黑頭文鳥(菲律賓亞種),栗腹文鳥,黑頭文鳥菲律賓亞種",Aves
+Loxia curvirostra japonica,紅交嘴雀,,Aves
+Luscinia svecica svecica,藍喉鴝,藍喉歌鴝,Aves
+Lutra lutra chinensis,水獺,歐亞水獺,Mammalia
+Macropygia tenuirostris septentrionalis,長尾鳩,菲律賓鵑鳩,Aves
+Macropygia unchall minor,斑尾鵑鳩,,Aves
+Manis pentadactyla pentadactyla,穿山甲,"中國鯪鯉,悶仔,土龜",Mammalia
+Martes flavigula chrysospila,黃喉貂,"姜仔虎,黃頸鼬",Mammalia
+Merops persicus persicus,藍頰蜂虎,,Aves
+Milvus migrans formosanus,黑鳶,"黑鳶(台灣亞種),老鷹,黑耳鳶,黑鳶台灣亞種",Aves
+Mogera insularis insularis,臺灣鼴鼠,台灣鼴鼠,Mammalia
+Motacilla alba lugens,白鶺鴒,"白鶺鴒(黑背眼紋亞種),過眼線白鶺鴒,黑背眼紋白鶺鴒,白鶺鴒黑背眼紋亞種",Aves
+Motacilla alba ocularis,白鶺鴒,"白鶺鴒(灰背眼紋亞種),眼紋白鶺鴒,過眼線白鶺鴒,灰背眼紋白鶺鴒,白鶺鴒灰背眼紋亞種",Aves
+Motacilla alba personata,白鶺鴒,"白鶺鴒(黑臉亞種),白鶺鴒黑臉亞種",Aves
+Motacilla flava lutea,西方黃鶺鴒,"西方黃鶺鴒(黃頭亞種),黃鶺鴒,黃頭黃鶺鴒,西方黃鶺鴒黃頭亞種",Aves
+Motacilla tschutschensis macronyx,東方黃鶺鴒,"東方黃鶺鴒(藍頭亞種),藍頭黃鶺鴒,黃鶺鴒,東方黃鶺鴒藍頭亞種",Aves
+Motacilla tschutschensis taivana,東方黃鶺鴒,"東方黃鶺鴒(黃眉亞種),黃眉黃鶺鴒,東方黃鶺鴒黃眉亞種",Aves
+Muntiacus reevesi micrurus,山羌,"臺灣山羌,麂,羌仔,台灣山羌",Mammalia
+Mustela nivalis formosana,臺灣小黃鼠狼,"臺灣高山小黃鼠狼,台灣小黃鼠狼,台灣高山小黃鼠狼",Mammalia
+Mustela sibirica taivana,黃鼠狼,"華南鼬鼠,黃鼬,竹竿貍",Mammalia
+Myiomela leucura montium,白尾鴝,白尾藍地鴝,Aves
+Myotis formosus flavus,金黃鼠耳蝠,緋鼠耳蝠,Mammalia
+Neofelis nebulosa brachyura,臺灣雲豹,"雲豹,台灣雲豹",Mammalia
+Niltava sundara denotata,棕腹仙鶲,,Aves
+Nucifraga caryocatactes owstoni,星鴉,,Aves
+Nyctalus plancyi velutinus,絨山蝠,中華山蝠,Mammalia
+Oenanthe deserti oreophila,漠即鳥(青藏亞種),"漠即鳥,漠即鳥青藏亞種",Aves
+Oreocryptophis porphyraceus kawakamii,紅竹蛇,紫灰錦蛇,Reptilia
+Oriolus chinensis diffusus,黃鸝,黑枕黃鸝,Aves
+Oriolus chinensis maculatus,黃鸝(外來亞種),黃鸝外來亞種,Aves
+Oriolus traillii ardens,朱鸝,,Aves
+Otus elegans botelensis,蘭嶼角鴞,優雅角鴞,Aves
+Otus lettia erythrocampe,領角鴞,"領角鴞(華南亞種),領角鴞華南亞種",Aves
+Otus lettia glabripes,領角鴞,"領角鴞(台灣亞種),領角鴞台灣亞種",Aves
+Otus spilocephalus hambroecki,黃嘴角鴞,"臺灣木葉鴞,台灣木葉鴞",Aves
+Otus sunia stictonotus,東方角鴞,"東方角鴞(東北亞種),日本角鴞,紅角鴞,東方角鴞東北亞種",Aves
+Ovophis makazayazaya,瑪家山龜殼花,"阿里山龜殼花,山烙鐵頭",Reptilia
+Paguma larvata taivana,白鼻心,"果子貍,果子狸",Mammalia
+Pericrocotus ethologus ethologus,長尾山椒鳥,長尾山椒,Aves
+Pericrocotus solaris griseogularis,灰喉山椒鳥,"灰喉山椒,紅山椒鳥",Aves
+Petaurista lena,白面鼯鼠,飛鼠,Mammalia
+Petaurista grandis,大赤鼯鼠,飛鼠,Mammalia
+Phaethon aethereus mesonauta,紅嘴熱帶鳥,紅嘴鸏,Aves
+Phaethon lepturus dorotheae,白尾熱帶鳥,白尾鸏,Aves
+Phasianus colchicus formosanus,環頸雉,"環頸雉(臺灣特有亞種),環頸雉臺灣特有亞種,環頸雉臺灣亞種",Aves
+Phasianus colchicus karpowi,環頸雉,"環頸雉(外來引進亞種),高麗雉,環頸雉外來引進亞種",Aves
+Phoenicurus ochruros rufiventris,赭紅尾鴝,,Aves
+Phylloscopus castaniceps sinensis,栗頭鶲鶯,,Aves
+Phylloscopus collybita tristis,嘰喳柳鶯,嘰咋柳鶯,Aves
+Phylloscopus goodsoni fokiensis,哈氏冠紋柳鶯,冠紋柳鶯,Aves
+Picus canus tancolo,綠啄木,,Aves
+Pitta sordida sordida,綠胸八色鳥,,Aves
+Podiceps grisegena holbollii,赤頸鸊鷉,,Aves
+Porphyrio poliocephalus viridis,灰頭紫水雞,紫水雞,Aves
+Prinia inornata extensicauda,褐頭鷦鶯,"褐頭鷦鶯(華南亞種),純色鷦鶯,褐頭鷦鶯華南亞種",Aves
+Prinia inornata flavirostris,褐頭鷦鶯,"褐頭鷦鶯(台灣亞種),純色鷦鶯,褐頭鷦鶯台灣亞種",Aves
+Prunella collaris fennelli,岩鷚,領岩鷚,Aves
+Pteropus dasymallus formosus,臺灣狐蝠,"臺灣大蝙蝠,飛蝠,狐蝠,台灣狐蝠,台灣大蝙蝠",Mammalia
+Ptilinopus leclancheri longialis,小綠鳩,黑頦果鳩,Aves
+Pycnonotus aurigaster chrysorrhoides,白喉紅臀鵯,,Aves
+Pycnonotus sinensis formosae,白頭翁,"白頭翁(台灣亞種),白頭鵯,白頭翁台灣亞種",Aves
+Pyrrhula pyrrhula griseiventris,歐亞鷽,灰腹灰雀,Aves
+Rallina eurizonoides formosana,灰腳秧雞,灰腳斑秧雞,Aves
+Regulus regulus japonensis,戴菊鳥,戴菊,Aves
+Rusa unicolor swinhoii,臺灣水鹿,"水鹿,台灣水鹿",Mammalia
+Saxicola ferreus haringtoni,灰叢鴝,灰林鴝,Aves
+Trimerodytes percarinatus suriki,白腹遊蛇,"白腹游蛇,烏游蛇,華游蛇",Reptilia
+Sittiparus varius varius,雜色山雀,赤腹山雀日本亞種,Aves
+Stercorarius longicaudus pallescens,長尾賊鷗,,Aves
+Sterna dougallii bangsi,紅燕鷗,粉紅燕鷗,Aves
+Sterna hirundo longipennis,燕鷗,"燕鷗(東北亞種),燕鷗東北亞種",Aves
+Sterna hirundo minussensis,燕鷗(蒙古亞種),"燕鷗,燕鷗蒙古亞種",Aves
+Sternula albifrons sinensis,小燕鷗,白額燕鷗,Aves
+Spilopelia chinensis,珠頸斑鳩,斑頸鳩,Aves
+Streptopelia orientalis orii,金背鳩,"金背鳩(台灣亞種),金背鳩台灣亞種",Aves
+Streptopelia tranquebarica humilis,紅鳩,火斑鳩,Aves
+Sturnia malabarica nemoricola,灰頭椋鳥,栗尾椋鳥,Aves
+Sturnus vulgaris poltaratskyi,歐洲椋鳥,"歐洲八哥,紫翅椋鳥,歐椋鳥",Aves
+Sula dactylatra personata,藍臉鰹鳥,青面鰹鳥,Aves
+Sus scrofa taivanus,臺灣野豬,"山豬,台灣野豬",Mammalia
+Suthora verreauxi morrisoniana,黃羽鸚嘴,黃羽鴉雀,Aves
+Synthliboramphus antiquus microrhynchos,扁嘴海雀,"海雀,短嘴海鳩",Aves
+Tachybaptus ruficollis poggei,小鸊鷉,,Aves
+Tarsiger formosanus,臺灣白眉林鴝,白眉林鴝,Aves
+Terpsiphone atrocaudata illex,紫綬帶(琉球亞種),"紫壽帶,綬帶鳥,黑綬帶鳥,紫綬帶琉球亞種",Aves
+Terpsiphone atrocaudata periophthalmica,紫綬帶,"紫綬帶(蘭嶼亞種),紫壽帶,綬帶鳥,紫綬帶蘭嶼亞種",Aves
+Thalasseus bengalensis torresii,小鳳頭燕鷗,,Aves
+Todiramphus chloris collaris,白領翡翠,,Aves
+Trachemys scripta scripta,黃耳龜,,Reptilia
+Treron bicinctus domvilii,橙胸綠鳩,,Aves
+Treron formosae medioximus,紅頭綠鳩,"紅頭綠鳩(八重山亞種),紅頭綠鳩八重山亞種",Aves
+Tringa totanus terrignotae,赤足鷸,"赤足鷸(東北亞種),紅腳鷸,赤足鷸東北亞種",Aves
+Troglodytes troglodytes taivanus,鷦鷯,"臺灣鷦鷯,台灣鷦鷯",Aves
+Turnix sylvaticus davidi,林三趾鶉,小三趾鶉,Aves
+Tyto longimembris pithecops,草鴞,東方草鴞,Aves
+Uria aalge inornata,崖海鴉,"海鴉,海鴿",Aves
+Ursus thibetanus formosanus,臺灣黑熊,"黑熊,台灣黑熊",Mammalia
+Viverricula indica taivana,麝香貓,小靈貓,Mammalia
+Zapornia akool coccineipes,紅腳苦惡鳥,紅腳苦惡鳥普通亞種,Aves
+Zapornia fusca erythrothorax,緋秧雞,紅胸田雞,Aves
+Zapornia pusilla pusilla,小秧雞,小田雞,Aves
+Zosterops meyeni batanis,低地繡眼,"巴丹綠繡眼,低地綠繡眼",Aves
+Phocidae,海豹科,,Mammalia
+Rhipiduridae,扇尾鶲科,,Aves
+Panthera,,,Mammalia
+Urile,,,Aves
+Erythrogenys,大彎嘴屬,,Aves
+Helopsaltes,小蝗鶯屬,,Aves
+Hydrobates,風暴海燕屬,,Aves
+Hypsiscopus,水蛇屬,,Reptilia
+Phoca,,,Mammalia
+Poliolimnas,灰苦惡鳥屬,,Aves
+Pseudagkistrodon,擬蝮蛇屬,,Reptilia
+Pterorhinus,白喉噪眉屬,白喉噪鶥屬,Aves
+Rhinella,蜍屬,,Amphibia
+Rhipidura,扇尾鶲屬,,Aves
+Stachyris,,,Aves
+Staphida,栗耳鳳眉屬,,Aves
+Taenioptynx,領鵂鶹屬,,Aves
+Cettia,,,Aves
+Crithagra,,,Aves
+Curruca,白喉林鶯屬,,Aves
+Alopochen,,,Aves
+Anguis,,,Reptilia
+Ixobrychus flavicollis,黃頸黑鷺,,Aves
+Jynx torquilla,地啄木,,Aves
+Lalage melaschistos,黑翅山椒鳥,,Aves
+Lanius bucephalus,紅頭伯勞,,Aves
+Lanius collurioides,栗背伯勞,,Aves
+Lanius cristatus,紅尾伯勞,"紅尾伯勞(指名亞種),褐頭紅尾伯勞,紅尾伯勞指名亞種",Aves
+Lanius excubitor,西方灰伯勞,灰伯勞,Aves
+Lanius isabellinus,荒漠伯勞,,Aves
+Lanius schach,棕背伯勞,,Aves
+Lanius tephronotus,灰背伯勞,,Aves
+Larus argentatus,銀鷗,,Aves
+Larus canus,歐亞海鷗,海鷗,Aves
+Larus fuscus,小黑背鷗,,Aves
+Larus hyperboreus,北極鷗,白鷗,Aves
+Larvivora akahige,日本歌鴝,,Aves
+Larvivora cyane,藍歌鴝,"藍歌鴝(指名亞種),藍歌鴝指名亞種",Aves
+Larvivora komadori,琉球歌鴝,,Aves
+Lepus sinensis,華南兔,,Mammalia
+Leucophaeus atricilla,笑鷗,,Aves
+Lewinia striata,灰胸秧雞,,Aves
+Limosa lapponica,斑尾鷸,,Aves
+Limosa limosa,黑尾鷸,,Aves
+Locustella lanceolata,矛斑蝗鶯,"矛斑蝗鶯(大陸亞種),茅斑蝗鶯,矛斑蝗鶯大陸亞種",Aves
+Lonchura atricapilla,黑頭文鳥,,Aves
+Lonchura punctulata,斑文鳥,,Aves
+Lonchura striata,白腰文鳥,,Aves
+Loxia curvirostra,紅交嘴雀,,Aves
+Luscinia svecica,藍喉鴝,藍喉歌鴝,Aves
+Lutra lutra,歐亞水獺,水獺,Mammalia
+Macropygia tenuirostris,長尾鳩,,Aves
+Macropygia unchall,斑尾鵑鳩,,Aves
+Manis pentadactyla,穿山甲,,Mammalia
+Martes flavigula,黃喉貂,,Mammalia
+Melogale moschata,鼬貛,,Mammalia
+Mergus merganser,川秋沙,普通秋沙鴨,Aves
+Merops persicus,藍頰蜂虎,,Aves
+Milvus migrans,黑鳶,,Aves
+Mogera insularis,臺灣鼴鼠,,Mammalia
+Monticola solitarius,藍磯鶇,,Aves
+Motacilla alba,白鶺鴒,,Aves
+Motacilla cinerea,灰鶺鴒,,Aves
+Motacilla citreola,黃頭鶺鴒,,Aves
+Motacilla flava,西方黃鶺鴒,,Aves
+Motacilla tschutschensis,東方黃鶺鴒,"東方黃鶺鴒(白眉亞種),黃鶺鴒,東方黃鶺鴒白眉亞種",Aves
+Muntiacus reevesi,臺灣山羌,,Mammalia
+Muscicapa dauurica,寬嘴鶲,"灰鶲,北灰鶲",Aves
+Muscicapa sibirica,烏鶲,鮮卑鶲,Aves
+Mustela nivalis,小黃鼠狼,,Mammalia
+Mustela sibirica,黃鼠狼,,Mammalia
+Myiomela leucura,白尾鴝,,Aves
+Myotis fimbriatus,毛腿鼠耳蝠,,Mammalia
+Myotis formosus,金黃鼠耳蝠,,Mammalia
+Neofelis nebulosa,雲豹,,Mammalia
+Tringa totanus,赤足鷸,,Aves
+Troglodytes troglodytes,鷦鷯,,Aves
+Turdus chrysolaus,赤腹鶇,赤胸鶇,Aves
+Turdus mandarinus,中國黑鶇,"黑鶇,烏鶇",Aves
+Turnix suscitator,棕三趾鶉,,Aves
+Turnix sylvaticus,林三趾鶉,,Aves
+Turnix tanki,黃腳三趾鶉,,Aves
+Tyto longimembris,草鴞,,Aves
+Upupa epops,戴勝,,Aves
+Uria aalge,崖海鴉,,Aves
+Urile pelagicus,海鸕鷀,,Aves
+Ursus thibetanus,臺灣黑熊,,Mammalia
+Viverricula indica,麝香貓,,Mammalia
+Yungipicus canicapillus,小啄木,,Aves
+Zapornia akool,紅腳苦惡鳥,,Aves
+Zapornia fusca,緋秧雞,,Aves
+Zapornia pusilla,小秧雞,,Aves
+Zoothera aurea,白氏地鶇,"白氏地鶇(指名亞種),虎鶇,白氏地鶇指名亞種",Aves
+Zoothera dauma,虎斑地鶇,"虎斑地鶇(台灣留鳥),虎鶇,小虎鶇,虎斑地鶇(福建留鳥),虎斑地鶇台灣留鳥",Aves
+Zosterops meyeni,低地繡眼,,Aves
+Diploderma polygonatum,黃口攀蜥,,Reptilia
+Dremomys pernyi,荷氏松鼠,長吻松鼠,Mammalia
+Egretta garzetta,小白鷺,白鷺,Aves
+Egretta novaehollandiae,白臉鷺,,Aves
+Egretta sacra,岩鷺,"黑鷺,礁鷺,東方岩鷺",Aves
+Elanus caeruleus,黑翅鳶,,Aves
+Emberiza aureola,金鵐,,Aves
+Emberiza cioides,草鵐,,Aves
+Emberiza elegans,黃喉鵐,,Aves
+Emberiza fucata,赤胸鵐,,Aves
+Emberiza hortulana,圃鵐,,Aves
+Emberiza leucocephalos,白頭鵐,,Aves
+Emberiza pallasi,葦鵐,,Aves
+Emberiza schoeniclus,蘆鵐,,Aves
+Emberiza spodocephala,灰頭黑臉鵐,"黑臉鵐,黑臉鵐(指名亞種),灰頭鵐,黑臉鵐指名亞種",Aves
+Emberiza yessoensis,紅頸葦鵐,,Aves
+Enicurus scouleri,小剪尾,,Aves
+Eophona migratoria,小桑鳲,"小黃嘴雀,黑尾蠟嘴雀",Aves
+Eophona personata,桑鳲,,Aves
+Eptesicus pachyomus,堀川氏棕蝠,,Mammalia
+Erpornis zantholeuca,綠畫眉,,Aves
+Estrilda melpoda,橙頰梅花雀,,Aves
+Eudynamys scolopaceus,噪鵑,,Aves
+Eumyias thalassinus,銅藍鶲,,Aves
+Eurystomus orientalis,佛法僧,,Aves
+Eutropis multicarinata,多稜真稜蜥,,Reptilia
+Falco columbarius,灰背隼,,Aves
+Falco peregrinus,遊隼,,Aves
+Falco subbuteo,燕隼,"燕隼(指名亞種),燕隼指名亞種",Aves
+Falco tinnunculus,紅隼,"紅隼(指名亞種),紅隼指名亞種",Aves
+Panthera pardus,,,Mammalia
+Ficedula hyperythra,黃胸青鶲,,Aves
+Fregata andrewsi,聖誕島軍艦鳥,,Aves
+Fregata ariel,白斑軍艦鳥,小軍艦鳥,Aves
+Fregata minor,軍艦鳥,"黑腹軍艦鳥,大軍艦鳥",Aves
+Fulica atra,白冠雞,白骨頂,Aves
+Gallinago gallinago,田鷸,扇尾沙錐,Aves
+Gallinula chloropus,紅冠水雞,"紅骨頂,黑水雞",Aves
+Garrulax canorus,大陸畫眉,畫眉,Aves
+Garrulus glandarius,松鴉,,Aves
+Gavia arctica,黑喉潛鳥,,Aves
+Gelochelidon nilotica,鷗嘴燕鷗,,Aves
+Geokichla sibirica,白眉地鶇,,Aves
+Haematopus ostralegus,蠣鴴,,Aves
+Halcyon coromanda,赤翡翠,,Aves
+Halcyon smyrnensis,蒼翡翠,,Aves
+Haliastur indus,栗鳶,,Aves
+Helopsaltes certhiola,小蝗鶯,,Aves
+Helopsaltes ochotensis,北蝗鶯,"北蝗鶯(指名亞種),北蝗鶯指名亞種",Aves
+Hemixos castanonotus,栗背短腳鵯,,Aves
+Herpestes urva,食蟹獴,,Mammalia
+Hipposideros armiger,臺灣葉鼻蝠,,Mammalia
+Hirundapus caudacutus,白喉針尾雨燕,針尾雨燕,Aves
+Hirundapus cochinchinensis,灰喉針尾雨燕,,Aves
+Hirundo rustica,家燕,,Aves
+Hirundo tahitica,洋燕,,Aves
+Horornis acanthizoides,深山鶯,,Aves
+Horornis fortipes,小鶯,,Aves
+Hydrobates leucorhous,白腰叉尾海燕,白腰叉尾海燕指名亞種,Aves
+Hypothymis azurea,黑枕藍鶲,,Aves
+Hypsipetes leucocephalus,紅嘴黑鵯,"紅嘴黑鵯(白頭亞種),紅嘴黑鵯白頭亞種",Aves
+Ictinaetus malaiensis,林鵰,,Aves
+Bombycilla garrulus,黃連雀,,Aves
+Botaurus stellaris,大麻鷺,,Aves
+Brachypteryx leucophris,白喉短翅鶇,,Aves
+Branta bernicla,黑雁,,Aves
+Bubo bubo,鵰鴞,,Aves
+Bubulcus ibis,黃頭鷺,,Aves
+Bucephala clangula,鵲鴨,金眼鳧,Aves
+Buteo japonicus,東方鵟,"鵟,普通鵟",Aves
+Buteo lagopus,毛足鵟,,Aves
+Butorides striata,綠簑鷺,,Aves
+Cacomantis merulinus,八聲杜鵑,,Aves
+Calcarius lapponicus,鐵爪鵐,,Aves
+Calidris alba,三趾濱鷸,三趾鷸,Aves
+Calidris alpina,黑腹濱鷸,,Aves
+Calidris canutus,紅腹濱鷸,,Aves
+Calidris falcinellus,寬嘴鷸,,Aves
+Calliope calliope,野鴝,"野鴝(指名亞種),紅喉歌鴝,野鴝指名亞種",Aves
+Callosciurus erythraeus,赤腹松鼠,,Mammalia
+Canis lupus,狼,灰狼,Mammalia
+Caprimulgus affinis,南亞夜鷹,,Aves
+Caprimulgus jotaka,普通夜鷹,日本夜鷹,Aves
+Carpodacus erythrinus,普通朱雀,,Aves
+Carpodacus roseus,北朱雀,,Aves
+Cecropis daurica,金腰燕,,Aves
+Cecropis striolata,赤腰燕,斑腰燕,Aves
+Centropus bengalensis,番鵑,,Aves
+Centropus sinensis,褐翅鴉鵑,,Aves
+Cervus nippon,臺灣梅花鹿,,Mammalia
+Ceryle rudis,斑翡翠,,Aves
+Cettia fortipes,,,Aves
+Ceyx erithaca,黑背三趾翠鳥,"三趾翠鳥,三趾翡翠",Aves
+Ceyx rufidorsa,赤背三趾翠鳥,,Aves
+Chalcophaps indica,翠翼鳩,綠背金鳩,Aves
+Charadrius alexandrinus,東方環頸鴴,"東方環頸鴴(指名亞種),東方環頸鴴指名亞種",Aves
+Charadrius dubius,小環頸鴴,,Aves
+Charadrius hiaticula,環頸鴴,,Aves
+Charadrius leschenaultii,鐵嘴鴴,鐵嘴沙鴴,Aves
+Charadrius mongolus,蒙古鴴,"蒙古鴴(指名亞種),蒙古沙鴴,蒙古鴴指名亞種",Aves
+Chlidonias hybrida,黑腹燕鷗,黑腹浮鷗,Aves
+Chlidonias niger,黑浮鷗,,Aves
+Chroicocephalus novaehollandiae,澳洲紅嘴鷗,,Aves
+Cinclus pallasii,河烏,褐河烏,Aves
+Cinnyris jugularis,黃腹花蜜鳥,,Aves
+Circus cyaneus,灰澤鵟,"灰鷂,白尾鷂",Aves
+Cisticola exilis,黃頭扇尾鶯,,Aves
+Cisticola juncidis,棕扇尾鶯,,Aves
+Clamator jacobinus,斑翅鳳頭鵑,,Aves
+Coccothraustes coccothraustes,臘嘴雀,,Aves
+Coelops frithii,臺灣無尾葉鼻蝠,,Mammalia
+Columba janthina,黑林鴿,烏鳩,Aves
+Copsychus saularis,鵲鴝,"鵲鴝(大陸亞種),鵲鴝大陸亞種",Aves
+Coracina macei,花翅山椒鳥,,Aves
+Corvus corone,小嘴烏鴉,,Aves
+Corvus frugilegus,禿鼻鴉,,Aves
+Corvus macrorhynchos,巨嘴鴉,,Aves
+Corvus splendens,家烏鴉,,Aves
+Crithagra mozambica,黃額絲雀,石燕,Aves
+Crocidura rapax,長尾麝鼩,,Mammalia
+Crocidura shantungensis,小麝鼩,荷氏小麝鼩,Mammalia
+Cuculus canorus,大杜鵑,"布穀,杜鵑",Aves
+Cuculus micropterus,四聲杜鵑,,Aves
+Culicicapa ceylonensis,方尾鶲,,Aves
+Cyanoderma ruficeps,山紅頭,,Aves
+Cyanoptila cyanomelana,白腹琉璃,白腹藍鶲,Aves
+Cygnus columbianus,小天鵝,,Aves
+Cyornis glaucicomans,中華藍仙鶲,中華仙鶲,Aves
+Delichon dasypus,東方毛腳燕,"東方毛腳燕(日本亞種),毛腳燕,岩燕,東方毛腳燕日本亞種",Aves
+Delichon urbicum,白腹毛腳燕,,Aves
+Dendrocitta formosae,樹鵲,"樹鵲(台灣亞種),灰樹鵲,樹鵲台灣亞種",Aves
+Dendrocopos leucotos,大赤啄木,,Aves
+Dicaeum ignipectus,紅胸啄花,,Aves
+Dicaeum minullum,綠啄花,,Aves
+Dicrurus aeneus,小卷尾,,Aves
+Dicrurus annectens,鴉嘴卷尾,,Aves
+Dicrurus hottentottus,髮冠卷尾,,Aves
+Dicrurus leucophaeus,灰卷尾,,Aves
+Dicrurus macrocercus,大卷尾,,Aves
+Nettapus coromandelianus,棉鴨,棉鳧,Aves
+Niltava sundara,棕腹仙鶲,,Aves
+Niltava vivida,黃腹琉璃,黃腹仙鶲,Aves
+Ninox japonica,褐鷹鴞,"褐鷹鴞(過境亞種),褐鷹鴞過境亞種,褐鷹鴞(留鳥亞種),褐鷹鴞留鳥亞種",Aves
+Nisaetus nipalensis,熊鷹,赫氏角鷹,Aves
+Nucifraga caryocatactes,星鴉,,Aves
+Numenius arquata,大杓鷸,,Aves
+Numenius phaeopus,中杓鷸,,Aves
+Nyctalus plancyi,絨山蝠,,Mammalia
+Nycticorax caledonicus,棕夜鷺,,Aves
+Nycticorax nycticorax,夜鷺,暗光鳥,Aves
+Onychoprion anaethetus,白眉燕鷗,,Aves
+Onychoprion fuscatus,烏領燕鷗,,Aves
+Oreocryptophis porphyraceus,紅竹蛇,,Reptilia
+Oriolus chinensis,黃鸝,,Aves
+Oriolus traillii,朱鸝,,Aves
+Orthriophis taeniurus,臺灣黑眉錦蛇,,Reptilia
+Otus elegans,蘭嶼角鴞,,Aves
+Otus lettia,領角鴞,,Aves
+Otus spilocephalus,黃嘴角鴞,,Aves
+Otus sunia,東方角鴞,,Aves
+Paguma larvata,白鼻心,,Mammalia
+Pandion haliaetus,魚鷹,鶚,Aves
+Parus minor,白頰山雀,,Aves
+Parus monticolus,青背山雀,,Aves
+Passer cinnamomeus,山麻雀,"紅雀,桂色雀",Aves
+Passer domesticus,家麻雀,,Aves
+Passer montanus,麻雀,,Aves
+Pelecanus onocrotalus,白鵜鶘,,Aves
+Pericrocotus ethologus,長尾山椒鳥,長尾山椒,Aves
+Pericrocotus solaris,灰喉山椒鳥,,Aves
+Periparus ater,煤山雀,,Aves
+Pernis ptilorhynchus,東方蜂鷹,,Aves
+Phaethon aethereus,紅嘴熱帶鳥,,Aves
+Phaethon lepturus,白尾熱帶鳥,,Aves
+Phaethon rubricauda,紅尾熱帶鳥,,Aves
+Phalacrocorax carbo,鸕鷀,,Aves
+Phasianus colchicus,環頸雉,,Aves
+Phoca largha,斑海豹,,Mammalia
+Phoenicurus auroreus,黃尾鴝,北紅尾鴝,Aves
+Phoenicurus fuliginosus,鉛色水鶇,"鉛色水鶇(大陸亞種),鉛色水鴝,鉛色水鶇大陸亞種",Aves
+Phoenicurus ochruros,赭紅尾鴝,,Aves
+Phylloscopus affinis,黃腹柳鶯,,Aves
+Phylloscopus armandii,棕眉柳鶯,,Aves
+Phylloscopus borealis,極北柳鶯,"極北柳鶯(指名亞種),極北柳鶯指名亞種",Aves
+Phylloscopus castaniceps,栗頭鶲鶯,,Aves
+Phylloscopus collybita,嘰喳柳鶯,,Aves
+Phylloscopus fuscatus,褐色柳鶯,褐柳鶯,Aves
+Phylloscopus goodsoni,哈氏冠紋柳鶯,,Aves
+Phylloscopus intermedius,白眶鶲鶯,,Aves
+Picus canus,綠啄木,,Aves
+Pitta sordida,綠胸八色鳥,,Aves
+Platalea leucorodia,白琵鷺,琵鷺,Aves
+Plectrophenax nivalis,雪鵐,,Aves
+Podiceps auritus,角鸊鷉,,Aves
+Podiceps cristatus,冠鸊鷉,,Aves
+Podiceps grisegena,赤頸鸊鷉,,Aves
+Podiceps nigricollis,黑頸鸊鷉,,Aves
+Porphyrio poliocephalus,灰頭紫水雞,紫水雞,Aves
+Prinia crinigera,,,Aves
+Prinia flaviventris,灰頭鷦鶯,,Aves
+Prinia inornata,褐頭鷦鶯,,Aves
+Psammodynastes pulverulentus,茶斑蛇,,Reptilia
+Pseudobulweria rostrata,黑背白腹穴鳥,,Aves
+Pterodroma solandri,索氏圓尾鸌,,Aves
+Pteropus dasymallus,臺灣狐蝠,,Mammalia
+Pterorhinus sannio,白頰噪眉,,Aves
+Ptilinopus leclancheri,小綠鳩,,Aves
+Pycnonotus aurigaster,白喉紅臀鵯,,Aves
+Pycnonotus sinensis,白頭翁,"白頭翁(大陸亞種),白頭鵯,白頭翁大陸亞種",Aves
+Pyrrhula erythaca,,,Aves
+Pyrrhula nipalensis,褐鷽,,Aves
+Pyrrhula pyrrhula,歐亞鷽,,Aves
+Rallina eurizonoides,灰腳秧雞,,Aves
+Rana catesbiana,牛蛙,,Amphibia
+Rana kuhlii,古氏赤蛙,,Amphibia
+Regulus regulus,戴菊鳥,,Aves
+Rhabdophis tigrinus,,,Reptilia
+Rhinella marina,海蟾蜍,蔗蟾,Amphibia
+Rhipidura nigritorquis,菲律賓扇尾鶲,,Aves
+Riparia riparia,灰沙燕,,Aves
+Rusa unicolor,臺灣水鹿,,Mammalia
+Saxicola ferreus,灰叢鴝,,Aves
+Schoeniparus brunneus,頭烏線,"烏線雀鶥,褐頂雀鶥",Aves
+Trimerodytes percarinatus,白腹游蛇,,Reptilia
+Sinosuthora webbiana,粉紅鸚嘴,,Aves
+Sitta europaea,茶腹鳾,,Aves
+Sittiparus varius,雜色山雀,,Aves
+Spilornis cheela,大冠鷲,,Aves
+Spizixos semitorques,白環鸚嘴鵯,"白環鸚嘴鵯(大陸亞種),領雀嘴鵯,綠雀嘴鵯,白環鸚嘴鵯(指名亞種),白環鸚嘴鵯大陸亞種,白環鸚嘴鵯指名亞種",Aves
+Stercorarius longicaudus,長尾賊鷗,,Aves
+Sterna dougallii,紅燕鷗,,Aves
+Sterna hirundo,燕鷗,,Aves
+Sterna sumatrana,蒼燕鷗,黑枕燕鷗,Aves
+Sternula albifrons,小燕鷗,,Aves
+Streptopelia orientalis,金背鳩,"金背鳩(大陸亞種),山鳩,金背斑鳩,麒麟鳩,金背鳩大陸亞種",Aves
+Streptopelia tranquebarica,紅鳩,,Aves
+Strix leptogrammica,褐林鴞,,Aves
+Strix nivicolum,東方灰林鴞,,Aves
+Sturnia malabarica,灰頭椋鳥,,Aves
+Sturnia pagodarum,黑冠椋鳥,,Aves
+Sturnus vulgaris,歐洲椋鳥,,Aves
+Sula dactylatra,藍臉鰹鳥,,Aves
+Sula leucogaster,白腹鰹鳥,,Aves
+Sula sula,紅腳鰹鳥,,Aves
+Surniculus lugubris,方尾烏鵑,,Aves
+Sus scrofa,野豬,,Mammalia
+Suthora verreauxi,黃羽鸚嘴,,Aves
+Synthliboramphus antiquus,扁嘴海雀,,Aves
+Tachybaptus ruficollis,小鸊鷉,,Aves
+Taenioptynx brodiei,鵂鶹,,Aves
+Tamiops maritimus,條紋松鼠,"臺灣帶紋松鼠,台灣帶紋松鼠",Mammalia
+Tarsiger cyanurus,藍尾鴝,藍尾歌鴝,Aves
+Tarsiger indicus,白眉林鴝,,Aves
+Terpsiphone atrocaudata,紫綬帶,"紫綬帶(日本亞種),綬帶鳥,黑綬帶鳥,紫壽帶,紫綬帶日本亞種",Aves
+Thalasseus bengalensis,小鳳頭燕鷗,,Aves
+Thalasseus bergii,鳳頭燕鷗,,Aves
+Thalasseus sandvicensis,白嘴端燕鷗,桑氏燕鷗,Aves
+Threskiornis aethiopicus,埃及聖䴉,,Aves
+Todiramphus chloris,白領翡翠,,Aves
+Trachemys scripta,黃耳龜,,Reptilia
+Treron bicinctus,橙胸綠鳩,,Aves
+Treron formosae,紅頭綠鳩,"紅頭綠鳩(台灣亞種),紅頂綠鳩,紅頭綠鳩台灣亞種",Aves
+Treron sieboldii,綠鳩,紅翅綠鳩,Aves
+Capra aegagrus,野山羊,,Mammalia
+Gallus gallus,原雞,,Aves
+Abroscopus albogularis,棕面鶯,,Aves
+Accipiter badius,褐耳鷹,,Aves
+Accipiter gentilis,蒼鷹,,Aves
+Accipiter gularis,日本松雀鷹,北方松雀鷹,Aves
+Accipiter nisus,北雀鷹,,Aves
+Accipiter trivirgatus,鳳頭蒼鷹,,Aves
+Accipiter virgatus,松雀鷹,,Aves
+Acridotheres cristatellus,八哥,"八哥(大陸亞種),冠八哥,加令,鳳頭八哥,八哥大陸亞種",Aves
+Acridotheres tristis,家八哥,"泰國八哥,眼鏡八哥",Aves
+Acrocephalus concinens,鈍翅葦鶯,,Aves
+Aegithalos concinnus,紅頭山雀,紅頭長尾山雀,Aves
+Aerodramus brevirostris,短嘴金絲燕,,Aves
+Aerodramus germani,傑曼氏金絲燕,,Aves
+Aethopyga christinae,叉尾太陽鳥,,Aves
+Aethopyga gouldiae,藍喉太陽鳥,,Aves
+Agapornis fischeri,費氏愛情鳥,費氏牡丹鸚鵡,Aves
+Alauda arvensis,歐亞雲雀,,Aves
+Alauda gulgula,小雲雀,,Aves
+Alcedo atthis,翠鳥,,Aves
+Alopochen aegyptiaca,埃及雁,,Aves
+Amaurornis phoenicurus,白腹秧雞,,Aves
+Anas crecca,小水鴨,"小水鴨(指名亞種),綠翅鴨,小水鴨指名亞種",Aves
+Anas platyrhynchos,綠頭鴨,,Aves
+Anous stolidus,玄燕鷗,,Aves
+Anser albifrons,白額雁,,Aves
+Anser anser,灰雁,,Aves
+Anser fabalis,寒林豆雁,,Aves
+Anser indicus,斑頭雁,,Aves
+Anser serrirostris,凍原豆雁,豆雁,Aves
+Anthus gustavi,白背鷚,北鷚,Aves
+Anthus hodgsoni,樹鷚,"樹鷚(指名亞種),樹鷚指名亞種",Aves
+Anthus pratensis,草地鷚,,Aves
+Anthus richardi,大花鷚,,Aves
+Anthus rubescens,黃腹鷚,,Aves
+Anthus spinoletta,水鷚,,Aves
+Anthus trivialis,林鷚,,Aves
+Apus nipalensis,小雨燕,,Aves
+Apus pacificus,叉尾雨燕,"叉尾雨燕(過境亞種),白腰雨燕,叉尾雨燕過境亞種",Aves
+Aquila chrysaetos,金鵰,,Aves
+Aquila fasciata,白腹鵰,,Aves
+Ardea alba,大白鷺,,Aves
+Ardea cinerea,蒼鷺,,Aves
+Ardea purpurea,紫鷺,,Aves
+Ardeola speciosa,爪哇池鷺,,Aves
+Artamus leucorynchus,白胸燕鵙,,Aves
+Arundinax aedon,厚嘴葦鶯,厚嘴葦鶯 ,Aves
+Asio flammeus,短耳鴞,短耳虎斑鴞,Aves
+Asio otus,長耳鴞,長耳虎斑鴞,Aves
+Athene noctua,縱紋腹小鴞,,Aves
+Aviceda leuphotes,黑冠鵑隼,,Aves
+Aythya marila,斑背潛鴨,鈴鴨,Aves
+Belomys pearsonii,小鼯鼠,,Mammalia
+Pseudoxenodon stejnegeri stejnegeri,史丹吉氏斜鱗蛇,,Reptilia
+Pyrrhula nipalensis uchidai,褐鷽,褐灰雀,Aves
+Sitta europaea formosana,茶腹鳾,,Aves
+Sousa chinensis taiwanensis,臺灣白海豚,台灣白海豚,Mammalia
+Sterna hirundo tibetana,燕鷗,,Aves
+Sula leucogaster brewsteri,白腹鰹鳥,白腹鰹鳥美西亞種,Aves
+Jynx torquilla torquilla,地啄木,,Aves
+Lalage nigra nigra,黑原鵑鵙,,Aves
+Lanius excubitor pallidirostris,西方灰伯勞,,Aves
+Locustella mandelli melanorhyncha,赤褐蝗鶯,高山短翅鶯,Aves
+Motacilla alba dukhunensis,白鶺鴒,,Aves
+Muscicapa striata mongola,斑鶲,,Aves
+Numenius phaeopus hudsonicus,中杓鷸,中杓鷸北美亞種,Aves
+Pericrocotus speciosus fohkiensis,赤紅山椒鳥,,Aves
+Phasianus colchicus torquatus,環頸雉,,Aves
+Emberiza schoeniclus pyrrhulina,蘆鵐,,Aves
+Ficedula strophiata strophiata,橙胸姬鶲,,Aves
+Fulmarus glacialis rodgersii,暴風鸌,,Aves
+Gallinago solitaria japonica,孤田鷸,,Aves
+Bungarus multicinctus multicinctus,雨傘節,,Reptilia
+Calidris alpina kistchinski,黑腹濱鷸,"黑腹濱鷸(千島亞種),濱鷸,黑腹濱鷸千島亞種",Aves
+Horornis fortipes robustipes,小鶯,"小鶯(台灣亞種),臺灣小鶯,強腳樹鶯,台灣小鶯,小鶯台灣亞種",Aves
+Anthus richardi sinensis,大花鷚,,Aves
+Ardenna pacifica chlororhyncha,長尾水薙鳥,楔尾鸌,Aves
+Garrulax canorus × Garrulax taewanus,大陸畫眉x臺灣畫眉,,Aves
+Pycnonotus sinensis formosae × Pycnonotus taivanus,雜頭翁,白頭翁x烏頭翁,Aves
+Pantherinae,,,Mammalia
+Cettiidae,,,Aves
+Upupiformes,,,Aves
+Passerellidae,雀鵐科,,Aves
+Dendrocygninae,,,Aves
+Anserinae,,,Aves
+Tadorninae,,,Aves
+Anatinae,,,Aves
+Cuculinae,,,Aves
+Caprimulginae,,,Aves
+Chaeturinae,,,Aves
+Apodinae,,,Aves
+Gruinae,,,Aves
+Vanellinae,,,Aves
+Charadriinae,,,Aves
+Numeniinae,,,Aves
+Limosinae,,,Aves
+Arenariinae,,,Aves
+Scolopacinae,,,Aves
+Tringinae,,,Aves
+Glareolinae,,,Aves
+Larinae,,,Aves
+Sterninae,,,Aves
+Threskiornithinae,,,Aves
+Plataleinae,,,Aves
+Elaninae,,,Aves
+Accipitrinae,,,Aves
+Jynginae,,,Aves
+Picinae,,,Aves
+Falconinae,,,Aves
+Arinae,,,Aves
+Psittaculinae,,,Aves
+Agapornithinae,,,Aves
+Hirundininae,,,Aves
+Sittinae,,,Aves
+Ploceinae,,,Aves
+Fringillinae,,,Aves
+Carduelinae,,,Aves
+Thraupinae,,,Aves
+Mus formosanus,月鼠,田鼷鼠,Mammalia
+Hypsiscopus plumbea,鉛色水蛇,,Reptilia
+Macropisthodon rudis rudis,擬龜殼花,,Reptilia
+Zosterops japonicus,日菲繡眼,"綠繡眼(指名亞種),綠繡眼",Aves
+Amaurornis phoenicurus leucomelana,白腹秧雞,,Aves
+Himantopus leucocephalus,黑領高蹺鴴,,Aves
+Oceanites oceanicus,黃蹼洋海燕,,Aves
+Puffinus nativitatis,黑細鸌,,Aves
+Buteo buteo vulpinus,歐亞鵟,,Aves
+Phylloscopus affinis occisinensis,黃腹柳鶯,,Aves
+Turdus mupinensis,寶興歌鶇,花穿草雞,Aves
+Spilopelia,,,Aves
+Oceanites,,,Aves
+Puffinus,,,Aves
+Acridotheres leucocephalus,葡萄胸椋鳥,,Aves
+Corvus torquatus,玉頸鴉,,Aves
+Turdus niveiceps,白頭鶇,"臺灣鶇,台灣鶇",Aves
+Cettia acanthizoides concolor,深山鶯,黃腹樹鶯,Aves
+Garrulax poecilorhynchus,棕噪眉,,Aves
+Paradoxornis webbianus bulomachus,粉紅鸚嘴,棕頭鴉雀,Aves
+Mauremys mutica mutica,柴棺龜,,Reptilia
+Takydromus kuehnei kuehnei,古氏草蜥,,Reptilia
+Achalinus formosanus formosanus,臺灣標蛇,,Reptilia
+Calamaria pavimentata pavimentata,鐵線蛇,,Reptilia
+Lycodon rufozonatus rufozonatus,紅斑蛇,,Reptilia
+Lycodon ruhstrati ruhstrati,白梅花蛇,,Reptilia
+Sibynophis chinensis chinensis,黑頭蛇,,Reptilia
+Trimeresurus stejnegeri stejnegeri,赤尾青竹絲,,Reptilia
+Kerivoulinae,,,Mammalia
+Murininae,管鼻蝠亞科,,Mammalia
+Myotinae,鼠耳蝠亞科,,Mammalia
+Vespertilioninae,蝙蝠亞科,,Mammalia
+Thainycteris torquatus,黃頸蝠,"黃喉家蝠,黃喉黑伏翼",Mammalia
+Sciuromorpha,,,Mammalia
+Sciurinae,,,Mammalia
+Pteromyini,,,Mammalia
+Callosciurinae,,,Mammalia
+Myomorpha,,,Mammalia
+Muroidea,,,Mammalia
+Murinae,,,Mammalia
+Arvicolinae,,,Mammalia
+Alexandromys,,,Mammalia
+Thainycteris,,,Mammalia
+Neophocaena asiaeorientalis,窄脊露脊鼠海豚,"海豬,圓頭仔,江豬",Mammalia
+Aquarana,,,Amphibia
+Gekko melli,梅氏壁虎,,Reptilia
+Lycodon capucinus,白枕白環蛇,,Reptilia
+Zosterops simplex,斯氏繡眼,綠繡眼,Aves
+Cyclophiops major,青蛇,"翠青蛇,清竹絲",Reptilia
+Hynobius fuca,觀霧山椒魚,,Amphibia
+Erythrogenys erythrocnemis,大彎嘴,"大彎嘴畫眉,繡臉鉤嘴鶥,大彎嘴鶥,彎嘴畫眉",Aves
+Spodiopsar cineraceus,灰椋鳥,,Aves
+Branta bernicla nigricans,黑雁,,Aves
+Carpodacus vinaceus vinaceus,酒紅朱雀,,Aves
+Chloris sinica kawarahiba,金翅雀,"金翅雀(日本亞種),金翅雀日本亞種",Aves
+Emberiza personata,黃喉黑臉鵐,"黑臉鵐(日本亞種),黑臉鵐,灰頭黑臉鵐,黑臉鵐日本亞種",Aves
+Hypsipetes amaurotis,棕耳鵯,"棕耳鵯(日本亞種),栗耳短腳鵯,棕耳鵯日本亞種",Aves
+Motacilla alba leucopsis,白鶺鴒,"白鶺鴒(白面黑背亞種),白面白鶺鴒,白面黑背白鶺鴒,白鶺鴒白面黑背亞種",Aves
+Oenanthe deserti atrogularis,漠即鳥(蒙新亞種),"漠即鳥,漠即鳥蒙新亞種",Aves
+Surniculus lugubris barussarum,方尾烏鵑,烏鵑,Aves
+Yungipicus canicapillus kaleensis,小啄木,,Aves
+Rallus aquaticus korejewi,西方秧雞,,Aves
+Rissa tridactyla pollicaris,三趾鷗,,Aves
+Pyrrhula owstoni,灰鷽,灰頭灰雀,Aves
+Rhabdophis formosanus,臺灣赤煉蛇,"虎斑游蛇,紅脖游蛇",Reptilia
+Cinclidium,,,Aves
+Dicaeum concolor,,,Aves
+Riparia chinensis,棕沙燕,褐喉沙燕,Aves
+Prinia striata,斑紋鷦鶯,"斑紋鷦鶯(指名亞種),山鷦鶯,斑紋鷦鶯指名亞種",Aves
+Buteo buteo,歐亞鵟,,Aves
+Horornis canturians,遠東樹鶯,"遠東樹鶯(華中亞種),短翅樹鶯,遠東樹鶯華中亞種",Aves
+Periparus ater ptilosus,煤山雀,,Aves
+Hypsipetes amaurotis harterti,棕耳鵯,"棕耳鵯(蘭嶼亞種),栗耳短腳鵯,棕耳鵯蘭嶼亞種",Aves
+Trochalopteron morrisonianum,臺灣噪眉,"臺灣噪鶥,金翼白眉,玉山噪鶥,台灣噪鶥,台灣噪眉",Aves
+Gracupica nigricollis,黑領椋鳥,"烏領椋鳥,白頭椋鳥",Aves
+Phoenicurus fuliginosus affinis,鉛色水鶇,"鉛色水鶇(台灣亞種),鉛色水鴝,紅尾水鴝,鉛色水鶇台灣亞種",Aves
+Horornis diphone,日本樹鶯,,Aves
+Anser cygnoid,鴻雁,,Aves
+Trimerodytes,,,Reptilia
