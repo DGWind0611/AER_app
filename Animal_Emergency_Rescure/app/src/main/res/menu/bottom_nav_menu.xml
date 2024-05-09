@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/illustrated_book"
+        android:icon="@drawable/illustrated_book"
+        android:title="圖鑑" />
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/information"
+        android:title="小知識" />
+    <item
+        android:id="@+id/secure"
+        android:icon="@drawable/ambulance"
+        android:title="救援" />
+    <item
+        android:id="@+id/recruit"
+        android:icon="@drawable/heart"
+        android:title="招募" />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/account"
+        android:title="我的資料" />
+</menu>

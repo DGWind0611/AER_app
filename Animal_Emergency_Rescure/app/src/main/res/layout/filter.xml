@@ -1,0 +1,197 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cd_setting_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 體型 -->
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF9EC"
+                android:padding="12dp"
+                android:text="搜尋篩選"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#A87640" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/tv_body_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF9EC"
+                android:padding="12dp"
+                android:text="體型"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+            <!-- 小型 -->
+            <Switch
+                android:id="@+id/switch_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="小型"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <!-- 中型 -->
+            <Switch
+                android:id="@+id/switch_middle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="中型"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <!-- 大型 -->
+            <Switch
+                android:id="@+id/switch_big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="大型"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+            <!-- 发现地區 -->
+            <TextView
+                android:id="@+id/tv_postion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF9EC"
+                android:padding="12dp"
+                android:text="發現地區"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+            <!-- 山區森林 -->
+            <Switch
+                android:id="@+id/switch_forest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="山區森林"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+            <!-- 都市綠地 -->
+            <Switch
+                android:id="@+id/switch_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="都市綠地"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <!-- 分隔线 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"
+                android:padding="12dp" />
+
+            <!-- 溪間河流 -->
+            <Switch
+                android:id="@+id/switch_river"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="溪間河流"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+            <!-- 發現縣市 -->
+            <TextView
+                android:id="@+id/tv_select_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF9EC"
+                android:padding="12dp"
+                android:text="發現縣市"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            <!-- 分隔線 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+            <!-- Spinner -->
+            <Spinner
+                android:id="@+id/sp_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <!-- 搜尋篩選 -->
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toEndOf="@+id/cd_setting_filter"
+        app:layout_constraintTop_toTopOf="@+id/cd_setting_filter"
+        app:layout_constraintVertical_bias="0.008"
+        tools:srcCompat="@drawable/remove" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
