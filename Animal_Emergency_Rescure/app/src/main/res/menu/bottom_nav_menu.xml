@@ -3,22 +3,27 @@
 
     <item
         android:id="@+id/illustrated_book"
-        android:icon="@drawable/illustrated_book"
+        android:enabled="true"
+        android:icon="@drawable/baseline_menu_book_24"
         android:title="圖鑑" />
     <item
         android:id="@+id/information"
+        android:enabled="true"
         android:icon="@drawable/information"
         android:title="小知識" />
     <item
         android:id="@+id/secure"
-        android:icon="@drawable/ambulance"
+        android:enabled="true"
+        android:icon="@drawable/baseline_directions_car_24"
         android:title="救援" />
     <item
         android:id="@+id/recruit"
-        android:icon="@drawable/heart"
+        android:enabled="true"
+        android:icon="@drawable/baseline_volunteer_activism_24"
         android:title="招募" />
     <item
         android:id="@+id/account"
+        android:enabled="true"
         android:icon="@drawable/account"
         android:title="我的資料" />
 </menu>
