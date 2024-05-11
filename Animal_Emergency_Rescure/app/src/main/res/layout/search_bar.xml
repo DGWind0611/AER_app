@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iv_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1DFD8"
+    android:contextClickable="false">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/custom_searchview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_front"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_bottom"
+                android:textColor="#614425"
+                android:text="首頁" />
+
+            <View
+                android:id="@+id/indicator_front"
+                android:layout_width="30dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_recently"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_bottom"
+                android:textColor="#9A6C3B"
+                android:text="最近看過" />
+
+            <View
+                android:id="@+id/indicator_recently"
+                android:layout_width="30dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner_background"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_favorite"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:textColor="#9A6C3B"
+                android:background="@drawable/custom_bottom"
+                android:text="最愛" />
+
+            <View
+                android:id="@+id/indicator_favorite"
+                android:layout_width="30dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corner_background"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/rounded_corner_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
