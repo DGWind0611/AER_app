@@ -75,10 +75,9 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-
-
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, illustratedBookFragment).commit();
+        bottomNavigationView.setSelectedItemId(R.id.secure);
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, secureFragment).commit();
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override

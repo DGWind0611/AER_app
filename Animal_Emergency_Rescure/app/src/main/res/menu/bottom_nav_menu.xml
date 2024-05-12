@@ -4,7 +4,7 @@
     <item
         android:id="@+id/illustrated_book"
         android:enabled="true"
-        android:icon="@drawable/baseline_menu_book_24"
+        android:icon="@drawable/illustrated_book"
         android:title="圖鑑" />
     <item
         android:id="@+id/information"
@@ -14,12 +14,12 @@
     <item
         android:id="@+id/secure"
         android:enabled="true"
-        android:icon="@drawable/baseline_directions_car_24"
+        android:icon="@drawable/secure"
         android:title="救援" />
     <item
         android:id="@+id/recruit"
         android:enabled="true"
-        android:icon="@drawable/baseline_volunteer_activism_24"
+        android:icon="@drawable/recruit"
         android:title="招募" />
     <item
         android:id="@+id/account"
