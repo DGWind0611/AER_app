@@ -27,8 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="#EEDFD3"
-        android:backgroundTint="#FCF4E8"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#614425"
         app:itemTextColor="#614425"
+        app:itemTextAppearanceActive="@style/TextAppearance.AppCompat.Small"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_nav_menu" />
 
