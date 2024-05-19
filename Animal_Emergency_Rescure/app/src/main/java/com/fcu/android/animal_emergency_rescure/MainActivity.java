@@ -1,13 +1,10 @@
 package com.fcu.android.animal_emergency_rescure;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
