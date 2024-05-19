@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D1DFD8"
+    android:orientation="vertical"
     app:layoutDescription="@xml/fragment_illustrated_book_scene"
     tools:context=".IllustratedBookFragment">
-
+    <!--
     <include
         android:id="@+id/header_and_bottom"
         layout="@layout/activity_main"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content" />-->
 
-    <TextView
-        android:id="@+id/title_bird"
-        android:layout_width="81dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="148dp"
-        android:gravity="start"
-        android:text="鳥類"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/header_and_bottom" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <GridView
-        android:id="@+id/gv_bird"
-        android:layout_width="0dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        android:numColumns="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_bird" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/title_mam"
-        android:layout_width="79dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="84dp"
-        android:gravity="start"
-        android:text="哺乳類"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/title_bird"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/title_bird"
-        app:layout_constraintTop_toBottomOf="@+id/title_bird" />
+            <TextView
+                android:id="@+id/title_bird"
+                android:layout_width="81dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="144dp"
+                android:gravity="start"
+                android:text="鳥類"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#614425"
+                android:textStyle="bold" />
 
-    <GridView
-        android:id="@+id/gv_mam"
-        android:layout_width="0dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        android:numColumns="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_mam" />
+            <GridView
+                android:id="@+id/gv_bird"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:verticalSpacing="20dp">
 
-    <TextView
-        android:id="@+id/title_rept"
-        android:layout_width="75dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="84dp"
-        android:gravity="start"
-        android:text="爬蟲類"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/title_mam"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/title_mam"
-        app:layout_constraintTop_toBottomOf="@+id/title_mam" />
+            </GridView>
 
-    <GridView
-        android:id="@+id/gv_rept"
-        android:layout_width="0dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        android:numColumns="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_rept" />
+            <TextView
+                android:id="@+id/title_mam"
+                android:layout_width="79dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start"
+                android:text="哺乳類"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#614425"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/title_amphi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:gravity="start"
-        android:text="兩棲類"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/title_rept"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/title_rept"
-        app:layout_constraintTop_toBottomOf="@+id/title_rept" />
+            <GridView
+                android:id="@+id/gv_mam"
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:numColumns="3" />
 
-    <GridView
-        android:id="@+id/gv_amphi"
-        android:layout_width="360dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        android:numColumns="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_amphi" />
+            <TextView
+                android:id="@+id/title_rept"
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start"
+                android:text="爬蟲類"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#614425"
+                android:textStyle="bold" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <GridView
+                android:id="@+id/gv_rept"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:numColumns="3">
+
+            </GridView>
+
+            <TextView
+                android:id="@+id/title_amphi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start"
+                android:text="兩棲類"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#614425"
+                android:textStyle="bold" />
+
+            <GridView
+                android:id="@+id/gv_amphi"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:numColumns="3" />
+
+            <TextView
+                android:id="@+id/tv_blank"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
