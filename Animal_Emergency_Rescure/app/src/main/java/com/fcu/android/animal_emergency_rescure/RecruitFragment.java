@@ -10,17 +10,21 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 public class RecruitFragment extends Fragment {
-
-    private Button btnCash;
-    private Button btnMember;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_recruit, container, false);
         // Find the views
-        btnCash = view.findViewById(R.id.btn_cash);
-        btnMember = view.findViewById(R.id.btn_member);
+        Button btnCash = view.findViewById(R.id.btn_cash);
+        Button btnMember = view.findViewById(R.id.btn_member);
+
+        btnCash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, new CashRecruitFragment()).commit();
+            }
+        });
+
         return view;
     }
 }

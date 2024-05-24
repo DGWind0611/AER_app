@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     InformationFragment informationFragment = new InformationFragment();
     SecureFragment secureFragment = new SecureFragment();
     RecruitFragment recruitFragment = new RecruitFragment();
+    CashRecruitFragment cashRecruitFragment = new CashRecruitFragment();
     AccountFragment accountFragment = new AccountFragment();
 
     @Override
@@ -46,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         search = findViewById(R.id.et_search);
         btnFront = findViewById(R.id.btn_front);
         btnFavorite = findViewById(R.id.btn_favorite);
-        btnRecently = findViewById(R.id.btn_recently);
         btnRecently = findViewById(R.id.btn_recently);
         indicatorFront = findViewById(R.id.indicator_front);
         indicatorFavorite = findViewById(R.id.indicator_favorite);
