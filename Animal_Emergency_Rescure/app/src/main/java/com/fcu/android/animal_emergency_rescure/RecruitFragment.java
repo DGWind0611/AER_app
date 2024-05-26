@@ -17,11 +17,18 @@ public class RecruitFragment extends Fragment {
         // Find the views
         Button btnCash = view.findViewById(R.id.btn_cash);
         Button btnMember = view.findViewById(R.id.btn_member);
-
+        // 跳轉至捐款招募頁面
         btnCash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, new CashRecruitFragment()).commit();
+            }
+        });
+        // 跳轉至志願招募頁面
+        btnMember.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, new MemberRecruitFragment()).commit();
             }
         });
 
