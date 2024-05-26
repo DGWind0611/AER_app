@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#D1DFD8"
     android:orientation="vertical"
-    tools:context=".CashRecruitFragment">
+    tools:context=".MemberRecruitFragment">
 
     <TextView
         android:id="@+id/textView"
@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="76dp"
-        android:text="資金招募"
+        android:text="志願招募"
         android:textColor="#614425"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <GridView
-        android:id="@+id/gv_cash"
+        android:id="@+id/gv_member"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"

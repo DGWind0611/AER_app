@@ -12,24 +12,24 @@ import android.widget.ImageView;
 
 import java.util.List;
 
-public class CashRecruitAdapter extends BaseAdapter {
+public class MemberRecruitAdapter extends BaseAdapter {
 
     private Context context;
-    private List<Cash> lsCash;
+    private List<Member> lsMembers;
 
-    public CashRecruitAdapter(Context context, List<Cash> lsCash) {
+    public MemberRecruitAdapter(Context context, List<Member> lsMembers) {
         this.context = context;
-        this.lsCash = lsCash;
+        this.lsMembers = lsMembers;
     }
 
     @Override
     public int getCount() {
-        return lsCash.size();
+        return lsMembers.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return lsCash.get(i);
+        return lsMembers.get(i);
     }
 
     @Override
@@ -40,23 +40,23 @@ public class CashRecruitAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         if (view == null) {
-            view = LayoutInflater.from(context).inflate(R.layout.cash_recruit_card, viewGroup, false);
+            view = LayoutInflater.from(context).inflate(R.layout.member_recruit_card, viewGroup, false);
         }
 
-        ImageView imCashRecruit = view.findViewById(R.id.iv_cash_recruit);
-        Button btnMore = view.findViewById(R.id.btn_more);
+        ImageView imMemberRecruit = view.findViewById(R.id.iv_member_recruit);
+        Button btnJoin = view.findViewById(R.id.btn_join);
 
-        Cash cash = lsCash.get(i);
-        imCashRecruit.setImageResource(cash.getCashRecruit());
+        Member member = lsMembers.get(i);
+        imMemberRecruit.setImageResource(member.getMemberRecruit());
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(cash.getUrl()));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(member.getUrl()));
                 context.startActivity(intent);
             }
         };
-        btnMore.setOnClickListener(listener);
+        btnJoin.setOnClickListener(listener);
 
         return view;
     }
