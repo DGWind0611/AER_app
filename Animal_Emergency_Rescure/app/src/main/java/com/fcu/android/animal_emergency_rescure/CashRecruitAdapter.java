@@ -28,26 +28,25 @@ public class CashRecruitAdapter extends BaseAdapter {
     }
 
     @Override
-    public Object getItem(int position) {
-        return lsCash.get(position);
+    public Object getItem(int i) {
+        return lsCash.get(i);
     }
 
     @Override
-    public long getItemId(int position) {
-        return position;
+    public long getItemId(int i) {
+        return i;
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.cash_recruit_layout, parent, false);
+    public View getView(int i, View view, ViewGroup viewGroup) {
+        if (view == null) {
+            view = LayoutInflater.from(context).inflate(R.layout.cash_recruit_card, viewGroup, false);
         }
 
-        ImageView imCashRecruit = convertView.findViewById(R.id.iv_cash_recruit);
-        Button btnMore = convertView.findViewById(R.id.btn_more);
+        ImageView imCashRecruit = view.findViewById(R.id.iv_cash_recruit);
+        Button btnMore = view.findViewById(R.id.btn_more);
 
-        Cash cash = lsCash.get(position);
-
+        Cash cash = lsCash.get(i);
         imCashRecruit.setImageResource(cash.getCashRecruit());
 
         View.OnClickListener listener = new View.OnClickListener() {
@@ -59,6 +58,6 @@ public class CashRecruitAdapter extends BaseAdapter {
         };
         btnMore.setOnClickListener(listener);
 
-        return convertView;
+        return view;
     }
 }

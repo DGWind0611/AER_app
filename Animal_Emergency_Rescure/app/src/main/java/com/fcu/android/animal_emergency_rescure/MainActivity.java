@@ -18,7 +18,6 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity {
 
-
     //上方search bar
     private EditText search;
     private Button btnFront;
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     InformationFragment informationFragment = new InformationFragment();
     SecureFragment secureFragment = new SecureFragment();
     RecruitFragment recruitFragment = new RecruitFragment();
-    CashRecruitFragment cashRecruitFragment = new CashRecruitFragment();
     AccountFragment accountFragment = new AccountFragment();
 
     @Override
