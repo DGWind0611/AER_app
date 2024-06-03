@@ -10,10 +10,15 @@ public class Species {
         this.speciesPicId = speciesPicId;
         this.speciesName = speciesName;
     }
-    public int getSpeciesId() { return speciesId; }
+
+    public int getSpeciesId() {
+        return speciesId;
+    }
+
     public int getSpeciesPicId() {
         return speciesPicId;
     }
+
     public String getSpeciesName() {
         return speciesName;
     }
