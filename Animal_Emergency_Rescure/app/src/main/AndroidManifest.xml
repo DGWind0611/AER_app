@@ -12,11 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Animal_Emergency_Rescure"
         tools:targetApi="31">
+        <service
+            android:name=".AccountService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
-            android:name=".illustratedBookDetailPage"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +26,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecureAgencyInfo" />
+        <activity
+            android:name=".SecureInfo2"
+            android:exported="false" />
+        <activity
+            android:name=".SecureAgencyInfo"
+            android:exported="false" />
+        <activity
+            android:name=".illustratedBookDetailPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
