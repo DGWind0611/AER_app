@@ -2,6 +2,7 @@ package com.fcu.android.animal_emergency_rescure;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -38,39 +39,43 @@ public class SignInActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.et_password);
         tvForgetPassword = findViewById(R.id.tv_forget_password);
         tvSignUp = findViewById(R.id.tv_signup);
+        tvSignUp.getPaint().setUnderlineText(true);
         btnLogin = findViewById(R.id.btn_login);
         btnLoginVisitor = findViewById(R.id.btn_login_visitor);
 
         mAuth = FirebaseAuth.getInstance();
 
-        View.OnClickListener listener = new View.OnClickListener() {
+        View.OnClickListener btnListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (v.getId() == R.id.btn_login) {
                     String user = etEmail.getText().toString();
                     String password = etPassword.getText().toString();
-                    signIn(user, password);
-                    // TODO: Setting user permissions
+                    if (user.isEmpty()) {
+                        etEmail.setError("請輸入電子郵件地址");
+                    }
+                    if (password.isEmpty()) {
+                        etPassword.setError("請輸入密碼");
+                    }
+                    if (etEmail.getError() == null && etPassword.getError() == null) {
+                        signIn(user, password);
+                        // TODO: Setting user permissions
+                    }
                 } else if (v.getId() == R.id.btn_login_visitor) {
                     // TODO: Setting visitor permissions
                     Intent intent = new Intent();
                     intent.setClass(SignInActivity.this, MainActivity.class);
                     SignInActivity.this.startActivity(intent);
                 } else if (v.getId() == R.id.tv_signup) {
-                    // TODO: Implement sign up
-//                    Intent intent = new Intent();
-//                    intent.setClass(SignInActivity.this, SignUpActivity.class);
-//                    SignInActivity.this.startActivity(intent);
-                } else if (v.getId() == R.id.tv_forget_password) {
-                    // TODO: Implement forget password
-//                    Intent intent = new Intent();
-//                    intent.setClass(SignInActivity.this, ForgetPasswordActivity.class);
-//                    SignInActivity.this.startActivity(intent);
+                    Intent intent = new Intent();
+                    intent.setClass(SignInActivity.this, SignUpActivity.class);
+                    SignInActivity.this.startActivity(intent);
                 }
             }
         };
-        btnLogin.setOnClickListener(listener);
-        btnLoginVisitor.setOnClickListener(listener);
+        btnLogin.setOnClickListener(btnListener);
+        btnLoginVisitor.setOnClickListener(btnListener);
+        tvSignUp.setOnClickListener(btnListener);
     }
 
     private void signIn(String user, String password) {
@@ -84,6 +89,8 @@ public class SignInActivity extends AppCompatActivity {
                     intent.setClass(SignInActivity.this, MainActivity.class);
                     SignInActivity.this.startActivity(intent);
                 } else {
+                    // 清空密碼欄
+                    etPassword.setText("");
                     // 登入失敗
                     Toast.makeText(SignInActivity.this, "登入失敗", Toast.LENGTH_SHORT).show();
                 }
