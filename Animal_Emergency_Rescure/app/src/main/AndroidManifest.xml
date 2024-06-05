@@ -32,8 +32,8 @@
             </intent-filter>
         </activity>
         <activity
-        android:name=".SecureInfo2"
-        android:exported="false" />
+            android:name=".SecureInfo2"
+            android:exported="false" />
         <activity
             android:name=".SecureAgencyInfo"
             android:exported="false" />
