@@ -37,20 +37,20 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/ibtn_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             app:srcCompat="@drawable/location" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/ibtn_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/link" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/ibtn_callout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
