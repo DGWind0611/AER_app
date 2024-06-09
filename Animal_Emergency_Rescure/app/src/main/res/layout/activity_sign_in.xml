@@ -109,6 +109,7 @@
                 android:layout_alignEnd="@+id/et_password"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="5dp"
+                android:clickable="true"
                 android:text="忘記密碼"
                 android:textColor="#9F9F9F"
                 android:textSize="12sp" />
@@ -159,7 +160,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/btn_login_visitor"
+                android:id="@+id/btn_login_guest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/ll_signup"
