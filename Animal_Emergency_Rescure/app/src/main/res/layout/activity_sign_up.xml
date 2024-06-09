@@ -36,7 +36,8 @@
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="25dp"
         app:layout_constraintEnd_toStartOf="@id/guideline_end"
         app:layout_constraintStart_toEndOf="@id/guideline_start"
@@ -177,10 +178,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/et_password_su2"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
                 android:backgroundTint="#9A6C3B"
                 android:text="確認送出"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 app:cornerRadius="15dp" />
         </RelativeLayout>
