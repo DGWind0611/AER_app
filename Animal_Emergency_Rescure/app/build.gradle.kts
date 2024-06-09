@@ -44,6 +44,7 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     // Add the dependencies for Firebase products you want to use
     implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-database")
     // When using the BoM, don't specify versions in Firebase dependencies
     implementation("com.google.firebase:firebase-analytics")
     implementation("androidx.appcompat:appcompat:1.7.0")
