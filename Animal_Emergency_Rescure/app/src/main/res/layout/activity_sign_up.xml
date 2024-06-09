@@ -74,6 +74,8 @@
                 android:ems="10"
                 android:hint="Name"
                 android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#9F9F9F"
                 android:textSize="20sp" />
 
             <TextView
@@ -102,6 +104,8 @@
                 android:ems="10"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#9F9F9F"
                 android:textSize="20sp" />
 
             <TextView
@@ -142,6 +146,8 @@
                 android:ems="10"
                 android:hint="Password"
                 android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#9F9F9F"
                 android:textSize="20sp" />
 
             <TextView
@@ -170,6 +176,8 @@
                 android:ems="10"
                 android:hint="Press the password again"
                 android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#9F9F9F"
                 android:textSize="20sp" />
 
             <Button
@@ -178,8 +186,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/et_password_su2"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
                 android:backgroundTint="#9A6C3B"
                 android:text="確認送出"
                 android:textColor="#FFFFFF"
