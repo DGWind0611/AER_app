@@ -15,6 +15,7 @@ public class illustratedBookDetailPage extends AppCompatActivity {
 
     private TextView tvSpeciesDetailName;
     private ImageView ivSpeciesFullSizePic;
+    private TextView tvSpeciesDetailDescription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class illustratedBookDetailPage extends AppCompatActivity {
 
         tvSpeciesDetailName = findViewById(R.id.tv_species_detail_name);
         ivSpeciesFullSizePic = findViewById(R.id.iv_species_full_size_pic);
+        tvSpeciesDetailDescription = findViewById(R.id.tv_species_detail_description);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -35,9 +37,11 @@ public class illustratedBookDetailPage extends AppCompatActivity {
         Intent intent = getIntent();
         String speciesName = intent.getStringExtra("speciesName");
         int speciesImageId = intent.getIntExtra("speciesImageId", -1);
+        String speciesDescription = intent.getStringExtra("speciesDespription");
 
         tvSpeciesDetailName.setText(speciesName);
         ivSpeciesFullSizePic.setImageResource(speciesImageId);
+        tvSpeciesDetailDescription.setText(speciesDescription);
 
     }
 }
