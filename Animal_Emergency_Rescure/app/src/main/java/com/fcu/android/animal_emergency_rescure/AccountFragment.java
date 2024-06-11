@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -43,7 +45,17 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (v.getId() == R.id.btn_star) {
-                    // TODO: Implement star
+                    // 創建並載入 illustratedBookFragment
+                    IllustratedBookFragment illustratedBookFragment = new IllustratedBookFragment();
+
+                    // 將showFavorite設置为true
+                    IllustratedBookCardAdapter.showFavorite = true;
+
+                    FragmentManager fragmentManager = getParentFragmentManager();
+                    FragmentTransaction transaction = fragmentManager.beginTransaction();
+                    transaction.replace(R.id.container, illustratedBookFragment);
+                    transaction.addToBackStack(null);
+                    transaction.commit();
                 } else if (v.getId() == R.id.btn_change_password) {
                     // TODO: Implement change password
                 } else if (v.getId() == R.id.btn_logout) {
@@ -64,4 +76,6 @@ public class AccountFragment extends Fragment {
 
         return view;
     }
+
+
 }
