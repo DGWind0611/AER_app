@@ -6,98 +6,102 @@ import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ImageButton;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.util.Log;
 
-public class SecureAgencyAdapter extends BaseAdapter {
+import androidx.recyclerview.widget.RecyclerView;
+
+public class SecureAgencyAdapter extends RecyclerView.Adapter<SecureAgencyAdapter.ViewHolder> {
     private Context context;
     private String[] agencyNames;
-    private String[] distances;
-    private String[] urls; // Add URLs for the agencies
-    private String[] phoneNumbers; // Add phone numbers for the agencies
+    private String[] urls;
+    private String[] phoneNumbers;
+    private String[] agencyLocations;
+    private String userLocation;
+    private String apiKey;
 
-    public SecureAgencyAdapter(Context context, String[] agencyNames, String[] distances, String[] urls, String[] phoneNumbers) {
+    public SecureAgencyAdapter(Context context, String[] agencyNames, String[] urls,
+                               String[] phoneNumbers,String[] agencyLocations,
+                               String userLocation, String apiKey) {
         this.context = context;
         this.agencyNames = agencyNames;
-        this.distances = distances;
         this.urls = urls;
         this.phoneNumbers = phoneNumbers;
+        this.agencyLocations = agencyLocations;
+        this.userLocation = userLocation;
+        this.apiKey = apiKey;
     }
 
     @Override
-    public int getCount() {
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(context).inflate(R.layout.agency_info, parent, false);
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        holder.nameTextView.setText(agencyNames[position]);
+
+        DistanceCalculator.calculateDistance(context, userLocation, agencyLocations[position], apiKey, distance -> {
+            if (distance != null) {
+                holder.distanceTextView.setText(distance);
+                Log.d("SecureAgencyAdapter", "Distance calculated: " + distance);
+            } else {
+                holder.distanceTextView.setText("無法獲取距離");
+                Log.e("SecureAgencyAdapter", "Failed to calculate distance");
+            }
+        });
+
+        holder.mapButton.setOnClickListener(v -> {
+            String location = agencyLocations[position];
+            Uri gmmIntentUri = Uri.parse("google.navigation:q=" + location);
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            context.startActivity(mapIntent);
+        });
+
+        holder.linkButton.setOnClickListener(v -> {
+            String url = urls[position];
+            if (!url.startsWith("http://") && !url.startsWith("https://")) {
+                url = "http://" + url;
+            }
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            context.startActivity(browserIntent);
+        });
+
+        holder.callButton.setOnClickListener(v -> {
+            Intent dialIntent = new Intent(Intent.ACTION_DIAL);
+            dialIntent.setData(Uri.parse("tel:" + phoneNumbers[position]));
+            context.startActivity(dialIntent);
+        });
+    }
+
+    @Override
+    public int getItemCount() {
         return agencyNames.length;
     }
 
-    @Override
-    public Object getItem(int position) {
-        return agencyNames[position];
-    }
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView nameTextView;
+        TextView distanceTextView;
+        TextView capacityTextView;
+        ProgressBar capacityProgressBar;
+        ImageButton mapButton;
+        ImageButton linkButton;
+        ImageButton callButton;
 
-    @Override
-    public long getItemId(int position) {
-        return position;
-    }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.agency_info, parent, false);
-        }
-
-        TextView nameTextView = convertView.findViewById(R.id.tv_agency_name);
-        TextView distanceTextView = convertView.findViewById(R.id.tv_distance);
-        ImageButton linkButton = convertView.findViewById(R.id.ibtn_link);
-        ImageButton callButton = convertView.findViewById(R.id.ibtn_callout);
-        ImageButton mapButton = convertView.findViewById(R.id.ibtn_location);
-        mapButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=" + agencyNames[position]);
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                context.startActivity(mapIntent);
-            }
-        });
-
-        nameTextView.setText(agencyNames[position]);
-        distanceTextView.setText(distances[position]);
-
-        linkButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String url = urls[position];
-                if (!url.startsWith("http://") && !url.startsWith("https://")) {
-                    url = "http://" + url;
-                }
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                context.startActivity(browserIntent);
-            }
-        });
-
-        callButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialPhoneNumber(phoneNumbers[position]);
-            }
-        });
-
-        return convertView;
-    }
-
-    private void dialPhoneNumber(String phoneNumber) {
-        Intent dialIntent = new Intent(Intent.ACTION_DIAL);
-        dialIntent.setData(Uri.parse("tel:" + phoneNumber));
-        context.startActivity(dialIntent);
-    }
-
-    private String formatDistance(String distance) {
-        try {
-            double distanceInKm = Double.parseDouble(distance);
-            return distanceInKm + " km";
-        } catch (NumberFormatException e) {
-            return distance;
+        public ViewHolder(View itemView) {
+            super(itemView);
+            nameTextView = itemView.findViewById(R.id.tv_agency_name);
+            distanceTextView = itemView.findViewById(R.id.tv_distance);
+            capacityTextView = itemView.findViewById(R.id.tv_capacity);
+            capacityProgressBar = itemView.findViewById(R.id.gb_capacity);
+            mapButton = itemView.findViewById(R.id.ibtn_location);
+            linkButton = itemView.findViewById(R.id.ibtn_link);
+            callButton = itemView.findViewById(R.id.ibtn_callout);
         }
     }
+
 }

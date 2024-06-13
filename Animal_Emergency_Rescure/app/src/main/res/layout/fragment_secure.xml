@@ -9,6 +9,15 @@
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
+    <include
+        android:id="@+id/filter_layout"
+        layout="@layout/filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:elevation="8dp"
+        android:visibility="gone" />
+
     <ListView
         android:id="@+id/lv_animals"
         android:layout_width="match_parent"
@@ -17,5 +26,8 @@
         android:clipChildren="false"
         android:clipToPadding="false"
         android:divider="@drawable/divider"
-        android:dividerHeight="10dp" />
+        android:elevation="-10dp"
+        android:dividerHeight="10dp" >
+
+    </ListView>
 </FrameLayout>
