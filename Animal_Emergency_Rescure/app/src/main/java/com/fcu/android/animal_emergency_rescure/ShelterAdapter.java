@@ -6,113 +6,109 @@ import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.util.Log;
 
-public class ShelterAdapter extends BaseAdapter {
+import androidx.recyclerview.widget.RecyclerView;
+
+public class ShelterAdapter extends RecyclerView.Adapter<ShelterAdapter.ViewHolder> {
     private Context context;
-    private String[] agencyNames;
-    private String[] distances;
-    private String[] capacities;
-
+    private String[] shelterNames;
     private String[] urls;
     private String[] phoneNumbers;
+    private String[] shelterLocations;
+    private String userLocation;
+    private String apiKey;
 
-
-    public ShelterAdapter(Context context, String[] agencyNames, String[] distances, String[] capacities, String[] urls, String[] phoneNumbers) {
+    public ShelterAdapter(Context context, String[] shelterNames, String[] urls,
+                          String[] phoneNumbers, String[] shelterLocations,
+                          String userLocation, String apiKey) {
         this.context = context;
-        this.agencyNames = agencyNames;
-        this.distances = distances;
-        this.capacities = capacities;
+        this.shelterNames = shelterNames;
         this.urls = urls;
         this.phoneNumbers = phoneNumbers;
+        this.shelterLocations = shelterLocations;
+        this.userLocation = userLocation;
+        this.apiKey = apiKey;
     }
 
     @Override
-    public int getCount() {
-        return agencyNames.length;
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(context).inflate(R.layout.shelter_info, parent, false);
+        return new ViewHolder(view);
     }
 
     @Override
-    public Object getItem(int position) {
-        return agencyNames[position];
-    }
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        holder.nameTextView.setText(shelterNames[position]);
 
-    @Override
-    public long getItemId(int position) {
-        return position;
-    }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.shelter_info, parent, false);
-        }
-
-        TextView nameTextView = convertView.findViewById(R.id.tv_agency_name);
-        TextView distanceTextView = convertView.findViewById(R.id.tv_distance);
-        TextView capacityTextView = convertView.findViewById(R.id.tv_capacity);
-        ProgressBar capacityProgressBar = convertView.findViewById(R.id.gb_capacity);
-        ImageButton linkButton = convertView.findViewById(R.id.ibtn_link);
-        ImageButton callButton = convertView.findViewById(R.id.ibtn_callout);
-        ImageButton mapButton = convertView.findViewById(R.id.ibtn_location);
-        mapButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("google.navigation:q=" + agencyNames[position]);
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                context.startActivity(mapIntent);
-            }
-        });
-        linkButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String url = urls[position];
-                if (!url.startsWith("http://") && !url.startsWith("https://")) {
-                    url = "http://" + url;
-                }
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                context.startActivity(browserIntent);
+        DistanceCalculator.calculateDistance(context, userLocation, shelterLocations[position], apiKey, distance -> {
+            if (distance != null) {
+                holder.distanceTextView.setText(distance);
+                Log.d("ShelterAdapter", "Distance calculated: " + distance);
+            } else {
+                holder.distanceTextView.setText("無法獲取距離");
+                Log.e("ShelterAdapter", "Failed to calculate distance");
             }
         });
 
-        callButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialPhoneNumber(phoneNumbers[position]);
-            }
+        holder.mapButton.setOnClickListener(v -> {
+            String location = shelterLocations[position];
+            Uri gmmIntentUri = Uri.parse("google.navigation:q=" + location);
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            context.startActivity(mapIntent);
         });
 
+        holder.linkButton.setOnClickListener(v -> {
+            String url = urls[position];
+            if (!url.startsWith("http://") && !url.startsWith("https://")) {
+                url = "http://" + url;
+            }
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            context.startActivity(browserIntent);
+        });
 
-        nameTextView.setText(agencyNames[position]);
-        distanceTextView.setText(distances[position]);
-        capacityTextView.setText(capacities[position]);
+        holder.callButton.setOnClickListener(v -> {
+            Intent dialIntent = new Intent(Intent.ACTION_DIAL);
+            dialIntent.setData(Uri.parse("tel:" + phoneNumbers[position]));
+            context.startActivity(dialIntent);
+        });
 
-        String[] cap = capacities[position].split("/");
-        int currentCapacity = Integer.parseInt(cap[0]);
-        int maxCapacity = Integer.parseInt(cap[1]);
+        // Assuming capacities are formatted as "current/max"
+        String[] capacityParts = holder.capacityTextView.getText().toString().split("/");
+        int currentCapacity = Integer.parseInt(capacityParts[0]);
+        int maxCapacity = Integer.parseInt(capacityParts[1]);
 
-        capacityProgressBar.setMax(maxCapacity);
-        capacityProgressBar.setProgress(currentCapacity);
-
-        return convertView;
+        holder.capacityProgressBar.setMax(maxCapacity);
+        holder.capacityProgressBar.setProgress(currentCapacity);
     }
 
-    private void dialPhoneNumber(String phoneNumber) {
-        Intent dialIntent = new Intent(Intent.ACTION_DIAL);
-        dialIntent.setData(Uri.parse("tel:" + phoneNumber));
-        context.startActivity(dialIntent);
+    @Override
+    public int getItemCount() {
+        return shelterNames.length;
     }
 
-    private String formatDistance(String distance) {
-        try {
-            double distanceInKm = Double.parseDouble(distance);
-            return distanceInKm + " km";
-        } catch (NumberFormatException e) {
-            return distance;
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView nameTextView;
+        TextView distanceTextView;
+        TextView capacityTextView;
+        ProgressBar capacityProgressBar;
+        ImageButton mapButton;
+        ImageButton linkButton;
+        ImageButton callButton;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            nameTextView = itemView.findViewById(R.id.tv_agency_name);
+            distanceTextView = itemView.findViewById(R.id.tv_distance);
+            capacityTextView = itemView.findViewById(R.id.tv_capacity);
+            capacityProgressBar = itemView.findViewById(R.id.gb_capacity);
+            mapButton = itemView.findViewById(R.id.ibtn_location);
+            linkButton = itemView.findViewById(R.id.ibtn_link);
+            callButton = itemView.findViewById(R.id.ibtn_callout);
         }
     }
 }

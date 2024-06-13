@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 
@@ -30,6 +31,7 @@ public class SecureFragment extends Fragment {
     private List<Animal> animalList;
     private AnimalAdapter animalAdapter;
 
+    private ImageButton btnCloseFilter;
     private final String[] citys = {"台北市", "新北市", "桃園市", "台中市", "台南市", "高雄市", "基隆市", "新竹市", "嘉義市", "新竹縣", "苗栗縣", "彰化縣", "南投縣", "雲林縣", "嘉義縣", "屏東縣", "宜蘭縣", "花蓮縣", "台東縣", "澎湖縣", "金門縣", "連江縣"};
 
     private String cityStr;
@@ -40,11 +42,12 @@ public class SecureFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_secure, container, false);
 
+        btnCloseFilter = view.findViewById(R.id.btn_close_filter);
         lvAnimals = view.findViewById(R.id.lv_animals);
         animalList = new ArrayList<>();
 
         animalList.add(new Animal("臺灣山鷓鴣 Taiwan Partridge", "留鳥、普遍", "臺灣特有種", "三級保育類", "深山竹雞", "紅腳仔", "紅腳竹雞", R.drawable.account));
-        animalList.add(new Animal("斯氏繡眼 Swinhoe's White-eye", "留鳥", "體綠，眼周白色", "", "綠繡眼", "暗綠繡眼鳥青啼仔", "",R.drawable.account));
+        animalList.add(new Animal("斯氏繡眼 Swinhoe's White-eye", "留鳥", "體綠，眼周白色", "", "綠繡眼", "暗綠繡眼鳥青啼仔", "", R.drawable.account));
 
         animalAdapter = new AnimalAdapter(getContext(), animalList);
         lvAnimals.setAdapter(animalAdapter);
@@ -59,7 +62,16 @@ public class SecureFragment extends Fragment {
                 startActivity(intent);
             }
         });
+        btnCloseFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ConstraintLayout filter = view.findViewById(R.id.filter_layout);
+                filter.setVisibility(View.GONE);
+            }
+        });
+
         return view;
+
 
 
         //        // Get the outer layout
@@ -92,4 +104,5 @@ public class SecureFragment extends Fragment {
 //        };
 //        spCity.setOnItemSelectedListener(spCityListener);
     }
+
 }

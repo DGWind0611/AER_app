@@ -2,16 +2,14 @@ package com.fcu.android.animal_emergency_rescure;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.SearchView;
+import android.widget.ImageButton;
 
-import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
@@ -23,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnFront;
     private Button btnFavorite;
     private Button btnRecently;
-
+    private ImageButton btnFilter;
     private View indicatorFront;
     private View indicatorFavorite;
     private View indicatorRecently;
@@ -49,8 +47,18 @@ public class MainActivity extends AppCompatActivity {
         indicatorFront = findViewById(R.id.indicator_front);
         indicatorFavorite = findViewById(R.id.indicator_favorite);
         indicatorRecently = findViewById(R.id.indicator_recently);
-
-        //TODO : 根據不同的按鈕按下，切換不同頁面
+        btnFilter = findViewById(R.id.btn_filter);
+        btnFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                View filterLayout = findViewById(R.id.filter_layout);
+                if (filterLayout.getVisibility() == View.GONE) {
+                    filterLayout.setVisibility(View.VISIBLE);
+                } else {
+                    filterLayout.setVisibility(View.GONE);
+                }
+            }
+        });
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
