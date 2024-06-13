@@ -18,6 +18,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class AccountFragment extends Fragment {
 
     private Button btnStar, btnChangePassword, btnLogout;
+    private FragmentManager manager;
     private FirebaseAuth mAuth;
 
     @Override
@@ -28,6 +29,7 @@ public class AccountFragment extends Fragment {
         btnChangePassword = view.findViewById(R.id.btn_change_password);
         btnLogout = view.findViewById(R.id.btn_logout);
         mAuth = FirebaseAuth.getInstance();
+        manager = getParentFragmentManager();
 
         // 依照一般使用者或訪客顯示不同的按鈕
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
@@ -44,20 +46,15 @@ public class AccountFragment extends Fragment {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                FragmentTransaction transaction = manager.beginTransaction();
                 if (v.getId() == R.id.btn_star) {
-                    // 創建並載入 illustratedBookFragment
-                    IllustratedBookFragment illustratedBookFragment = new IllustratedBookFragment();
-
                     // 將showFavorite設置为true
                     IllustratedBookCardAdapter.showFavorite = true;
-
-                    FragmentManager fragmentManager = getParentFragmentManager();
-                    FragmentTransaction transaction = fragmentManager.beginTransaction();
-                    transaction.replace(R.id.container, illustratedBookFragment);
-                    transaction.addToBackStack(null);
-                    transaction.commit();
+                    // 跳轉至圖鑑頁面
+                    transaction.replace(R.id.container, new IllustratedBookFragment()).commit();
                 } else if (v.getId() == R.id.btn_change_password) {
-                    // TODO: Implement change password
+                    // 跳轉至修改密碼頁面
+                    transaction.replace(R.id.container, new ChangePasswordFragment()).commit();
                 } else if (v.getId() == R.id.btn_logout) {
                     mAuth.signOut();
                     Intent intent = new Intent();
@@ -68,6 +65,7 @@ public class AccountFragment extends Fragment {
                         user.delete();
                     }
                 }
+                transaction.addToBackStack(null);
             }
         };
         btnStar.setOnClickListener(listener);
