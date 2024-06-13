@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private View indicatorFront;
     private View indicatorFavorite;
     private View indicatorRecently;
+    private FirebaseAuth mAuth;
+    private FirebaseUser user;
 
 
     //底部導覽列
@@ -107,5 +111,16 @@ public class MainActivity extends AppCompatActivity {
         btnFront.setOnClickListener(onClickListener);
         btnFavorite.setOnClickListener(onClickListener);
         btnRecently.setOnClickListener(onClickListener);
+    }
+    // 如果是訪客，離開時將刪除資料
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mAuth = FirebaseAuth.getInstance();
+        user = mAuth.getCurrentUser();
+        if (user != null && user.isAnonymous()) {
+            mAuth.signOut();
+            user.delete();
+        }
     }
 }

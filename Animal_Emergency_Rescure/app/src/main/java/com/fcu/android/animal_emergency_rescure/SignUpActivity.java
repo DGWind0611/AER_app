@@ -36,7 +36,7 @@ public class SignUpActivity extends AppCompatActivity {
         // 檢查輸入的資料是否符合規定
         check();
 
-        View.OnClickListener listener = new View.OnClickListener() {
+        btnSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name = etName.getText().toString();
@@ -72,8 +72,7 @@ public class SignUpActivity extends AppCompatActivity {
                             });
                 }
             }
-        };
-        btnSend.setOnClickListener(listener);
+        });
     }
 
     private void check() {
