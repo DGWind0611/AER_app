@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/tv_distance"
+        android:id="@+id/tv_shelter_distance"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -18,41 +18,40 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_agency_name"
+        android:id="@+id/tv_shelter_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:text="野鳥救助協會"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/tv_distance"
-        app:layout_constraintTop_toBottomOf="@+id/tv_distance" />
+        app:layout_constraintStart_toStartOf="@+id/tv_shelter_distance"
+        app:layout_constraintTop_toBottomOf="@+id/tv_shelter_distance" />
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
+        android:id="@+id/linearLayout10"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_agency_name"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/ibtn_location"
+            android:id="@+id/btn_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             app:srcCompat="@drawable/location" />
 
         <ImageButton
-            android:id="@+id/ibtn_link"
+            android:id="@+id/btn_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/link" />
 
         <ImageButton
-            android:id="@+id/ibtn_callout"
+            android:id="@+id/btn_callout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -60,7 +59,7 @@
     </LinearLayout>
 
     <ProgressBar
-        android:id="@+id/gb_capacity"
+        android:id="@+id/pb_capacity"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -78,8 +77,8 @@
         android:text="已收容數量"
         android:textColor="#F39595"
         android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="@+id/tv_agency_name"
-        app:layout_constraintTop_toBottomOf="@+id/tv_agency_name" />
+        app:layout_constraintStart_toStartOf="@+id/tv_shelter_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_shelter_name" />
 
     <TextView
         android:id="@+id/tv_capacity"
@@ -87,7 +86,7 @@
         android:layout_height="wrap_content"
         android:text="95/100"
         android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="@+id/gb_capacity"
-        app:layout_constraintTop_toBottomOf="@+id/gb_capacity" />
+        app:layout_constraintStart_toStartOf="@+id/pb_capacity"
+        app:layout_constraintTop_toBottomOf="@+id/pb_capacity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
