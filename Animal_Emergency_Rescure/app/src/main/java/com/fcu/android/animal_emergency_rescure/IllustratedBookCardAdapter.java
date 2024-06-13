@@ -92,6 +92,7 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
+        System.out.println("Size === " + species.size());
         return species.size();
     }
 

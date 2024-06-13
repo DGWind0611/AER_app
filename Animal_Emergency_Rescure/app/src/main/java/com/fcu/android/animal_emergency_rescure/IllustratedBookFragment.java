@@ -4,11 +4,15 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
 import android.widget.GridView;
 import android.widget.ListAdapter;
+import android.widget.ProgressBar;
+import android.widget.ScrollView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +23,8 @@ public class IllustratedBookFragment extends Fragment {
     private GridView gvMams;
     private GridView gvRepts;
     private GridView gvAmphis;
+    private ProgressBar progressBar;
+    private ScrollView contentScrollView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,6 +35,12 @@ public class IllustratedBookFragment extends Fragment {
         gvMams = view.findViewById(R.id.gv_mam);
         gvRepts = view.findViewById(R.id.gv_rept);
         gvAmphis = view.findViewById(R.id.gv_amphi);
+
+        progressBar = view.findViewById(R.id.progress_bar);
+        contentScrollView = view.findViewById(R.id.sv_species);
+
+        progressBar.setVisibility(View.VISIBLE);
+        contentScrollView.setVisibility(View.GONE);
 
         Species bird_1 = new Species(1,R.drawable.poke1,"鳥0001","詳細介紹0001");
         Species bird_2 = new Species(2,R.drawable.poke4,"鳥0002","詳細介紹0002");
@@ -95,10 +107,19 @@ public class IllustratedBookFragment extends Fragment {
         IllustratedBookCardAdapter amphiAdapter = new IllustratedBookCardAdapter(getContext(), amphis);
         gvAmphis.setAdapter(amphiAdapter);
 
-        calculateAndSetGVsHeight(gvBirds, birdAdapter, 3, 60);
-        calculateAndSetGVsHeight(gvMams, mamAdapter, 3, 60);
-        calculateAndSetGVsHeight(gvRepts, reptAdapter, 3, 60);
-        calculateAndSetGVsHeight(gvAmphis, amphiAdapter, 3, 60);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                calculateAndSetGVsHeight(gvBirds, birdAdapter, 3, 60);
+                calculateAndSetGVsHeight(gvMams, mamAdapter, 3, 60);
+                calculateAndSetGVsHeight(gvRepts, reptAdapter, 3, 60);
+                calculateAndSetGVsHeight(gvAmphis, amphiAdapter, 3, 60);
+
+                progressBar.setVisibility(View.GONE); // 計算完高度後隱藏進度條
+                contentScrollView.setVisibility(View.VISIBLE);
+            }
+        }, 500); // 延遲500毫秒
         return view;
     }
 
