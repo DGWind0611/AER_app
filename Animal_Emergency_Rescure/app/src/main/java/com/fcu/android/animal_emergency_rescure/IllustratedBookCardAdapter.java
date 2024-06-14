@@ -130,6 +130,7 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
         // 圖鑑卡片點擊事件 intent傳遞資料
         view.setOnClickListener(v -> { // lambda
             Intent intent = new Intent(context, illustratedBookDetailPage.class);
+            intent.putExtra("speciesId", s.getSpeciesId());
             intent.putExtra("speciesImageId", s.getSpeciesPicId());
             intent.putExtra("speciesName", s.getSpeciesName());
             intent.putExtra("speciesDespription", s.getSpeciesDescription());
