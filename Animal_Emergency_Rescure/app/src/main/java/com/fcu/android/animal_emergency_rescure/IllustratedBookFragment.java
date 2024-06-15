@@ -58,7 +58,7 @@ public class IllustratedBookFragment extends Fragment {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("species");
 
-    // 創建 Species 物件
+        // 創建 Species 物件
         //Species bird_1 = new Species(1, R.drawable.poke1, "鳥0001", SpeciesType.BIRDS, "詳細介紹0001");------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
         // 將 Species 物件上傳到 Firebase
