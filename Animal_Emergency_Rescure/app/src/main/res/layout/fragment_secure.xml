@@ -1,30 +1,197 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecureFragment"
     android:background="@color/background"
-    android:elevation="-10dp">
+    android:elevation="-10dp"
+    tools:context=".SecureFragment">
 
-    <include
-        android:id="@+id/filter_layout"
-        layout="@layout/filter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:elevation="100dp"
-        android:visibility="gone" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_bird"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ListView
-        android:id="@+id/lv_animals"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="150dp"
-        android:clipChildren="false"
-        android:clipToPadding="false"
-        android:divider="@drawable/divider"
-        android:elevation="-10dp"
-        android:dividerHeight="10dp" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    </ListView>
-</FrameLayout>
+            <ImageView
+                android:id="@+id/iv_bird"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/bird"
+                app:tint="#614425"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@+id/iv_bird"
+                android:gravity="start|center_vertical"
+                android:text="鳥類"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_mammal"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="16dp"
+        app:layout_constraintEnd_toEndOf="@id/btn_bird"
+        app:layout_constraintStart_toStartOf="@id/btn_bird"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bird">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_mammal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/pig"
+                app:tint="#614425"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@+id/iv_mammal"
+                android:gravity="start|center_vertical"
+                android:text="哺乳類"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_reptile"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_mammal"
+        app:layout_constraintStart_toStartOf="@+id/btn_mammal"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mammal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_reptile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/reptile"
+                app:tint="#614425"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@+id/iv_reptile"
+                android:gravity="start|center_vertical"
+                android:text="爬蟲類"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_amphibian"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_reptile"
+        app:layout_constraintStart_toStartOf="@+id/btn_reptile"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reptile">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_amphibian"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/frog"
+                app:tint="#614425"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@+id/iv_amphibian"
+                android:gravity="start|center_vertical"
+                android:text="兩棲類"
+                android:textColor="#000000"
+                android:textSize="32sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

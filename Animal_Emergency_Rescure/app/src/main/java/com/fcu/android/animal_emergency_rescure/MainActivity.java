@@ -45,12 +45,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         search = findViewById(R.id.et_search);
-        btnFront = findViewById(R.id.btn_front);
-        btnFavorite = findViewById(R.id.btn_favorite);
-        btnRecently = findViewById(R.id.btn_recently);
-        indicatorFront = findViewById(R.id.indicator_front);
-        indicatorFavorite = findViewById(R.id.indicator_favorite);
-        indicatorRecently = findViewById(R.id.indicator_recently);
         btnFilter = findViewById(R.id.btn_filter);
         btnFilter.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,25 +57,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        View.OnClickListener onClickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (v.getId() == R.id.btn_front) {
-                    indicatorFront.setVisibility(View.VISIBLE);
-                    indicatorFavorite.setVisibility(View.INVISIBLE);
-                    indicatorRecently.setVisibility(View.INVISIBLE);
-                } else if (v.getId() == R.id.btn_favorite) {
-                    indicatorFront.setVisibility(View.INVISIBLE);
-                    indicatorFavorite.setVisibility(View.VISIBLE);
-                    indicatorRecently.setVisibility(View.INVISIBLE);
-                } else if (v.getId() == R.id.btn_recently) {
-                    indicatorFront.setVisibility(View.INVISIBLE);
-                    indicatorFavorite.setVisibility(View.INVISIBLE);
-                    indicatorRecently.setVisibility(View.VISIBLE);
-                }
-            }
-        };
-
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.secure);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, secureFragment).commit();
@@ -108,14 +83,11 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-        btnFront.setOnClickListener(onClickListener);
-        btnFavorite.setOnClickListener(onClickListener);
-        btnRecently.setOnClickListener(onClickListener);
     }
     // 如果是訪客，離開時將刪除資料
     @Override
-    protected void onStop() {
-        super.onStop();
+    protected void onDestroy() {
+        super.onDestroy();
         mAuth = FirebaseAuth.getInstance();
         user = mAuth.getCurrentUser();
         if (user != null && user.isAnonymous()) {

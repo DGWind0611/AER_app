@@ -108,13 +108,20 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
 
     @Override
     public View getView(int index, View view, ViewGroup viewGroup) {
-        if(view == null) {
-            view = LayoutInflater.from(context).inflate(R.layout.illustrated_book_card,viewGroup,false);
+        if (view == null) {
+            view = LayoutInflater.from(context).inflate(R.layout.illustrated_book_card, viewGroup, false);
         }
 
         ImageView speciesPic = view.findViewById(R.id.iv_species_pic);
         TextView speciesName = view.findViewById(R.id.tv_species_name);
         ImageButton favoriteButton = view.findViewById(R.id.imgbtn_favorite);
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        FirebaseUser user = mAuth.getCurrentUser();
+
+        if (user != null && user.isAnonymous()) {
+            favoriteButton.setVisibility(View.GONE);
+            speciesPic.setPadding(0, 16, 0, 0);
+        }
 
         Species s = species.get(index);
         speciesPic.setImageResource(s.getSpeciesPicId());
@@ -166,6 +173,7 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
 
         return view;
     }
+
     private String encodeEmail(String email) {
         return email.replace(".", ",");
     }

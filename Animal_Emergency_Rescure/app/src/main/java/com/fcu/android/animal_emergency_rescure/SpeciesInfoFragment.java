@@ -41,8 +41,8 @@ public class SpeciesInfoFragment extends Fragment {
         lvAnimals = view.findViewById(R.id.lv_animals);
         animalList = new ArrayList<>();
 
-        animalList.add(new Animal("臺灣山鷓鴣 Taiwan Partridge", "留鳥、普遍", "臺灣特有種", "三級保育類", "深山竹雞", "紅腳仔", "紅腳竹雞", R.drawable.account));
-        animalList.add(new Animal("斯氏繡眼 Swinhoe's White-eye", "留鳥", "體綠，眼周白色", "", "綠繡眼", "暗綠繡眼鳥青啼仔", "", R.drawable.account));
+        animalList.add(new Animal("臺灣山鷓鴣", "Taiwan Partridge", "留鳥、普遍", "臺灣特有種", "三級保育類", "深山竹雞", "紅腳仔", "紅腳竹雞", R.drawable.account));
+        animalList.add(new Animal("斯氏繡眼", "Swinhoe's White-eye", "留鳥", "體綠，眼周白色", "", "綠繡眼", "暗綠繡眼鳥青啼仔", "", R.drawable.account));
 
         animalAdapter = new AnimalAdapter(getContext(), animalList);
         lvAnimals.setAdapter(animalAdapter);
