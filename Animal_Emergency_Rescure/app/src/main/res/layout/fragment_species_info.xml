@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:elevation="-10dp"
+    tools:context=".SpeciesInfoFragment">
+
+    <include
+        android:id="@+id/filter_layout"
+        layout="@layout/filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_animals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@drawable/divider"
+        android:dividerHeight="10dp"
+        android:elevation="-10dp" />
+</FrameLayout>
