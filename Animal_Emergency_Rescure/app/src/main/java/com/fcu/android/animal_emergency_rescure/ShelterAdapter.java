@@ -1,7 +1,5 @@
 package com.fcu.android.animal_emergency_rescure;
 
-import static com.fcu.android.animal_emergency_rescure.DistanceCalculator.calculateDistance;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -22,6 +20,7 @@ public class ShelterAdapter extends RecyclerView.Adapter<ShelterAdapter.ViewHold
     private Context context;
     private List<Shelter> shelters;
     private String userLocation;
+    private String shelterLocation;
     private String apiKey;
 
 
@@ -43,11 +42,10 @@ public class ShelterAdapter extends RecyclerView.Adapter<ShelterAdapter.ViewHold
     public void onBindViewHolder(ViewHolder holder, int position) {
         Shelter shelter = shelters.get(position);
         Log.d("ShelterAdapter", "Shelter: " + shelter.name);
+        Log.d("ShelterAdapter", "userLocation: " + userLocation);
         holder.tvShelterName.setText(shelter.name);
-
-
-        DistanceCalculator.calculateDistance(context, userLocation,
-                shelter.location.latitude + "," + shelter.location.longitude, apiKey, distance -> {
+        shelterLocation = shelter.location.latitude + "," + shelter.location.longitude;
+        DistanceCalculator.calculateDistance(context, userLocation, shelterLocation, apiKey, distance -> {
                     if (distance != null) {
                         holder.tvDistance.setText(distance);
                         Log.d("ShelterAdapter", "Distance calculated: " + distance);
@@ -57,9 +55,9 @@ public class ShelterAdapter extends RecyclerView.Adapter<ShelterAdapter.ViewHold
                     }
                 });
 
-        //跳轉至地圖，並設定導航
+        // 跳轉至地圖，並設定導航
         holder.mapButton.setOnClickListener(v -> {
-            Uri gmmIntentUri = Uri.parse("geo:" + shelter.location.latitude + "," + shelter.location.longitude);
+            Uri gmmIntentUri = Uri.parse("google.navigation:q=" + shelter.location.latitude + "," + shelter.location.longitude);
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
             mapIntent.setPackage("com.google.android.apps.maps");
             context.startActivity(mapIntent);

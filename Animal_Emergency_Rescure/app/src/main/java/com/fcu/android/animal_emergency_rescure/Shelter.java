@@ -7,16 +7,21 @@ public class Shelter {
     public Capacity capacity;
     public Location location;
 
+    public String distance;
+
     public Shelter() {
     }
 
-    public Shelter(String name, String url, String phoneNumber, Capacity capacity, Location location) {
+    public Shelter(String name, String url, String phoneNumber, Capacity capacity, Location location, String distance) {
         this.name = name;
         this.url = url;
         this.phoneNumber = phoneNumber;
         this.capacity = capacity;
         this.location = location;
+        this.distance = distance;
+
     }
+
     public static class Capacity{
         public int current;
         public int max;

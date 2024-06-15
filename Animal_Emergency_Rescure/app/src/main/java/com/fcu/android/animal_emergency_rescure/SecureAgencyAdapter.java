@@ -40,11 +40,12 @@ public class SecureAgencyAdapter extends RecyclerView.Adapter<SecureAgencyAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Agency agency = agencies.get(position);
-        Log.d("SecureAgencyAdapter", "Agency: " + agency.name);
         holder.tvAgencyName.setText(agency.name);
-
-        DistanceCalculator.calculateDistance(context, userLocation, agency.location.latitude +
-                "," + agency.location.longitude, apiKey, distance -> {
+        holder.tvDistance.setText(agency.distance);
+        holder.tvAgencyName.setText(agency.name);
+        //目的地座標
+        String destination = agency.location.latitude + "," + agency.location.longitude;
+        DistanceCalculator.calculateDistance(context, userLocation, destination, apiKey, distance -> {
             if (distance != null) {
                 holder.tvDistance.setText(distance);
                 Log.d("SecureAgencyAdapter", "Distance calculated: " + distance);
@@ -55,7 +56,7 @@ public class SecureAgencyAdapter extends RecyclerView.Adapter<SecureAgencyAdapte
         });
 
         holder.ibtnLocation.setOnClickListener(v -> {
-            Uri gmmIntentUri = Uri.parse("geo:" + agency.location.latitude + "," + agency.location.longitude);
+            Uri gmmIntentUri = Uri.parse("google.navigation:q=" + agency.location.latitude + "," + agency.location.longitude);
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
             mapIntent.setPackage("com.google.android.apps.maps");
             context.startActivity(mapIntent);
