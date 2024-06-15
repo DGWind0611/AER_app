@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D1DFD8"
+    android:background="@color/background"
     tools:context=".illustratedBookDetailPage">
 
     <androidx.cardview.widget.CardView
@@ -23,7 +23,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
 
             <ImageView
                 android:id="@+id/iv_species_full_size_pic"
@@ -44,6 +45,7 @@
                 android:layout_marginBottom="24dp"
                 android:text="詳細介紹"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000000"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

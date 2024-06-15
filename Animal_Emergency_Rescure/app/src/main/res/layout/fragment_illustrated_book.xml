@@ -6,7 +6,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D1DFD8"
+    android:background="@color/background"
     android:orientation="vertical"
     app:layoutDescription="@xml/fragment_illustrated_book_scene"
     tools:context=".IllustratedBookFragment">
@@ -36,8 +36,8 @@
 
             <TextView
                 android:id="@+id/title_bird"
-                android:layout_width="81dp"
-                android:layout_height="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="16dp"
                 android:gravity="start"
@@ -55,12 +55,12 @@
                 android:layout_marginEnd="24dp"
                 android:horizontalSpacing="10dp"
                 android:numColumns="3"
-                android:verticalSpacing="20dp"></GridView>
+                android:verticalSpacing="20dp" />
 
             <TextView
                 android:id="@+id/title_mam"
-                android:layout_width="79dp"
-                android:layout_height="37dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="8dp"
                 android:gravity="start"
@@ -78,12 +78,12 @@
                 android:layout_marginEnd="24dp"
                 android:horizontalSpacing="10dp"
                 android:numColumns="3"
-                android:verticalSpacing="20dp"></GridView>
+                android:verticalSpacing="20dp" />
 
             <TextView
                 android:id="@+id/title_rept"
-                android:layout_width="75dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="8dp"
                 android:gravity="start"
@@ -101,7 +101,7 @@
                 android:layout_marginEnd="24dp"
                 android:horizontalSpacing="10dp"
                 android:numColumns="3"
-                android:verticalSpacing="20dp"></GridView>
+                android:verticalSpacing="20dp" />
 
             <TextView
                 android:id="@+id/title_amphi"
@@ -124,7 +124,7 @@
                 android:layout_marginEnd="24dp"
                 android:horizontalSpacing="10dp"
                 android:numColumns="3"
-                android:verticalSpacing="20dp"></GridView>
+                android:verticalSpacing="20dp" />
         </LinearLayout>
     </ScrollView>
 
