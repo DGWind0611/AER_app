@@ -20,10 +20,8 @@
         android:id="@+id/lv_animals"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="150dp"
-        android:clipChildren="false"
-        android:clipToPadding="false"
-        android:divider="@drawable/divider"
-        android:dividerHeight="10dp"
-        android:elevation="-10dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:dividerHeight="10dp" />
 </FrameLayout>
