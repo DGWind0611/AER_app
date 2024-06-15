@@ -11,3 +11,11 @@ Animal emergency rescue
 台灣魚類資料庫
 
 - 官方網站：https://fishdb.sinica.edu.tw/chi/home.php
+
+台灣國家公園物種多樣性資料庫
+
+- 官方網站：https://npgis.nps.gov.tw/newpublic/
+
+維基百科
+
+- 官方網站：https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5
