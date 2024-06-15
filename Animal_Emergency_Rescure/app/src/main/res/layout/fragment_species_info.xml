@@ -23,5 +23,5 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="30dp"
-        android:dividerHeight="10dp" />
+        android:dividerHeight="15dp" />
 </FrameLayout>
