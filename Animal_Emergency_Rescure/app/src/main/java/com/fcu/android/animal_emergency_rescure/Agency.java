@@ -6,6 +6,8 @@ public class Agency {
     public String phoneNumber;
     public Location location;
 
+    public String distance;
+
     public static class Location {
         public double latitude;
         public double longitude;
@@ -22,11 +24,12 @@ public class Agency {
     public Agency() {
     }
 
-    public Agency(String name, String url, String phoneNumber, Location location) {
+    public Agency(String name, String url, String phoneNumber, Location location, String distance) {
         this.name = name;
         this.url = url;
         this.phoneNumber = phoneNumber;
         this.location = location;
+        this.distance = distance;
     }
 
     public String getName() {
