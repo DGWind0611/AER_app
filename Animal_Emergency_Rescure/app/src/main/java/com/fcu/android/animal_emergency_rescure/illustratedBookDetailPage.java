@@ -2,6 +2,7 @@ package com.fcu.android.animal_emergency_rescure;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -48,6 +49,11 @@ public class illustratedBookDetailPage extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users");
         currentUser = mAuth.getCurrentUser();
+
+        if (currentUser != null && currentUser.isAnonymous()) {
+            // 匿名用戶，不允許加入最愛
+            btnDetailPageAddToFavorite.setVisibility(View.GONE);
+        }
 
         // 獲取intent資料
         Intent intent = getIntent();

@@ -19,7 +19,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="60sp">
+            android:layout_height="60sp"
+            android:background="#FFFFFF">
 
             <TextView
                 android:id="@+id/tv_info_card_title"
@@ -27,6 +28,7 @@
                 android:layout_height="wrap_content"
                 android:text="小知識標題"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
