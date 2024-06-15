@@ -11,7 +11,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="359dp"
-        android:layout_height="474dp"
+        android:layout_height="wrap_content"
         android:background="#FFFFFF"
         app:cardCornerRadius="20dp"
         app:cardElevation="8dp"
@@ -23,12 +23,12 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/iv_species_full_size_pic"
-                android:layout_width="240dp"
-                android:layout_height="240dp"
+                android:layout_width="320dp"
+                android:layout_height="280dp"
                 android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.495"
@@ -38,10 +38,13 @@
 
             <TextView
                 android:id="@+id/tv_species_detail_description"
-                android:layout_width="wrap_content"
+                android:layout_width="306dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
                 android:text="詳細介紹"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/iv_species_full_size_pic" />
@@ -67,7 +70,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="加到最愛"
+        android:text="加入最愛"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="@+id/cardView" />
 
