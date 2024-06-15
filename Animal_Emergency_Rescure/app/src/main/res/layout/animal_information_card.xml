@@ -9,9 +9,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_secure"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="25dp"
+        app:contentPadding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,8 +26,9 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="265dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="2"
                 android:orientation="vertical">
 
                 <TextView
@@ -33,28 +36,40 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="臺灣山鷓鴣 Taiwan Partridge"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:text="臺灣山鷓鴣"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taiwan Partridge"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="留鳥、普遍" />
+                    android:text="留鳥、普遍"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="臺灣特有種" />
+                    android:text="臺灣特有種"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:text="三級保育類" />
+                    android:text="三級保育類"
+                    android:textColor="#000000" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -74,7 +89,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
-                        android:text="深山竹雞" />
+                        android:text="深山竹雞"
+                        android:textColor="#000000" />
 
                     <ImageView
                         android:id="@+id/im_dot_2"
@@ -89,7 +105,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
-                        android:text="紅腳仔" />
+                        android:text="紅腳仔"
+                        android:textColor="#000000" />
 
                     <ImageView
                         android:id="@+id/im_dot_3"
@@ -104,7 +121,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
-                        android:text="紅腳竹雞" />
+                        android:text="紅腳竹雞"
+                        android:textColor="#000000" />
 
                 </LinearLayout>
 
@@ -112,10 +130,9 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="96dp"
-                android:layout_height="89dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="7dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/account" />
 
         </LinearLayout>
