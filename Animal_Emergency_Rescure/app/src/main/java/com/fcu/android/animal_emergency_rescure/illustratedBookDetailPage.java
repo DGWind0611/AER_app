@@ -81,10 +81,12 @@ public class illustratedBookDetailPage extends AppCompatActivity {
                                 if (dataSnapshot.exists()) {
                                     // 物種在最愛中，設置按鈕文本為"從最愛移除"
                                     btnDetailPageAddToFavorite.setText("從最愛移除");
+                                    btnDetailPageAddToFavorite.setBackgroundColor(getResources().getColor(R.color.fav_light_gray));
                                     btnDetailPageAddToFavorite.setOnClickListener(v -> removeFromFavorites(speciesId));
                                 } else {
                                     // 物種不在最愛中，設置按鈕文本為"加入最愛"
                                     btnDetailPageAddToFavorite.setText("加入最愛");
+                                    btnDetailPageAddToFavorite.setBackgroundColor(getResources().getColor(R.color.fav_pink));
                                     btnDetailPageAddToFavorite.setOnClickListener(v -> addToFavorites(speciesId));
                                 }
                             }
@@ -105,6 +107,7 @@ public class illustratedBookDetailPage extends AppCompatActivity {
             String encodedEmail = encodeEmail(email);
             databaseReference.child(encodedEmail).child("favorites").child(String.valueOf(speciesId)).setValue(true);
             btnDetailPageAddToFavorite.setText("從最愛移除");
+            btnDetailPageAddToFavorite.setBackgroundColor(getResources().getColor(R.color.fav_light_gray));
             btnDetailPageAddToFavorite.setOnClickListener(v -> removeFromFavorites(speciesId));
         }
     }
@@ -116,6 +119,7 @@ public class illustratedBookDetailPage extends AppCompatActivity {
             String encodedEmail = encodeEmail(email);
             databaseReference.child(encodedEmail).child("favorites").child(String.valueOf(speciesId)).removeValue();
             btnDetailPageAddToFavorite.setText("加入最愛");
+            btnDetailPageAddToFavorite.setBackgroundColor(getResources().getColor(R.color.fav_pink));
             btnDetailPageAddToFavorite.setOnClickListener(v -> addToFavorites(speciesId));
         }
     }

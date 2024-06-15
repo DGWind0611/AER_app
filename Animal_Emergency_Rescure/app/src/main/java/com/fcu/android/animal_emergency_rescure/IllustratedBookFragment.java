@@ -8,11 +8,16 @@ import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.widget.GridView;
 import android.widget.ListAdapter;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,8 +34,8 @@ public class IllustratedBookFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         View view = inflater.inflate(R.layout.fragment_illustrated_book, container, false);
+
         gvBirds = view.findViewById(R.id.gv_bird);
         gvMams = view.findViewById(R.id.gv_mam);
         gvRepts = view.findViewById(R.id.gv_rept);
@@ -42,85 +47,92 @@ public class IllustratedBookFragment extends Fragment {
         progressBar.setVisibility(View.VISIBLE);
         contentScrollView.setVisibility(View.GONE);
 
-        Species bird_1 = new Species(1,R.drawable.poke1,"鳥0001","詳細介紹0001");
-        Species bird_2 = new Species(2,R.drawable.poke4,"鳥0002","詳細介紹0002");
-        Species bird_3 = new Species(3,R.drawable.poke7,"鳥0003","詳細介紹0003");
-        Species bird_4 = new Species(4,R.drawable.poke25,"鳥0004","詳細介紹0004");
-        Species bird_5 = new Species(5,R.drawable.poke25,"鳥0005","詳細介紹0005");
-        Species bird_6 = new Species(6,R.drawable.poke25,"鳥0006","詳細介紹0006");
-        Species bird_7 = new Species(7,R.drawable.poke25,"鳥0007","詳細介紹0007");
+        loadSpeciesData();
 
-        Species mam_1 = new Species(8,R.drawable.poke25, "哺乳0001","詳細介紹0008");
+        uploadSpeciesData();
 
-        Species rept_1 = new Species(9,R.drawable.poke25, "爬蟲0001","詳細介紹0009");
-        Species rept_2 = new Species(10,R.drawable.poke25, "爬蟲0002","詳細介紹0010");
-        Species rept_3 = new Species(11,R.drawable.poke25, "爬蟲0003","詳細介紹0011");
-        Species rept_4 = new Species(12,R.drawable.poke25, "爬蟲0004","詳細介紹0012");
+        return view;
+    }
 
-        Species amphi_1 = new Species(13,R.drawable.poke25, "兩棲0001","詳細介紹0013");
-        Species amphi_2 = new Species(14,R.drawable.poke25, "兩棲0002","詳細介紹0014");
-        Species amphi_3 = new Species(15,R.drawable.poke25, "兩棲0003","詳細介紹0015");
-        Species amphi_4 = new Species(16,R.drawable.poke25, "兩棲0004","詳細介紹0016");
-        Species amphi_5 = new Species(17,R.drawable.poke25, "兩棲0005","詳細介紹0017");
-        Species amphi_6 = new Species(18,R.drawable.poke25, "兩棲0006","詳細介紹0018");
-        Species amphi_7 = new Species(19,R.drawable.poke25, "兩棲0007","詳細介紹0019");
-        Species amphi_8 = new Species(20,R.drawable.poke25, "兩棲0008","詳細介紹0020");
-        Species amphi_9 = new Species(21,R.drawable.poke25, "兩棲0009","詳細介紹0021");
-        Species amphi_10 = new Species(22,R.drawable.poke25, "兩棲0010","詳細介紹0022");
+    private void uploadSpeciesData() { // 程式碼上傳物種至firebase資料庫
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("species");
 
-        List<Species> birds = new ArrayList<>();
-        birds.add(bird_1);
-        birds.add(bird_2);
-        birds.add(bird_3);
-        birds.add(bird_4);
-        birds.add(bird_5);
-        birds.add(bird_6);
-        birds.add(bird_7);
+    // 創建 Species 物件
+        //Species bird_1 = new Species(1, R.drawable.poke1, "鳥0001", SpeciesType.BIRDS, "詳細介紹0001");------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-        List mams = new ArrayList<>();
-        mams.add(mam_1);
+        // 將 Species 物件上傳到 Firebase
+        //myRef.child(String.valueOf(bird_1.getSpeciesId())).setValue(bird_1);
+    }
 
-        List repts = new ArrayList<>();
-        repts.add(rept_1);
-        repts.add(rept_2);
-        repts.add(rept_3);
-        repts.add(rept_4);
+    private void loadSpeciesData() {
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("species");
 
-        List amphis = new ArrayList<>();
-        amphis.add(amphi_1);
-        amphis.add(amphi_2);
-        amphis.add(amphi_3);
-        amphis.add(amphi_4);
-        amphis.add(amphi_5);
-        amphis.add(amphi_6);
-        amphis.add(amphi_7);
-        amphis.add(amphi_8);
-        amphis.add(amphi_9);
-        amphis.add(amphi_10);
-
-        IllustratedBookCardAdapter birdAdapter = new IllustratedBookCardAdapter(getContext(), birds);
-        gvBirds.setAdapter(birdAdapter);
-        IllustratedBookCardAdapter mamAdapter = new IllustratedBookCardAdapter(getContext(), mams);
-        gvMams.setAdapter(mamAdapter);
-        IllustratedBookCardAdapter reptAdapter = new IllustratedBookCardAdapter(getContext(), repts);
-        gvRepts.setAdapter(reptAdapter);
-        IllustratedBookCardAdapter amphiAdapter = new IllustratedBookCardAdapter(getContext(), amphis);
-        gvAmphis.setAdapter(amphiAdapter);
-
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        myRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void run() {
-                calculateAndSetGVsHeight(gvBirds, birdAdapter, 3, 60);
-                calculateAndSetGVsHeight(gvMams, mamAdapter, 3, 60);
-                calculateAndSetGVsHeight(gvRepts, reptAdapter, 3, 60);
-                calculateAndSetGVsHeight(gvAmphis, amphiAdapter, 3, 60);
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                List<Species> birds = new ArrayList<>();
+                List<Species> mams = new ArrayList<>();
+                List<Species> repts = new ArrayList<>();
+                List<Species> amphis = new ArrayList<>();
 
-                progressBar.setVisibility(View.GONE); // 計算完高度後隱藏進度條
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Species species = snapshot.getValue(Species.class);
+
+                    if (species != null) {
+                        switch (species.getSpeciesType()) {
+                            case BIRDS:
+                                birds.add(species);
+                                break;
+                            case MAMMALS:
+                                mams.add(species);
+                                break;
+                            case REPTILES:
+                                repts.add(species);
+                                break;
+                            case AMPHIBIANS:
+                                amphis.add(species);
+                                break;
+                        }
+                    }
+                }
+
+                // 設置Adapter並更新UI
+                IllustratedBookCardAdapter birdAdapter = new IllustratedBookCardAdapter(getContext(), birds);
+                gvBirds.setAdapter(birdAdapter);
+
+                IllustratedBookCardAdapter mamAdapter = new IllustratedBookCardAdapter(getContext(), mams);
+                gvMams.setAdapter(mamAdapter);
+
+                IllustratedBookCardAdapter reptAdapter = new IllustratedBookCardAdapter(getContext(), repts);
+                gvRepts.setAdapter(reptAdapter);
+
+                IllustratedBookCardAdapter amphiAdapter = new IllustratedBookCardAdapter(getContext(), amphis);
+                gvAmphis.setAdapter(amphiAdapter);
+
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        calculateAndSetGVsHeight(gvBirds, birdAdapter, 3, 60);
+                        calculateAndSetGVsHeight(gvMams, mamAdapter, 3, 60);
+                        calculateAndSetGVsHeight(gvRepts, reptAdapter, 3, 60);
+                        calculateAndSetGVsHeight(gvAmphis, amphiAdapter, 3, 60);
+
+                        progressBar.setVisibility(View.GONE); // 計算完高度後隱藏進度條
+                        contentScrollView.setVisibility(View.VISIBLE);
+                    }
+                }, 500); // 延遲500毫秒
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // 處理錯誤
+                progressBar.setVisibility(View.GONE);
                 contentScrollView.setVisibility(View.VISIBLE);
             }
-        }, 500); // 延遲500毫秒
-        return view;
+        });
     }
 
     public void calculateAndSetGVsHeight(GridView gridView, ListAdapter adapter, int itemsPerRow, int extraHeight) {
