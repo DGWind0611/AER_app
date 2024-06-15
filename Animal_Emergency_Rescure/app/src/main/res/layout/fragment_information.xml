@@ -5,7 +5,7 @@
     android:id="@+id/relativeLayout2"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="#D1DFD8"
+    android:background="@color/background"
     tools:context=".IllustratedBookFragment">
 
     <include
@@ -31,9 +31,10 @@
 
     <GridView
         android:id="@+id/gv_info_cards"
-        android:layout_width="353dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
         android:verticalSpacing="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
