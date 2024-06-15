@@ -1,14 +1,19 @@
 package com.fcu.android.animal_emergency_rescure;
 
 import android.Manifest;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -38,6 +43,7 @@ public class SecureAgencyInfo extends AppCompatActivity {
     private String apiKey;
     private List<Agency> secureAgencies = new ArrayList<>();
     private List<Shelter> shelters = new ArrayList<>();
+    private Location currentLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,24 +52,65 @@ public class SecureAgencyInfo extends AppCompatActivity {
 
         rvSecureAgency = findViewById(R.id.rv_secure_agency);
         rvShelter = findViewById(R.id.rv_shelter);
-
         btnExpandRescue = findViewById(R.id.ibtn_expand_rescue);
         btnExpandShelter = findViewById(R.id.ibtn_expand_shelter);
-
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         apiKey = getString(R.string.google_maps_key);
-        // 檢查是否有取得定位權限
+
+        btnExpandRescue.setOnClickListener(v -> toggleVisibility(rvSecureAgency, btnExpandRescue));
+        btnExpandShelter.setOnClickListener(v -> toggleVisibility(rvShelter, btnExpandShelter));
+
+        checkLocationPermissionAndSetup();
+    }
+
+    /**
+     * 檢查位置權限並初始化
+     */
+    private void checkLocationPermissionAndSetup() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, LOCATION_PERMISSION_REQUEST_CODE);
         } else {
             getLastLocation();
+            getDataFromFirebase();
+            setupAdapters();
         }
+    }
 
-        btnExpandRescue.setOnClickListener(v -> toggleVisibility(rvSecureAgency, btnExpandRescue));
-        btnExpandShelter.setOnClickListener(v -> toggleVisibility(rvShelter, btnExpandShelter));
-        // 從 Firebase 取得資料
-        getDataFromFirebase();
-        setupAdapters();
+    /**
+     * 請求權限結果
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Log.d(TAG, "Location permission granted");
+                getLastLocation();
+                getDataFromFirebase();
+                setupAdapters();
+            } else {
+                showLocationPermissionDeniedDialog();
+            }
+        }
+    }
+
+    /**
+     * 顯示定位權限被拒絕的對話框
+     */
+    private void showLocationPermissionDeniedDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle("定位權限被拒絕")
+                .setMessage("應用需要定位權限以提供服務。請在設定中開啟定位權限。")
+                .setPositiveButton("確認", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // 跳轉到設定頁面
+                        Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                        intent.setData(android.net.Uri.parse("package:" + getPackageName()));
+                        startActivity(intent);
+                    }
+                })
+                .setNegativeButton("取消", null)
+                .show();
     }
 
     /**
@@ -77,7 +124,9 @@ public class SecureAgencyInfo extends AppCompatActivity {
         fusedLocationClient.getLastLocation()
                 .addOnSuccessListener(this, location -> {
                     if (location != null) {
-                        userLocation = location.getLatitude() + "," + location.getLongitude();
+                        currentLocation = location;
+                        userLocation = location.getLatitude() + ", " + location.getLongitude();
+                        logCurrentLocation();
                     } else {
                         userLocation = "24.178911851321303, 120.64655788648885"; // 逢甲大學
                     }
@@ -85,13 +134,23 @@ public class SecureAgencyInfo extends AppCompatActivity {
     }
 
     /**
+     * 紀錄當前位置
+     */
+    private void logCurrentLocation() {
+        if (currentLocation != null) {
+            Log.d(TAG, "Current Location: "+userLocation);
+        } else {
+            Log.d(TAG, "Current Location is null");
+        }
+    }
+
+    /**
      * 初始化 Adapter
      */
     private void setupAdapters() {
-        SecureAgencyAdapter secureAgencyAdapter = new SecureAgencyAdapter(this,secureAgencies , userLocation, apiKey);
+        SecureAgencyAdapter secureAgencyAdapter = new SecureAgencyAdapter(this, secureAgencies, userLocation, apiKey);
         rvSecureAgency.setLayoutManager(new LinearLayoutManager(this));
         rvSecureAgency.setAdapter(secureAgencyAdapter);
-
         ShelterAdapter shelterAdapter = new ShelterAdapter(this, shelters, userLocation, apiKey);
         rvShelter.setLayoutManager(new LinearLayoutManager(this));
         rvShelter.setAdapter(shelterAdapter);
@@ -124,6 +183,7 @@ public class SecureAgencyInfo extends AppCompatActivity {
         secureAgenciesRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                secureAgencies.clear(); // 清空列表，避免重複添加
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     String name = snapshot.child("name").getValue(String.class);
                     String url = snapshot.child("url").getValue(String.class);
@@ -132,8 +192,11 @@ public class SecureAgencyInfo extends AppCompatActivity {
                     Double longitude = snapshot.child("location/longitude").getValue(Double.class);
                     Log.d("FirebaseData", "Secure Agency - Name: " + name + ", URL: " + url +
                             ", Phone: " + phoneNumber + ", Location: " + latitude + "," + longitude);
-                    secureAgencies.add(new Agency(name, url, phoneNumber, new Agency.Location(latitude, longitude)));
+                    String distance = CalculateDistance(latitude,longitude);
+                    // 將安全機構加入列表
+                    secureAgencies.add(new Agency(name, url, phoneNumber, new Agency.Location(latitude, longitude), distance));
                 }
+                setupAdapters();
             }
 
             @Override
@@ -156,7 +219,8 @@ public class SecureAgencyInfo extends AppCompatActivity {
                     Log.d("FirebaseData", "Shelter - Name: " + name + ", URL: " + url +
                             ", Phone: " + phoneNumber + ", Capacity: " + current + "/" + max +
                             ", Location: " + latitude + "," + longitude);
-                    shelters.add(new Shelter(name, url, phoneNumber, new Shelter.Capacity(current, max), new Shelter.Location(latitude, longitude)));
+                    String distance = CalculateDistance(latitude,longitude);
+                    shelters.add(new Shelter(name, url, phoneNumber, new Shelter.Capacity(current, max), new Shelter.Location(latitude, longitude),distance));
                 }
             }
 
@@ -166,5 +230,12 @@ public class SecureAgencyInfo extends AppCompatActivity {
             }
         });
     }
-
+    private String  CalculateDistance(double latitude,double longitude){
+        // 計算距離
+        float[] results = new float[1];
+        Location.distanceBetween(currentLocation.getLatitude(), currentLocation.getLongitude(),
+                latitude, longitude, results);
+        String distance = results[0] + " m"; // 將距離轉換為字符串，這裡需要根據實際需求進行格式化
+        return distance;
+    }
 }

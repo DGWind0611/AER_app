@@ -18,7 +18,7 @@ public class DistanceCalculator {
     }
 
     public static void calculateDistance(Context context, String origin, String destination, String apiKey, final DistanceCallback callback) {
-        String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + origin + "&destinations=" + destination + "&key=" + apiKey;
+        String url = "https://maps.googleapis.com/maps/api/directions/json?origin=" + origin + "&destination=" + destination + "&key=" + apiKey;
         Log.d("DistanceCalculator", "Request URL: " + url);
         RequestQueue queue = Volley.newRequestQueue(context);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
@@ -26,21 +26,25 @@ public class DistanceCalculator {
             public void onResponse(JSONObject response) {
                 Log.d("DistanceCalculator", "Response: " + response.toString());
                 try {
-                    JSONArray rows = response.getJSONArray("rows");
-                    JSONObject elements = rows.getJSONObject(0);
-                    JSONArray elementArray = elements.getJSONArray("elements");
-                    JSONObject element = elementArray.getJSONObject(0);
-
-                    if ("OK".equals(element.getString("status"))) {
-                        JSONObject distance = element.getJSONObject("distance");
-                        String distanceText = distance.getString("text");
-                        callback.onDistanceCalculated(distanceText);
+                    JSONArray routes = response.getJSONArray("routes");
+                    if (routes.length() > 0) {
+                        JSONObject route = routes.getJSONObject(0);
+                        JSONArray legs = route.getJSONArray("legs");
+                        if (legs.length() > 0) {
+                            JSONObject leg = legs.getJSONObject(0);
+                            JSONObject distance = leg.getJSONObject("distance");
+                            String distanceText = distance.getString("text");
+                            callback.onDistanceCalculated(distanceText);
+                        } else {
+                            Log.e("DistanceCalculator", "No legs found in the response");
+                            callback.onDistanceCalculated(null);
+                        }
                     } else {
-                        Log.e("DistanceCalculator", "Distance calculation failed: " + element.getString("status"));
+                        Log.e("DistanceCalculator", "No routes found in the response");
                         callback.onDistanceCalculated(null);
                     }
                 } catch (JSONException e) {
-                    Log.e("DistanceCalculator", "Failed to parse distance matrix response", e);
+                    Log.e("DistanceCalculator", "Failed to parse directions response", e);
                     callback.onDistanceCalculated(null);
                 }
             }
