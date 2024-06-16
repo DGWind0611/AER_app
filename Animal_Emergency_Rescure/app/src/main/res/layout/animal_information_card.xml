@@ -26,8 +26,9 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="208dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
                 android:layout_weight="2"
                 android:orientation="vertical">
 
@@ -44,17 +45,9 @@
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Taiwan Partridge"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="#000000" />
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:text="留鳥、普遍"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    android:visibility="gone" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -65,21 +58,29 @@
 
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
                     android:text="三級保育類"
                     android:textColor="#000000" />
 
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#000000"
+                    android:visibility="gone" />
+
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/im_dot_1"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/baseline_circle_24" />
 
@@ -97,6 +98,7 @@
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_weight="1"
+                        android:visibility="gone"
                         app:srcCompat="@drawable/baseline_circle_24" />
 
                     <TextView
@@ -105,14 +107,15 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
-                        android:text="紅腳仔"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/im_dot_3"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_weight="1"
+                        android:visibility="gone"
                         app:srcCompat="@drawable/baseline_circle_24" />
 
                     <TextView
@@ -121,8 +124,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
-                        android:text="紅腳竹雞"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:visibility="gone" />
 
                 </LinearLayout>
 
@@ -133,6 +136,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
+                android:layout_marginRight="30dp"
                 app:srcCompat="@drawable/account" />
 
         </LinearLayout>

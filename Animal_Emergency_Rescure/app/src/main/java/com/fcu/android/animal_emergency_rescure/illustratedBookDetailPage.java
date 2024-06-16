@@ -26,6 +26,8 @@ public class illustratedBookDetailPage extends AppCompatActivity {
 
     private TextView tvSpeciesDetailName;
     private ImageView ivSpeciesFullSizePic;
+    private TextView tvSpeciesDetailNative;
+    private TextView tvSpeciesDetailConservation;
     private TextView tvSpeciesDetailDescription;
     private ImageButton ibSpeciesDetailBack;
     private Button btnDetailPageAddToFavorite;
@@ -42,6 +44,8 @@ public class illustratedBookDetailPage extends AppCompatActivity {
 
         tvSpeciesDetailName = findViewById(R.id.tv_species_detail_name);
         ivSpeciesFullSizePic = findViewById(R.id.iv_species_full_size_pic);
+        tvSpeciesDetailNative = findViewById(R.id.tv_species_detail_native);
+        tvSpeciesDetailConservation = findViewById(R.id.tv_species_detail_con);
         tvSpeciesDetailDescription = findViewById(R.id.tv_species_detail_description);
         ibSpeciesDetailBack = findViewById(R.id.ib_species_detail_page_back);
         btnDetailPageAddToFavorite = findViewById(R.id.btn_speces_detail_add_to_fav);
@@ -60,11 +64,15 @@ public class illustratedBookDetailPage extends AppCompatActivity {
         int speciesId = intent.getIntExtra("speciesId",-1);
         String speciesName = intent.getStringExtra("speciesName");
         int speciesImageId = intent.getIntExtra("speciesImageId", -1);
+        String speciesNative = intent.getStringExtra("speciesNative");
+        String speciesConservation = intent.getStringExtra("speciesConservation");
         String speciesDescription = intent.getStringExtra("speciesDespription");
 
         // 設置物種詳細資訊
         tvSpeciesDetailName.setText(speciesName);
         ivSpeciesFullSizePic.setImageResource(speciesImageId);
+        tvSpeciesDetailNative.setText(speciesNative);
+        tvSpeciesDetailConservation.setText(speciesConservation);
         tvSpeciesDetailDescription.setText(speciesDescription);
 
         // 返回上一頁
