@@ -16,6 +16,9 @@ import android.widget.Button;
 public class SecureFragment extends Fragment {
 
     private CardView btnBird;
+    private CardView btnMam;
+    private CardView btnRept;
+    private CardView btnAmphi;
     private FragmentManager manager;
 
     @Override
@@ -23,16 +26,53 @@ public class SecureFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_secure, container, false);
 
         btnBird = view.findViewById(R.id.btn_bird);
+        btnMam = view.findViewById(R.id.btn_mammal);
+        btnRept = view.findViewById(R.id.btn_reptile);
+        btnAmphi = view.findViewById(R.id.btn_amphibian);
         manager = getParentFragmentManager();
 
         btnBird.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentTransaction transaction = manager.beginTransaction();
                 if (v.getId() == R.id.btn_bird) {
-                    transaction.replace(R.id.container, new SpeciesInfoFragment()).commit();
+                    FragmentTransaction transaction = manager.beginTransaction();
+                    transaction.replace(R.id.container, new SpeciesInfoFragment(SpeciesType.BIRDS));
+                    transaction.addToBackStack(null);
+                    transaction.commit();
                 }
-                transaction.addToBackStack(null);
+            }
+        });
+        btnMam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == R.id.btn_mammal) {
+                    FragmentTransaction transaction = manager.beginTransaction();
+                    transaction.replace(R.id.container, new SpeciesInfoFragment(SpeciesType.MAMMALS));
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                }
+            }
+        });
+        btnRept.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == R.id.btn_reptile) {
+                    FragmentTransaction transaction = manager.beginTransaction();
+                    transaction.replace(R.id.container, new SpeciesInfoFragment(SpeciesType.REPTILES));
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                }
+            }
+        });
+        btnAmphi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == R.id.btn_amphibian) {
+                    FragmentTransaction transaction = manager.beginTransaction();
+                    transaction.replace(R.id.container, new SpeciesInfoFragment(SpeciesType.AMPHIBIANS));
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                }
             }
         });
 

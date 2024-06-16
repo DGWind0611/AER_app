@@ -2,6 +2,7 @@ package com.fcu.android.animal_emergency_rescure;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -88,6 +89,11 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference("users");
         loadUserFavorites(); // 加載用戶的最愛項目
+
+        // Debug log
+        if (context == null) {
+            Log.e("IllustratedBookCardAdapter", "Context is null");
+        }
     }
 
     @Override
@@ -109,6 +115,10 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
     @Override
     public View getView(int index, View view, ViewGroup viewGroup) {
         if (view == null) {
+            if (context == null) {
+                Log.e("IllustratedBookCardAdapter", "Context is null in getView");
+                return null;
+            }
             view = LayoutInflater.from(context).inflate(R.layout.illustrated_book_card, viewGroup, false);
         }
 

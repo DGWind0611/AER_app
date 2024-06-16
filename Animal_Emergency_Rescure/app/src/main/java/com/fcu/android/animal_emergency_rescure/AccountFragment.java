@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,10 +54,14 @@ public class AccountFragment extends Fragment {
             public void onClick(View v) {
                 FragmentTransaction transaction = manager.beginTransaction();
                 if (v.getId() == R.id.btn_star) {
-                    // 將showFavorite設置为true
-                    IllustratedBookCardAdapter.showFavorite = true;
-                    // 跳轉至圖鑑頁面
-                    transaction.replace(R.id.container, new IllustratedBookFragment()).commit();
+                    if (getContext() != null) { // 檢查context是否為null
+                        // 將showFavorite設置为true
+                        IllustratedBookCardAdapter.showFavorite = true;
+                        // 跳轉至圖鑑頁面
+                        transaction.replace(R.id.container, new IllustratedBookFragment()).commit();
+                    } else {
+                        Log.e("AccountFragment", "Context is null");
+                    }
                 } else if (v.getId() == R.id.btn_change_password) {
                     // 跳轉至修改密碼頁面
                     transaction.replace(R.id.container, new ChangePasswordFragment()).commit();
