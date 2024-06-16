@@ -57,6 +57,12 @@ public class SecureAgencyInfo extends AppCompatActivity {
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         apiKey = getString(R.string.google_maps_key);
 
+        // 預設隱藏列表 & 設定按鈕圖示
+        btnExpandRescue.setImageResource(R.drawable.down);
+        btnExpandShelter.setImageResource(R.drawable.down);
+        rvSecureAgency.setVisibility(View.GONE);
+        rvShelter.setVisibility(View.GONE);
+
         btnExpandRescue.setOnClickListener(v -> toggleVisibility(rvSecureAgency, btnExpandRescue));
         btnExpandShelter.setOnClickListener(v -> toggleVisibility(rvShelter, btnExpandShelter));
 
@@ -128,7 +134,12 @@ public class SecureAgencyInfo extends AppCompatActivity {
                         userLocation = location.getLatitude() + ", " + location.getLongitude();
                         logCurrentLocation();
                     } else {
-                        userLocation = "24.178911851321303, 120.64655788648885"; // 逢甲大學
+                        // 如果無法取得位置，則使用預設位置(逢甲大學)
+                        currentLocation = new Location("");
+                        currentLocation.setLatitude(24.178911851321303);
+                        currentLocation.setLongitude(120.64655788648885);
+                        userLocation = "24.178911851321303, 120.64655788648885";
+                        logCurrentLocation();
                     }
                 });
     }
@@ -190,11 +201,15 @@ public class SecureAgencyInfo extends AppCompatActivity {
                     String phoneNumber = snapshot.child("phoneNumber").getValue(String.class);
                     Double latitude = snapshot.child("location/latitude").getValue(Double.class);
                     Double longitude = snapshot.child("location/longitude").getValue(Double.class);
-                    Log.d("FirebaseData", "Secure Agency - Name: " + name + ", URL: " + url +
-                            ", Phone: " + phoneNumber + ", Location: " + latitude + "," + longitude);
-                    String distance = CalculateDistance(latitude,longitude);
-                    // 將安全機構加入列表
-                    secureAgencies.add(new Agency(name, url, phoneNumber, new Agency.Location(latitude, longitude), distance));
+
+                    // 位置不為空時才添加
+                    if (latitude != null && longitude != null) {
+                        Log.d("FirebaseData", "Secure Agency - Name: " + name + ", URL: " + url +
+                                ", Phone: " + phoneNumber + ", Location: " + latitude + "," + longitude);
+                        String distance = CalculateDistance(latitude, longitude);
+                        // 將安全機構加入列表
+                        secureAgencies.add(new Agency(name, url, phoneNumber, new Agency.Location(latitude, longitude), distance));
+                    }
                 }
                 setupAdapters();
             }
@@ -231,6 +246,9 @@ public class SecureAgencyInfo extends AppCompatActivity {
         });
     }
     private String  CalculateDistance(double latitude,double longitude){
+        if (currentLocation == null) {
+            return "位置無法取得";
+        }
         // 計算距離
         float[] results = new float[1];
         Location.distanceBetween(currentLocation.getLatitude(), currentLocation.getLongitude(),

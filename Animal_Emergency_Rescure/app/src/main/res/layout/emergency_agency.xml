@@ -38,6 +38,7 @@
                     android:id="@+id/ibtn_expand_rescue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="@string/expand_and_close"
                     android:src="@drawable/upload" />
@@ -84,6 +85,7 @@
                     android:id="@+id/ibtn_expand_shelter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="@string/expand_and_close"
                     android:src="@drawable/upload" />
