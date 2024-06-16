@@ -10,6 +10,7 @@ import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -33,6 +34,7 @@ import java.util.List;
 
 public class SecureAgencyInfo extends AppCompatActivity {
     private static final String TAG = "SecureAgencyInfo";
+    private ImageView ivSpeciePic;
     private RecyclerView rvSecureAgency;
     private RecyclerView rvShelter;
     private ImageButton btnExpandRescue;
@@ -56,6 +58,15 @@ public class SecureAgencyInfo extends AppCompatActivity {
         btnExpandShelter = findViewById(R.id.ibtn_expand_shelter);
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         apiKey = getString(R.string.google_maps_key);
+
+        ivSpeciePic = findViewById(R.id.iv_specie_pic);
+        Intent intent = this.getIntent();
+        int ivSpeciePic = intent.getIntExtra("speciesPicId", -1);
+        String speciesName = intent.getStringExtra("speciesName");
+        if (ivSpeciePic != -1) {
+            this.ivSpeciePic.setImageResource(ivSpeciePic);
+        }
+
 
         // 預設隱藏列表 & 設定按鈕圖示
         btnExpandRescue.setImageResource(R.drawable.down);
