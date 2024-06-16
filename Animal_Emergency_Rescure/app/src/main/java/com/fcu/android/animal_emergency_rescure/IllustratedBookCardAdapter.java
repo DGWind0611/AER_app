@@ -140,6 +140,8 @@ public class IllustratedBookCardAdapter extends BaseAdapter {
             intent.putExtra("speciesId", s.getSpeciesId());
             intent.putExtra("speciesImageId", s.getSpeciesPicId());
             intent.putExtra("speciesName", s.getSpeciesName());
+            intent.putExtra("speciesNative", s.getSpeciesNative().getNativeString());
+            intent.putExtra("speciesConservation", s.getSpeciesConservation().getConsString());
             intent.putExtra("speciesDespription", s.getSpeciesDescription());
             context.startActivity(intent);
         });

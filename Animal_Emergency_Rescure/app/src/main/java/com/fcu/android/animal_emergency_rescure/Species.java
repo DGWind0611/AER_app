@@ -35,65 +35,101 @@ public class Species {
     private int speciesId;
     private int speciesPicId;
     private String speciesName;
-    private String speciesDescription;
     private SpeciesType speciesType;
+    private String speciesCommonName;
+    private SpeciesNative speciesNative;
+    private SpeciesCons speciesConservation;
+    private String speciesDescription;
+
 
     // 空的構造函數是必需的
     public Species() {}
 
-    public Species(int speciesId, int speciesPicId, String speciesName, SpeciesType speciesType, String speciesDescription) {
+    public Species(int speciesId, int speciesPicId, String speciesName, SpeciesType speciesType,String speciesCommonName,SpeciesNative speciesNative ,SpeciesCons speciesConservation ,String speciesDescription) {
         this.speciesId = speciesId;
         this.speciesPicId = speciesPicId;
         this.speciesName = speciesName;
         this.speciesType = speciesType;
+        this.speciesCommonName = speciesCommonName;
+        this.speciesNative = speciesNative;
+        this.speciesConservation = speciesConservation;
         this.speciesDescription = speciesDescription;
     }
 
     // Getters and Setters
+
     public int getSpeciesId() {
         return speciesId;
-    }
-
-    public void setSpeciesId(int speciesId) {
-        this.speciesId = speciesId;
     }
 
     public int getSpeciesPicId() {
         return speciesPicId;
     }
 
-    public void setSpeciesPicId(int speciesPicId) {
-        this.speciesPicId = speciesPicId;
-    }
-
     public String getSpeciesName() {
         return speciesName;
-    }
-
-    public void setSpeciesName(String speciesName) {
-        this.speciesName = speciesName;
     }
 
     public SpeciesType getSpeciesType() {
         return speciesType;
     }
 
-    public void setSpeciesType(SpeciesType speciesType) {
-        this.speciesType = speciesType;
+    public String getSpeciesCommonName() {
+        return speciesCommonName;
+    }
+
+    public SpeciesNative getSpeciesNative() {
+        return speciesNative;
+    }
+
+    public SpeciesCons getSpeciesConservation() {
+        return speciesConservation;
     }
 
     public String getSpeciesDescription() {
         return speciesDescription;
     }
-
-    public void setSpeciesDescription(String speciesDescription) {
-        this.speciesDescription = speciesDescription;
-    }
 }
-
 enum SpeciesType {
     BIRDS,
     MAMMALS,
     REPTILES,
     AMPHIBIANS
+}
+
+enum SpeciesNative {
+    NATIVE,
+    NONNATIVE,
+    INVASIVE,
+    UNKNOWN;
+    public String getNativeString() {
+        switch (this) {
+            case NATIVE:
+                return "原生物種";
+            case NONNATIVE:
+                return "非原生物種";
+            case INVASIVE:
+                return "外來侵入種";
+            default:
+                return "";
+        }
+    }
+}
+
+enum SpeciesCons {
+    NORMAL,
+    PROTECTED,
+    EXTINCT;
+    public String getConsString() {
+        switch (this) {
+            case NORMAL:
+                return "一般類";
+            case PROTECTED:
+                return "保育類";
+            case EXTINCT:
+                return "已滅絕";
+            default:
+                return "";
+        }
+    }
 }
