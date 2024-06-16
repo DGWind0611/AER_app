@@ -3,21 +3,22 @@ package com.fcu.android.animal_emergency_rescure;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class AccountFragment extends Fragment {
 
-    private Button btnStar, btnChangePassword, btnLogout;
+    private CardView btnStar, btnChangePassword, btnLogout;
     private FragmentManager manager;
     private FirebaseAuth mAuth;
 
@@ -37,6 +38,10 @@ public class AccountFragment extends Fragment {
             btnStar.setVisibility(View.GONE);
             btnChangePassword.setVisibility(View.GONE);
             btnLogout.setVisibility(View.VISIBLE);
+            // 訪客登出按鈕上方增加16dp的空白
+            ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) btnLogout.getLayoutParams();
+            params.topMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 16, getResources().getDisplayMetrics());
+            btnLogout.setLayoutParams(params);
         } else {
             btnStar.setVisibility(View.VISIBLE);
             btnChangePassword.setVisibility(View.VISIBLE);
